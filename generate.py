@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
 """
-Script to generate multiple OpenAI completions concurrently with validation.
+Script to generate multiple OpenAI completions concurrently with validation,
+running until the total number of valid outputs in the logs folder reaches
+the specified target.
+
 Usage:
-    python process_runner.py --name NAME
+    python generate.py --name NAME [--total 2500]
 
 Reads prompt from processes/NAME.txt and schema from schemas/NAME.json
-Generates 20 completions using gpt-4.1-mini via OpenAI API
+Generates completions using gpt-4.1-mini via OpenAI API
 Validates each against the JSON schema and logs valid outputs to logs/NAME/
 """
 import os
@@ -14,7 +17,6 @@ import json
 import uuid
 import argparse
 import threading
-import queue
 import requests
 from jsonschema import validate, ValidationError
 from pathlib import Path
@@ -23,16 +25,12 @@ from pathlib import Path
 API_URL = "https://api.openai.com/v1/chat/completions"
 MODEL = "gpt-4.1-mini"
 MAX_THREADS = 30
-TOTAL_REQUESTS = 2500
 
 
 def load_process_files(name: str):
     """Load prompt and JSON schema for the given process name."""
-    # Prompt in processes/, schema in schemas/
-    txt_base = Path("processes")
-    schema_base = Path("schemas")
-    txt_path = txt_base / f"{name}.txt"
-    json_path = schema_base / f"{name}.json"
+    txt_path = Path("processes") / f"{name}.txt"
+    json_path = Path("schemas") / f"{name}.json"
 
     if not txt_path.is_file():
         print(f"Error: Prompt file not found: {txt_path}")
@@ -54,7 +52,7 @@ def init_logging(name: str):
 
 
 def call_openai(prompt: str, api_key: str):
-    """Make a request to OpenAI and return the JSON response or raise."""
+    """Make a request to OpenAI and return the JSON response."""
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
@@ -64,45 +62,68 @@ def call_openai(prompt: str, api_key: str):
         "messages": [{"role": "user", "content": prompt}],
         "n": 1,
     }
-    response = requests.post(API_URL, headers=headers, json=body)
-    response.raise_for_status()
-    return response.json()
+    resp = requests.post(API_URL, headers=headers, json=body)
+    resp.raise_for_status()
+    return resp.json()
 
 
-def worker(task_queue: queue.Queue, prompt: str, schema: dict, api_key: str, log_dir: Path):
-    """Thread worker: get index from queue, call API, validate and log."""
+def worker(prompt: str,
+           schema: dict,
+           api_key: str,
+           log_dir: Path,
+           target_total: int,
+           counter: dict,
+           counter_lock: threading.Lock):
+    """
+    Thread worker: keep calling the API until we've written target_total valid JSONs.
+    Uses counter['value'] under counter_lock to coordinate across threads.
+    """
     while True:
-        try:
-            idx = task_queue.get_nowait()
-        except queue.Empty:
-            return
+        # Check if we're done
+        with counter_lock:
+            if counter['value'] >= target_total:
+                return
 
+        # Call the API
         try:
             result = call_openai(prompt, api_key)
-            content = result.get('choices', [])[0].get('message', {}).get('content', '').strip()
+            content = result['choices'][0]['message']['content'].strip()
         except Exception as e:
             print(f"[Thread {threading.get_ident()}] Request error: {e}")
-            task_queue.task_done()
             continue
 
-        # Validate against schema
+        # Validate JSON
         try:
             data = json.loads(content)
             validate(instance=data, schema=schema)
         except (json.JSONDecodeError, ValidationError) as e:
             print(f"[Thread {threading.get_ident()}] Validation error: {e}")
-        else:
-            file_id = uuid.uuid4()
-            out_path = log_dir / f"{file_id}.json"
-            with open(out_path, 'w', encoding='utf-8') as f:
-                json.dump(data, f, ensure_ascii=False, indent=2)
-        finally:
-            task_queue.task_done()
+            continue
+
+        # Write out if there's still room
+        with counter_lock:
+            if counter['value'] < target_total:
+                file_id = uuid.uuid4()
+                out_path = log_dir / f"{file_id}.json"
+                with open(out_path, 'w', encoding='utf-8') as f:
+                    json.dump(data, f, ensure_ascii=False, indent=2)
+                counter['value'] += 1
+                if counter['value'] % 100 == 0 or counter['value'] == target_total:
+                    print(f"Written {counter['value']} valid outputs so far.")
+            else:
+                # Another thread just hit the target
+                return
 
 
 def main():
     parser = argparse.ArgumentParser(description="Concurrent OpenAI process runner")
     parser.add_argument('--name', required=True, help='Process name identifier')
+    parser.add_argument(
+        '--total',
+        type=int,
+        default=2500,
+        help='Total number of valid JSON outputs to generate'
+    )
     args = parser.parse_args()
 
     # Load prompt and schema
@@ -114,24 +135,36 @@ def main():
         print("Error: OPENAI_API_KEY environment variable not set.")
         sys.exit(1)
 
-    # Init logging dir
+    # Init logging dir and count existing outputs
     log_dir = init_logging(args.name)
+    existing = len(list(log_dir.glob("*.json")))
+    print(f"Found {existing} existing outputs in {log_dir}")
 
-    # Prepare tasks
-    task_queue = queue.Queue()
-    for _ in range(TOTAL_REQUESTS):
-        task_queue.put(None)
+    if existing >= args.total:
+        print(f"Already have {existing} ≥ target {args.total}; nothing to do.")
+        return
 
-    # Launch threads
+    # Shared counter and lock
+    counter = {'value': existing}
+    counter_lock = threading.Lock()
+
+    # Launch worker threads
+    num_threads = min(MAX_THREADS, args.total - existing)
     threads = []
-    for _ in range(min(MAX_THREADS, TOTAL_REQUESTS)):
-        t = threading.Thread(target=worker, args=(task_queue, prompt, schema, api_key, log_dir), daemon=True)
+    for _ in range(num_threads):
+        t = threading.Thread(
+            target=worker,
+            args=(prompt, schema, api_key, log_dir, args.total, counter, counter_lock),
+            daemon=True
+        )
         t.start()
         threads.append(t)
 
-    # Wait for all tasks to complete
-    task_queue.join()
-    print("All tasks completed.")
+    # Wait for all threads to finish
+    for t in threads:
+        t.join()
+
+    print(f"Completed: {counter['value']} valid outputs written to {log_dir}")
 
 
 if __name__ == '__main__':

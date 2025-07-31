@@ -1,0 +1,10 @@
+Please generate:
+
+1) a prompt asking an LLM to generate a case for a process involving textual messages/communications.
+2) the process should have a criteria used to split the cases, mainly thanks to the content of the text messages. This criteria can be used to cluster the cases.
+3) more than an activity should be context-dependent. So, there should be a general-purpose name of the activity, plus the context-specific name of the activity. As an example, in a ticketing process, the "Ticket Closed" can be the general-purpose, and "Ticket Closed (Customer Dissatisfied)" the context-specific name.
+4) Define clearly for the LLM which are the general-purpose activities, context-specific activities, and criteria for the clustering.
+5) Ask the LLM to produce a JSON (the "case") containing a "cluster" key, and a "events" key associated to a list of events. Each event has an "activity", a "timestamp" (increasing), a "contextual_activity", and a "message" (textual, >= 50 characters). The contextual activity should depend on the sentiment of the message. The contextual activity should start with the "activity".
+
+Feel free to decide the process. Make sure there are 10-15 different activities.
+Please provide also a JSON validation schema for the validation of the returned cases.

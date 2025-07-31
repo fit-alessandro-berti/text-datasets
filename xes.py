@@ -3,7 +3,7 @@
 Script to convert logged JSON traces into an XES event log using PM4Py.
 
 Usage:
-    python export_xes.py --name NAME
+    python xes.py --name NAME
 
 Reads all .json files from logs/NAME/, interprets each file as a Trace,
 transforms event attributes, stores cluster at case level,

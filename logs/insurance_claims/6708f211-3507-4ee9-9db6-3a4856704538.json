@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:00:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The customer reported that their car was involved in a collision at an intersection yesterday evening."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:15:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was reviewed and categorised under Auto Accident based on the keywords identified in the initial report."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An agent specializing in vehicle accident claims was assigned to the case to handle further proceedings."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T11:30:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The insurer acknowledged receipt of the claim and informed the customer that the process would begin shortly."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-01T13:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "The customer was asked to submit photos of the damaged vehicle, police report, and a copy of their driver’s license."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-03T09:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The customer provided all requested documents including detailed images of the car damage and the official accident report."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-03T10:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The claims investigation team initiated the review of the submitted evidence and began contacting involved parties."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T16:00:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "The investigation concluded that the collision was caused by a third party and the customer’s claim is valid."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T09:00:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "The insurer proposed a settlement amount covering the repair costs and loss of use for the customer’s vehicle."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-11T17:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The customer expressed satisfaction with the proposed settlement and appreciated the prompt handling of the claim."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-12T08:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was officially approved after the customer agreed to the terms and settlement proposal."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-12T13:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "The settlement payment was issued to the customer’s account to cover repair expenses and additional damages."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-13T09:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim was formally closed following payment issuance and confirmation from the customer that all matters were resolved."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-20T12:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "The case files and documentation were archived for future reference in accordance with the company’s data retention policy."
+    }
+  ]
+}

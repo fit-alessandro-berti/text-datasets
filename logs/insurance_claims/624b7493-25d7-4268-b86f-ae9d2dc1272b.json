@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The customer reported a car collision that occurred on a busy road resulting in vehicle damage and injuries."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T09:45:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was categorized under Auto Accident after reviewing the initial incident description and keywords."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An agent specialized in auto claims was assigned to handle the case and begin customer assistance promptly."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T10:30:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The customer was informed that their auto accident claim has been received and is under review."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T08:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "The team requested photos of the vehicle damage, police report, and medical bills related to the collision."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-03T14:20:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The customer submitted all required documents including photos of the crash and official police accident report."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-04T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The insurer began investigating the circumstances of the accident to determine liability and claim validity."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-07T16:45:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "The investigation confirmed the damage estimates and verified the details submitted matched the incident facts."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-08T11:30:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "A proposed settlement amount covering vehicle repairs and related expenses was communicated to the customer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-09T15:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The customer expressed satisfaction with the settlement offer and the clarity of the communication throughout the process."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-10T10:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was approved following successful verification and agreement on the proposed settlement amount."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-11T12:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment covering the approved settlement was processed and transferred to the customer’s account promptly."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-12T09:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim case was officially closed after successful payment issuance and customer confirmation of receipt."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-12T10:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All documents and case files were archived securely for future reference or audit purposes as per company policy."
+    }
+  ]
+}

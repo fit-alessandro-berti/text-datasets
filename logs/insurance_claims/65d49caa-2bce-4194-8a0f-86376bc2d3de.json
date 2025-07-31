@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T08:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The insured submitted a claim reporting a collision involving their car and a tree on a residential street."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "Claim has been categorized as an auto accident based on keywords detected in the initial report and documentation."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:30:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An agent specialized in auto claims was assigned promptly to handle the case and begin communication with the insured."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T12:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The insured was sent confirmation acknowledging receipt of the claim and outlining the next procedural steps."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-01T14:20:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Requested accident photos, police report, and vehicle repair estimates from the policyholder to support claim processing."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-04T09:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The insured promptly submitted all requested documentation, including detailed repair quotes and official police report."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-04T11:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The investigation team began reviewing submitted documents and conducting interviews to assess the accident circumstances."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T15:30:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "Investigation concluded confirming the policyholder was not at fault, with clear evidence substantiating the claim."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "A settlement offer was proposed covering full repair costs based on estimates and investigation results."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-12T16:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The insured expressed satisfaction with the timely communication and fairness of the settlement offer."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-13T09:30:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was officially approved following acceptance of the settlement terms by the insured party."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-14T08:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment was issued to cover vehicle repairs and any additional expenses as outlined in the settlement."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-15T12:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim was formally closed after payment issuance and confirmation with the insured that all matters were resolved."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-16T09:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "The claim file was archived in compliance with company record-keeping policies for future reference if needed."
+    }
+  ]
+}

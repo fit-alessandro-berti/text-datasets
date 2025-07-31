@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-04-10T09:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "Customer filed a claim after a minor car accident that occurred near downtown during rush hour."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-04-10T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was categorized under Auto Accident after reviewing the initial description of the car collision."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-04-10T11:00:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An insurance agent was assigned to the claim to assist the customer in processing documentation and next steps."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-04-10T11:30:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The claim was formally acknowledged and the customer was notified of the next procedures in the claims process."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-04-11T08:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Request sent to customer for accident report, vehicle photos, and repair estimates to support the claim."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-04-13T13:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Customer submitted all requested documents including police report, repair shop quotes, and photos of the vehicle damage."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-04-14T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Claims team began investigating the details of the collision and verifying authenticity of submitted documents."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-04-16T16:30:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "Investigation concluded confirming the accident details and validating all submitted evidence with no discrepancies."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-04-16T18:00:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "A settlement amount was proposed to the customer based on damage estimates and policy coverage limits."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-04-17T10:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer provided positive feedback expressing satisfaction with the claim handling and proposed settlement."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-04-17T11:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim approval was finalized following customer acceptance of the settlement terms outlined by the insurer."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-04-18T09:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Insurance payment was issued electronically to the customer to cover vehicle repairs as per the approved claim."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-04-18T10:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim case was officially closed after successful payment issuance and customer confirmation of receipt."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-04-19T08:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All claim files and documents were archived in the system in accordance with company data retention policy."
+    }
+  ]
+}

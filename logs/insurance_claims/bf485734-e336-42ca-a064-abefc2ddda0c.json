@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "The customer reported an accident involving their vehicle after colliding with another car at an intersection during rush hour."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was reviewed by the intake team and categorized under auto accident damage for processing by the assigned unit."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:30:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An agent was assigned to handle the vehicle collision claim and reach out to the customer to explain the next steps."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T12:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Neutral)",
+      "message": "The insurance company sent a formal acknowledgment of the claim receipt to the customer via email."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-01T13:45:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "The agent requested photos of the damaged vehicle, police report, and a copy of the customer's driver license for verification."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-03T16:20:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The customer uploaded all requested documents, including accident photos, police report, and personal identification."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-04T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The claims investigation team began reviewing the submitted evidence, checking liability and extent of damages."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-07T15:30:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "After thorough evaluation, the investigation was completed confirming the customer’s vehicle was not at fault."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-08T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement offer was proposed to cover repair costs and a rental vehicle during the repair period."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-09T14:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The customer expressed satisfaction with the prompt settlement proposal and the support received throughout the claim process."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-10T09:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was officially approved by the claims manager, authorizing the payment for the vehicle repairs."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-10T12:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment was issued to the customer's auto repair shop to cover the approved repair costs."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-15T17:30:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim was closed successfully after the customer confirmed that repairs were completed and all issues resolved."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-16T08:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "The finalized claim documents and case files were archived electronically for future reference and auditing purposes."
+    }
+  ]
+}

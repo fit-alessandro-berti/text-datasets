@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The customer reported a car collision that occurred on April 30th, requesting to open an insurance claim for the damages sustained."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was reviewed and categorised under Auto Accident due to involvement of a vehicle collision on a highway."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An agent was assigned to manage the case, ensuring proper process follow-up and customer communication."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T12:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The claim has been acknowledged successfully and the claimant was informed about the next steps in the process."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T08:45:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Request sent to the claimant for the vehicle repair estimate, police report, and photos from the collision scene."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-04T16:20:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The claimant submitted all requested documents, including the repair report and official police report for review."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-05T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The investigation team began examining the submitted evidence and assessing liability for the accident."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T14:30:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "The investigation concluded that the claimant’s vehicle was damaged due to another driver’s negligence."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-12T11:15:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "A settlement proposal was sent to the claimant offering compensation for repair costs and related expenses."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-13T13:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The claimant responded positively to the settlement offer and confirmed agreement to proceed with payment."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-14T10:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was formally approved by the underwriting department following all validations."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-15T15:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment for the agreed settlement amount was issued to the claimant’s nominated bank account."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-20T09:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim was officially closed after confirmation that the claimant received the payment and no further issues were reported."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-25T08:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "The entire case file was archived in the system for future reference and compliance purposes."
+    }
+  ]
+}

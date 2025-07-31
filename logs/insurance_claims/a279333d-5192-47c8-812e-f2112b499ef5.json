@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The customer reported an auto accident involving a rear-end collision that occurred on the highway during rush hour."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim has been categorized under Auto Accident based on accident type and vehicle damage details provided."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T10:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An agent specialized in auto claims has been assigned to handle and process the reported accident claim."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The customer was contacted and the claim was acknowledged with assurance of prompt assistance and updates."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T08:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Requested the customer to submit police report, accident photos, and vehicle repair estimates to support the claim."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-03T14:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The customer successfully submitted all required documents including police report and collision photos."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-04T09:30:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The internal investigation initiated to assess fault and evaluate the extent of damage to the vehicle."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-07T16:00:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "Completed investigation concluded no customer fault and confirmed repair costs align with claim details."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-08T10:15:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A fair settlement amount was proposed to cover the full repair expenses as documented in the investigation."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-08T12:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The customer expressed satisfaction with the proposed settlement and appreciated the prompt claim handling."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-08T15:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Claim was officially approved to move forward with payment following customer agreement on settlement terms."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-09T10:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment was issued to the customer’s account to cover the approved repair costs from the auto accident claim."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-10T09:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim was officially closed after verification of payment receipt and repair work completion confirmation."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-15T08:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "Archived all documentation and records pertaining to this auto accident claim for future reference and audit."
+    }
+  ]
+}

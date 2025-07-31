@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-04-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "The insured reported a car accident that occurred at an intersection with significant front-end damage to the vehicle."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-04-01T10:05:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was categorized under Auto Accident after reviewing the initial report and damage description."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-04-01T11:00:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An agent specializing in vehicle collision claims was assigned to handle the investigation and customer communications."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-04-01T11:30:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The insured received confirmation that the claim was acknowledged and the process had started promptly."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-04-01T13:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "To proceed, the insured was asked to submit the police report, photos of the damage, and a completed claim form."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-04-02T09:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "All requested documents, including police and repair shop reports, were submitted by the insured within the requested timeframe."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-04-02T10:30:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The investigation into the collision circumstances and liability began based on the submitted documentation."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-04-05T15:00:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "Investigation concluded that the insured was not at fault and damage repair costs were verified and approved."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-04-05T16:30:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement amount covering damages and rental car expenses was proposed to the insured for review."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-04-06T10:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The insured expressed satisfaction with the handling of the claim and agreed to the proposed settlement promptly."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-04-06T11:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Approval was granted for the proposed settlement after all necessary reviews and customer acceptance."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-04-07T14:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "The payment covering vehicle repairs and additional costs was issued to the insured without delays."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-04-07T16:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim was officially closed following successful settlements and customer confirmations."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-04-08T09:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All claim documents and communications were archived securely for future reference and auditing purposes."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "Customer reported a car accident involving a rear-end collision that occurred on the highway during rush hour."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:30:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was reviewed and categorized as an Auto Accident based on the details of the vehicle collision."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A claims agent specializing in auto accidents was assigned to handle this case and communicate with the customer."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T11:15:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "Acknowledgement email sent to the customer confirming receipt of the auto accident claim and next steps outlined."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T08:45:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Requested police report, photos of vehicle damage, and witness statements from the customer to proceed with assessment."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-03T14:25:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Customer submitted all requested documents including detailed photos and official police report within the deadline."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-04T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation into the circumstances of the car accident began, including reviewing submitted police and damage reports."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T16:30:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "Investigation confirmed no fault to the customer; damage assessed and claim found valid for settlement."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement offer was proposed to cover repair costs and rental car expenses due to the collision damage."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-12T12:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer expressed satisfaction with the prompt handling and clarity of the settlement offer provided."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-13T09:45:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Claim officially approved for payment following customer acceptance of the proposed settlement agreement."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-14T13:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment issued to the customer’s account covering the approved auto repair and related expenses promptly."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-15T15:30:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim was closed successfully after full payment was made and customer confirmed resolution of the accident claim."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-20T10:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "The case files and documentation related to the auto accident claim were archived for future reference."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-04-10T08:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "Customer reported a vehicle accident involving a rear-end collision on the highway at approximately 7:30 AM."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-04-10T09:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim has been categorized under Auto Accident due to keywords such as vehicle and collision appearing in the initial report."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-04-10T09:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An insurance agent was assigned to the claim to manage communications and guide the claimant through the process."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-04-10T10:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "Acknowledgment of the filed claim was sent to the customer promptly thanking them for their report and assuring support."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-04-10T12:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "The claimant was requested to submit photos of the damaged vehicle, police report, and a copy of the driver's license."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-04-12T15:30:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Customer uploaded the required documents including photos showing significant damage and the official police incident report."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-04-13T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation into the circumstances of the accident has begun to assess liability and damage extent."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-04-16T17:00:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "The claim investigation was completed, confirming the other party was at fault and damages verified by the adjuster."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-04-17T10:30:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement amount was proposed based on repair estimates and coverage limits for the vehicle damage."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-04-18T14:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The customer expressed satisfaction with the proposed settlement and thanked the agent for clear communication."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-04-19T09:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was approved officially, authorizing the payment process to compensate the vehicle repairs as agreed."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-04-20T11:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment was issued to the repair shop directly to expedite the vehicle damage repairs on behalf of the customer."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-04-22T16:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim was formally closed after successful settlement and repair completion confirmation from the claimant."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-04-23T09:30:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All claim documents and correspondence were archived in the system for future reference and record keeping."
+    }
+  ]
+}

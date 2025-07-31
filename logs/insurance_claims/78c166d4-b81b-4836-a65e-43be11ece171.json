@@ -1,0 +1,83 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T08:30:00Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "The claimant reported a car accident that occurred yesterday involving a collision at a busy intersection. The vehicle sustained significant front-end damage."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was categorised under Auto Accident after reviewing the initial report and confirming keywords including car and collision were present."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An experienced claims agent specializing in vehicle collisions was assigned to handle this case promptly and effectively."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T12:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Neutral)",
+      "message": "The claimant was notified that their auto accident claim has been received and logged in our system for further processing."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T09:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "The claimant was asked to submit police reports, photos of the vehicle damage, and any witness statements relevant to the accident."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-04T14:00:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "All requested documents including police reports and vehicle photos were successfully uploaded by the claimant without any issues."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-05T10:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The investigation team has begun reviewing the submitted evidence to assess the validity and extent of damages caused by the accident."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T16:00:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "The investigation concluded that the claimant was not at fault and the vehicle damage is consistent with the collision described."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T12:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement amount covering the full cost of repairs and rental car reimbursement was proposed to the claimant."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-12T09:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The claimant responded positively to the proposed settlement, expressing satisfaction with the prompt and fair handling."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-12T15:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was officially approved following customer acceptance of the settlement terms for the vehicle repairs."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-13T10:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment for the agreed settlement amount was processed and transferred to the claimant's designated bank account."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-14T09:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The auto accident claim has been officially closed after confirming repair completion and receipt of payment by the claimant."
+    }
+  ]
+}

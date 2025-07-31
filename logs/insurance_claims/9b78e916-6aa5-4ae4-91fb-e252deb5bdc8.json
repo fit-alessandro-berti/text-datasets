@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T08:30:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "Customer reported an auto accident involving their vehicle on the highway causing front bumper damage."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T09:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim has been categorised under Auto Accident based on the details of the car collision submitted."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T10:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An insurance agent has been assigned to handle the auto accident claim and assist the customer throughout the process."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The customer was notified that their claim has been received and acknowledged by the insurance company successfully."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T08:45:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Requested the police report, photos of the vehicle damage, and the customer’s driver license to process the claim further."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-03T14:30:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The customer submitted all requested documents including detailed photos of the collision and official police report."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-04T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation into the circumstances of the vehicle accident has commenced to validate the claim details and liability."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-06T16:45:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "The investigation has been completed successfully confirming the circumstances of the auto accident as reported."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-07T10:30:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "A settlement amount has been proposed to cover the vehicle repairs and related damages from the collision."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-08T12:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer confirmed acceptance of the settlement proposal and expressed satisfaction with the handling of the claim."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-08T14:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim has been formally approved by the insurance company based on the findings and agreement with the customer."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-09T09:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment for the approved settlement amount has been issued to the customer for vehicle repair expenses."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-10T17:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The auto accident claim has been successfully closed following the payment and final confirmation from the customer."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-20T09:30:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All claim documents and correspondence have been archived in the company system for future reference and compliance."
+    }
+  ]
+}

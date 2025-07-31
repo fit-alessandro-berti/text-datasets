@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T08:15:30Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "Customer reported a severe car collision that occurred on a busy intersection causing substantial damage to the vehicle's front end."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T09:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim has been reviewed and properly classified under the Auto Accident cluster as per the reported incident details."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T10:30:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An experienced claims agent has been assigned to handle the investigation and support the customer through the process."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Neutral)",
+      "message": "Customer was contacted to acknowledge receipt of the claim and to inform them about the next steps."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T08:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "The customer was asked to submit the police report, vehicle damage photos, and repair estimates for further processing."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-03T15:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "All requested documents including police report and photos showing the extent of vehicle damage were received from the customer."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-04T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Claims investigation commenced to verify the details of the accident and evaluate liability and damages."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-07T14:30:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "The investigation concluded with confirmation of the accident details and verification of the damage costs."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-08T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "A fair settlement amount was proposed to the customer covering car repairs and related expenses."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-09T09:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer responded positively to the proposed settlement and expressed satisfaction with the prompt handling of the claim."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-09T12:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The insurance claim was formally approved based on the investigation results and agreement on settlement value."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-10T08:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Settlement payment was processed and issued to the customer's nominated bank account as agreed."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-10T16:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim file has been closed after successful settlement and payment, with no pending actions remaining."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-20T10:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All claim records and documents have been archived securely for future reference and compliance purposes."
+    }
+  ]
+}

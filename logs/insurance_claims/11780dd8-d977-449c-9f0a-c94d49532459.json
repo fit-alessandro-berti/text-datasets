@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T08:30:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The insured reported a collision involving their vehicle on the highway, requesting to initiate a claim process."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was reviewed and assigned to the Auto Accident category due to the nature of the damage described."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An experienced claims agent was assigned to manage the case and assist the customer with the next steps."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T12:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The insurance company formally acknowledged receipt of the claim and assured the customer that the case is being processed."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T09:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "The claims agent requested copies of the police report, photos of the vehicle damage, and medical bills related to the accident."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-03T15:30:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The customer submitted all requested documents including police report, vehicle photos, and initial hospital bills promptly."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-04T08:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The investigation team began reviewing the submitted evidence to determine liability and damage extent."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T14:45:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "The investigation concluded that the insured was not at fault and the vehicle damages are consistent with the reported collision."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement offer was proposed to cover all repair costs and medical expenses up to the policy limit."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-12T16:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The customer expressed satisfaction with the settlement amount and appreciated the prompt handling of the claim."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-13T09:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was officially approved following customer acceptance of the settlement terms."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-14T11:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "The insurance company issued the payment covering all approved repairs and medical bills related to the accident."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-15T10:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim was closed after confirmation that all payments were received and the customer was satisfied with the resolution."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-20T08:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "The claim file was archived in the records system for future reference and compliance purposes."
+    }
+  ]
+}

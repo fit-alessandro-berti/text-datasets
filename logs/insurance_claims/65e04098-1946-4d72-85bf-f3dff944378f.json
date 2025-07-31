@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "The insured filed a claim after their car was involved in a collision at an intersection, causing substantial damage."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T12:30:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was categorised under Auto Accident after review of the incident details and involved vehicle damage."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T15:00:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A claims agent was assigned to handle the customer's auto accident claim to ensure timely processing."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T17:45:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The insurance company sent an acknowledgment notification to the claimant confirming receipt of the auto accident claim."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T09:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Requested copies of the police report, vehicle damage photos, and repair estimates from the claimant for further evaluation."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-03T14:20:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The claimant submitted all requested documents including police report and repair shop estimates ahead of deadline."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-04T10:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "An investigation commenced to verify the circumstances of the vehicle accident and assess liability and damages."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-06T16:30:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "Investigation finalized confirming fault and validating the extent of the vehicle damage as reported by the claimant."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-07T11:00:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "The insurer proposed a settlement amount covering full repair costs of the claimant's vehicle subject to claimant agreement."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-07T15:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The claimant responded positively to the proposed settlement and expressed satisfaction with the prompt handling."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-08T09:30:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Formal approval of the claim was granted reflecting agreement to proceed with the settlement payment to the insured."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-08T14:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "The settlement payment was issued to the claimant’s preferred bank account to cover vehicle repair expenses."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-09T10:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim was officially closed after confirmation of the repair completion and receipt of all payment documents."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-10T08:45:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All claim files and documentation were archived in compliance with company protocols for record retention."
+    }
+  ]
+}

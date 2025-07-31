@@ -1,0 +1,83 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T08:30:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "Customer reported a vehicle collision that occurred on the morning of April 30th and filed an official claim for damages and injuries sustained."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T09:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim has been categorized under 'Auto Accident' following the review of initial report details and involved vehicle information."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T10:15:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An agent with experience in car accident claims was assigned to handle the case and contacted the customer for further assistance."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The customer's claim has been formally acknowledged, and a case number was provided for future reference and updates."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T09:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Customer was asked to submit police reports, photos of vehicle damage, and medical bills related to the collision for verification purposes."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-04T15:30:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "All requested documents including the accident report, repair estimates, and medical invoices were submitted by the customer within the deadline."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-05T08:45:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The claims investigation team initiated a detailed review of all documentation and contacted involved parties to validate the accident details."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T17:00:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "Investigation concluded with confirmation of liability and verification of damage extent based on expert evaluation and witness statements."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement amount covering vehicle repairs and medical expenses was proposed to the customer pending their approval."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-12T14:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer responded positively to the proposed settlement, expressing satisfaction with the compensation offer and claim process."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-13T09:30:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Claim approval was finalized after customer's agreement on the settlement terms, confirming all claim conditions were met."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-14T12:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment for the agreed settlement amount was processed and issued to the customer's bank account without delay."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-15T08:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "Following payment, the claim has been officially closed with confirmation sent to the customer and all relevant records updated."
+    }
+  ]
+}

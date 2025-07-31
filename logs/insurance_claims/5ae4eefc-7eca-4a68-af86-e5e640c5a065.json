@@ -1,0 +1,83 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-04-05T08:30:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The policyholder has reported a car accident that occurred on the morning of April 4th, involving a rear-end collision at a traffic light."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-04-05T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim has been categorized under Auto Accident after reviewing the initial report that details a vehicle collision."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-04-05T11:15:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An insurance agent has been assigned to the case to provide the policyholder with assistance and guide through the process."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-04-05T12:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The claim has been acknowledged officially, and the claimant was informed of the next steps and required documentation."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-04-05T13:30:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "The claimant was requested to submit police reports, photographs of the damaged car, and the driver's license for thorough evaluation."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-04-07T09:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Claimant has submitted all requested documents including the accident report, pictures of the vehicle damage, and personal identification."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-04-07T12:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The investigation into the details of the vehicle collision, liability, and extent of damage has commenced in order to process the claim accurately."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-04-12T15:30:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "The investigation has been completed confirming the claimant’s liability and verifying the damages sustained during the collision."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-04-13T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement offer has been proposed to the claimant based on the damage assessment and policy coverage limits."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-04-14T14:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The claimant provided positive feedback regarding the clarity and timeliness of the claim process and the settlement proposal."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-04-15T09:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim has been approved after the claimant accepted the settlement offer and provided necessary consent to proceed with payment."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-04-16T11:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "The payment for the approved claim was successfully issued to the claimant's designated bank account for vehicle repair."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-04-17T16:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim has been closed following the finalization of the payment and the claimant confirmed full satisfaction with the resolution."
+    }
+  ]
+}

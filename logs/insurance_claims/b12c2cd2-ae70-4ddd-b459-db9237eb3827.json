@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "Customer reported a vehicle collision that occurred on April 30th, involving their car and another vehicle at an intersection."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was reviewed and categorised under Auto Accident due to the mention of car collision and damages reported."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T10:30:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An insurance agent was assigned to assist the claimant with the process and provide guidance throughout the claim lifecycle."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Neutral)",
+      "message": "The insurance company acknowledged receipt of the claim and confirmed that it is now being processed in their system."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T09:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Requested submission of police report, photos of the vehicle damage, and driver’s license copy to proceed with investigation."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-04T14:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Customer provided all requested documents including the police report, photographs of the damaged car, and identification proof."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-05T08:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "A claims investigator was assigned and began reviewing submitted evidence and reports related to the accident."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T12:30:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "The investigation concluded confirming fault and assessing the extent of the vehicle damage and liability."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T15:00:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "A settlement offer was proposed based on the damage assessment and policy coverage terms communicated to the customer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-12T10:20:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer responded positively appreciating the quick communication and transparent settlement offer."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-13T09:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was formally approved by the underwriting team after final review of all documentation and investigation results."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-14T14:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment for the approved settlement amount was successfully issued to the customer’s bank account."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-15T10:30:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim was officially closed following payment issuance and confirmation that all obligations were fulfilled."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-16T09:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "The case file was archived in the insurance records for future reference and compliance purposes."
+    }
+  ]
+}

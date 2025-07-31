@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The customer reported a vehicle collision that occurred at an intersection during rush hour. They initiated the claim for damage assessment."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "Claim has been categorized under 'Auto Accident' following the keywords found in the initial report detailing the car accident."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T10:30:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An agent specialized in auto claims was assigned promptly to handle the customer's case and begin the investigation process."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The insurance company sent an acknowledgement message to the claimant confirming receipt of the accident report and claim initiation."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T08:45:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "To process the claim further, documents such as the police report, photos of the vehicle damage, and repair estimates were requested."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-03T15:20:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The customer submitted all the requested documents including the accident police report, photographs, and a mechanic's damage assessment."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-04T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation began with an examination of submitted evidence and interviews with the customer to clarify the sequence of events."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-07T17:30:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "The investigation concluded, confirming that the claimant was not at fault and the reported damage was consistent with the collision described."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-08T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement offer was proposed, covering the full cost of vehicle repairs and compensation for the claimant’s rental car during downtime."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-08T14:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The customer responded positively, expressing satisfaction with the proposed settlement amount and the speed of the process."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-09T09:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was officially approved by the claims manager following the customer acceptance of the settlement terms."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-10T11:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment covering the repair costs was issued and tracked for prompt delivery to the trusted repair shop on behalf of the customer."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-15T16:45:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim was formally closed after confirmation that repairs were completed and the customer had no further issues."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-20T10:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All claim documentation and investigation details were archived securely in accordance with company policies and regulatory requirements."
+    }
+  ]
+}

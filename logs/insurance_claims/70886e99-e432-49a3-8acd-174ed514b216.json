@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "Customer filed a claim reporting a collision involving their vehicle on the highway during rush hour."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was categorised under Auto Accident after reviewing the initial incident description submitted by the customer."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An insurance agent was assigned to handle the auto accident claim and will coordinate further communications."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T12:30:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The insurance company has acknowledged receipt of the claim and assured the customer their case is being prioritized."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T08:45:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Request sent to the customer for accident photos, police report, and vehicle damage estimates to proceed with the investigation."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-04T15:10:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Customer submitted all requested documents including police report and repair shop estimates for the damaged vehicle."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-05T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation began to assess the details of the accident, verify the claims, and determine fault and coverage."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T16:30:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "Investigation completed successfully confirming coverage eligibility and damage estimate accuracy."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "A settlement offer was proposed to the customer detailing repair cost coverage and any applicable deductibles."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-12T13:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The customer responded positively to the settlement offer and expressed satisfaction with the timely handling of the claim."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-13T09:20:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was officially approved following customer acceptance of the proposed settlement terms."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-14T14:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Insurance payment was processed and issued to cover the repair costs as agreed in the settlement."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-15T10:30:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "Claim was formally closed after payment issuance and confirmation from the customer on repair progress."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-20T08:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "The closed claim record was archived for future reference in the company database."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The insured reported a collision involving their car on highway 45 resulting in visible damage to the front bumper."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "After initial review, the claim was categorised under Auto Accident due to the vehicle collision and resulting damages."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An insurance agent was assigned to the case to manage communications and oversee the claims process progression."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T12:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The claimant received formal acknowledgment of their accident claim with initial instructions on next steps."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T08:45:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "The agent requested the police report, vehicle repair estimates, and photos of the damage to proceed with the investigation."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-04T15:20:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The claimant submitted all requested documents including accident report, repair bills, and photographic evidence."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-05T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation commenced to verify cause of collision and assess the vehicle damage as per submitted documentation."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T16:30:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "Investigation concluded confirming the insured’s liability and extent of damages aligning with submitted reports."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T10:45:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "A settlement proposal was issued covering estimated repair costs and vehicle downtime compensation."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-12T14:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The claimant expressed satisfaction with the settlement offer and appreciated the clarity in communication."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-13T09:30:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was officially approved following agreement on settlement terms between insurer and claimant."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-14T13:15:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment corresponding to the approved settlement was transferred to the claimant’s designated account."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-15T10:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim was formally closed after successful payment issuance and confirmation of claimant’s acceptance."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-16T08:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All claim documents and related communications were archived in the system for record keeping and future reference."
+    }
+  ]
+}

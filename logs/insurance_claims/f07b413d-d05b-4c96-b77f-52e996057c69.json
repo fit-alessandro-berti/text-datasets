@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T08:30:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "Customer reported a car collision that occurred on April 30th, 2024, involving their vehicle and another party. The claim has been officially filed for processing."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T09:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim has been categorized under Auto Accident based on the description mentioning vehicle collision and accident details provided by the customer."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An insurance claims agent has been assigned to the case to manage communication and oversee the evaluation of the accident claim."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The claim has been officially acknowledged by the insurer, and the customer has been notified that the claim process is underway."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-01T10:30:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "The customer was requested to submit the police report, photos of the vehicle damage, and any witness statements relevant to the auto accident."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-03T14:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Customer successfully submitted the required documents including the police report, vehicle damage images, and witness statements for claim review."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-04T08:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "An investigation commenced to verify the details of the vehicle collision, assess damage severity, and validate the claim against policy terms."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T17:00:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "The investigation concluded with findings confirming the collision circumstances, verified damages, and assessment report completed for claim approval."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T09:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement offer covering vehicle repairs and related expenses has been proposed to the customer based on the investigation outcome."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-12T11:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer responded positively to the proposed settlement and confirmed agreement to proceed with the payment issuance process."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-13T08:45:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim has been officially approved by the insurer, enabling the release of funds to cover the vehicle repair expenses."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-14T10:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment has been issued to the repair shop as per the approved settlement amount agreed upon with the customer."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-15T16:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The auto accident claim has been officially closed following successful settlement and payment disbursement."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-16T08:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All records and documentation related to the auto accident claim have been archived for future reference and compliance."
+    }
+  ]
+}

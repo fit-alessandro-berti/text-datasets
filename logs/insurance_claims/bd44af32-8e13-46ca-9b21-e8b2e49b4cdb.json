@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The customer submitted a claim reporting a car collision that occurred on April 29th causing significant front-end damage."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "After review, the claim was categorized under 'Auto Accident' as it involved vehicle damage from a collision."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T10:15:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An experienced claims agent was assigned to handle the case promptly and guide the claimant through the process."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "Acknowledgement of the claim was sent to the customer confirming receipt and next steps to follow."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-01T11:30:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Customer was asked to provide photographs of the damaged vehicle, police report, and a repair estimate."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-03T14:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The claimant submitted all requested documentation including photos, police report, and the mechanic’s repair estimate on time."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-04T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The investigation team began reviewing submitted evidence and contacting involved parties for the accident details."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T15:30:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "Investigation concluded verifying all documents and accident circumstances matched with police and mechanic reports."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-12T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement offer was proposed to cover the full repair cost and vehicle rental during repair period."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-13T16:20:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The customer expressed satisfaction with the claim handling speed and the proposed settlement amount."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-14T09:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Following customer agreement, the claim was approved for payment to be processed promptly."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-15T13:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "The payment for the approved settlement was issued directly to the repair shop and notified to the customer."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-16T10:30:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim file was formally closed after confirmation that the repairs were completed without further issues."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-17T08:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All documentation and correspondence were archived securely for future reference according to policy."
+    }
+  ]
+}

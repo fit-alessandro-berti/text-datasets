@@ -1,0 +1,83 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-04-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "Customer submitted a claim after their vehicle was involved in a collision on the highway."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-04-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was reviewed and categorized under Auto Accident due to car collision details provided."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-04-01T10:30:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An experienced claims agent specialized in auto accidents was assigned to handle the case promptly."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-04-01T11:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "Acknowledgement sent to the customer confirming receipt of the auto accident claim and next steps."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-04-02T08:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Request was made for police report, photos of damaged vehicle, and medical reports related to the accident."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-04-03T14:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Customer uploaded all requested documents, including accident report and repair estimates for review."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-04-04T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation initiated to verify accident circumstances and evaluate insurance coverage applicability."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-04-07T16:30:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "Investigation completed successfully confirming the claim was valid and covered under the policy terms."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-04-08T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "Settlement amount was proposed to the customer based on vehicle damage assessment and policy limits."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-04-09T12:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer responded positively to the proposed settlement and expressed satisfaction with claim handling."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-04-10T09:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Claim officially approved by insurance management after all reviews and customer acceptance."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-04-10T15:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment for vehicle repairs was processed and issued to the customer’s bank account."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-04-11T17:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The auto accident claim was closed after full payment and confirmation that all procedures were complete."
+    }
+  ]
+}

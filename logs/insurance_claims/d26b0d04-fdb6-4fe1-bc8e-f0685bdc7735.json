@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-02-12T08:30:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The customer reported an auto accident involving their vehicle and filed a claim to start the process."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-02-12T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "Based on the description of collision and car damage, the claim was categorised under Auto Accident for further handling."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-02-12T11:00:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An experienced claims agent was assigned to the case to assist the customer through the entire resolution process."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-02-12T12:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Neutral)",
+      "message": "Confirmation of claim receipt was communicated to the customer, with details about the upcoming steps."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-02-13T09:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "The customer was requested to provide the police report, photos of vehicle damage, and driver’s license for claim verification."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-02-14T14:30:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "All required documents including police report and photographs were submitted promptly by the customer."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-02-15T08:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The claims team began investigation to assess the damages and validate the circumstances of the vehicle collision."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-02-18T16:00:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "Investigation concluded with verification of damage extent and confirmation of liability based on evidence collected."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-02-19T10:30:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A fair settlement amount was proposed to the customer based on repair estimates and policy coverage details."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-02-20T09:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer expressed satisfaction with the clarity and fairness of the settlement proposal and the handling of their case."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-02-21T14:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was officially approved by management following customer acceptance of the proposed settlement."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-02-22T11:45:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment was successfully processed and issued to the customer’s bank account to cover repair costs."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-02-23T09:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim was closed as all required steps were completed and the customer’s issue was fully resolved."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-02-28T08:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "The closed claim was archived in the system to maintain records of the auto accident and resolution for future reference."
+    }
+  ]
+}

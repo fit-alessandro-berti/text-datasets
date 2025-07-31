@@ -1,0 +1,89 @@
+{
+  "cluster": "Personal Loan",
+  "events": [
+    {
+      "activity": "Application Submitted",
+      "timestamp": "2024-05-01T08:30:00Z",
+      "contextual_activity": "Application Submitted (Positive)",
+      "message": "Applicant has submitted a personal loan application to cover medical expenses with detailed personal information."
+    },
+    {
+      "activity": "Application Categorised",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Application Categorised (Positive)",
+      "message": "Loan officer has categorized this application under personal loans given the mention of medical bills and no relation to other types."
+    },
+    {
+      "activity": "Loan Officer Assigned",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Loan Officer Assigned (Neutral)",
+      "message": "The application has been assigned to Loan Officer Jane Smith for personalized handling and further process."
+    },
+    {
+      "activity": "Initial Review",
+      "timestamp": "2024-05-02T14:00:00Z",
+      "contextual_activity": "Initial Review (Neutral)",
+      "message": "Jane Smith completed the initial review, confirming that the applicant qualifies for the requested personal loan based on submitted details."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T15:30:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Applicant has been asked to provide recent payslips, medical bills, and identification documents to progress the loan assessment."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-05T11:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Applicant quickly submitted all requested documents, including payslips and medical receipts, facilitating prompt processing."
+    },
+    {
+      "activity": "Credit Check Completed",
+      "timestamp": "2024-05-06T09:00:00Z",
+      "contextual_activity": "Credit Check Completed (Positive)",
+      "message": "Credit check results returned with a good credit score, indicating that the applicant is creditworthy for the loan amount requested."
+    },
+    {
+      "activity": "Risk Assessment Completed",
+      "timestamp": "2024-05-06T14:30:00Z",
+      "contextual_activity": "Risk Assessment Completed (Neutral)",
+      "message": "Risk assessment was conducted confirming manageable risk based on credit profile and purpose of loan as outlined in the application."
+    },
+    {
+      "activity": "Offer Presented",
+      "timestamp": "2024-05-07T10:00:00Z",
+      "contextual_activity": "Offer Presented (Positive)",
+      "message": "A personalized loan offer with competitive interest rates and repayment schedule has been presented to the applicant for acceptance."
+    },
+    {
+      "activity": "Applicant Feedback Received",
+      "timestamp": "2024-05-08T16:00:00Z",
+      "contextual_activity": "Applicant Feedback Received (Positive)",
+      "message": "Applicant expressed satisfaction with the loan offer and confirmed willingness to proceed with the terms outlined."
+    },
+    {
+      "activity": "Loan Approved",
+      "timestamp": "2024-05-09T12:00:00Z",
+      "contextual_activity": "Loan Approved (Positive)",
+      "message": "Loan has been officially approved by senior management following verification of all documentation and applicant feedback."
+    },
+    {
+      "activity": "Loan Funded",
+      "timestamp": "2024-05-10T10:30:00Z",
+      "contextual_activity": "Loan Funded (Positive)",
+      "message": "Funds have been successfully transferred to the applicant’s bank account as per the approved personal loan agreement."
+    },
+    {
+      "activity": "Post-Approval Follow-up",
+      "timestamp": "2024-05-20T09:00:00Z",
+      "contextual_activity": "Post-Approval Follow-up (Neutral)",
+      "message": "Loan officer contacted the applicant to ensure satisfaction and verify usage of the loan funds for medical expenses."
+    },
+    {
+      "activity": "Application Closed",
+      "timestamp": "2024-05-21T08:45:00Z",
+      "contextual_activity": "Application Closed (Positive)",
+      "message": "The loan application case has been formally closed after successful funding and follow-up communication with the applicant."
+    }
+  ]
+}

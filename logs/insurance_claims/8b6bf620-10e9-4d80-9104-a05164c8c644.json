@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-04-05T08:15:00Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "The insured reported a car accident involving a collision with another vehicle at an intersection resulting in significant damage."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-04-05T09:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "Claim has been categorised under auto accident after reviewing the initial report and involved keywords such as vehicle collision."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-04-05T10:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An agent has been assigned to the case to handle all communications and coordinate the claims process efficiently."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-04-05T11:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "Acknowledgement sent to policyholder confirming receipt of the auto accident claim for further investigation."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-04-06T09:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Requested police report, photographs of vehicle damage, and a copy of the driver's statement to proceed with claim assessment."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-04-08T14:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Received all required documents including police report, photos, and statements required for claim evaluation."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-04-09T08:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation initiated to verify circumstances of the reported auto accident and assess vehicle damage."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-04-15T17:30:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "Completed investigation confirming policyholder was not at fault and damage estimates were verified by adjusters."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-04-16T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "Proposed settlement amount to cover repair costs presented to policyholder for review and acceptance."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-04-18T12:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Policyholder provided positive feedback on the timely communication and resolution approach during claim processing."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-04-19T09:15:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Claim has been formally approved including the proposed settlement for vehicle repairs under policy terms."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-04-20T14:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Settlement payment issued to policyholder's designated account to cover all authorized vehicle repair expenses."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-04-21T16:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "All matters resolved and claim officially closed following successful issuance of payment and policyholder confirmation."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-04-25T11:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "Case files and all related documentation archived in the system for future reference and compliance requirements."
+    }
+  ]
+}

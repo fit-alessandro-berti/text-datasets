@@ -1,0 +1,83 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "Customer reported a car accident involving a collision with another vehicle at an intersection, requiring immediate assistance."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was categorized under Auto Accident after reviewing the initial accident report and customer’s description."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An insurance agent was assigned to the claim to handle all communications and coordinate further investigation steps."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T11:15:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The insurance company has officially acknowledged receipt of the claim and assured the customer that the process will proceed promptly."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T08:30:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Customer was requested to submit the police accident report, photos of the vehicle damage, and contact details of witnesses."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-03T15:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The customer submitted all requested documentation including the accident report and detailed photos showing the extent of the collision damage."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-04T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The insurance company commenced a thorough investigation of the auto accident claim by reviewing submitted evidence and contacting involved parties."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T14:00:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "Investigation concluded with favorable findings supporting the liability of the other party in the car collision incident."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement offer was proposed to the customer covering the estimated repair costs and any related expenses due to the auto accident."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-12T16:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The customer responded positively to the settlement proposal, expressing satisfaction with the compensation amount and overall service."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-13T09:45:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was formally approved by the insurance company following acceptance of the settlement terms by the customer."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-15T12:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "The insurance payment was issued promptly to the customer’s bank account to cover the auto repair expenses as per the approved claim."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-20T10:30:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The insurance claim was officially closed after confirming the customer’s acknowledgment of full settlement and completion of repairs."
+    }
+  ]
+}

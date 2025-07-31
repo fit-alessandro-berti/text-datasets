@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:00:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "Customer reported a vehicle collision that occurred on April 30th involving their car and another vehicle at an intersection."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:30:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was categorized under Auto Accident after reviewing the initial report mentioning the car crash and damages."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An insurance agent was assigned to handle the claim and begin communication with the claimant."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T11:15:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "Acknowledged receipt of the claim report and assured the customer that their vehicle accident claim is being processed promptly."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-01T12:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Requested submission of accident photos, police report, and repair estimates from the customer to proceed with the investigation."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-03T15:00:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Customer submitted all required documentation including accident photos, police report, and repair invoices."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-05T08:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Claims team began a thorough investigation into the vehicle collision to verify damages and liability."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T10:00:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "Completed investigation and confirmed the accident details match submitted claims and supporting evidence."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T09:30:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "A settlement proposal was prepared based on repair costs and policy terms and was sent to the claimant for review."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-12T14:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer responded favorably to the settlement offer and expressed satisfaction with the claim handling process."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-13T09:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was officially approved for payment following acceptance of the settlement terms by the customer."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-14T16:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment for the approved vehicle repair costs was disbursed to the customer as per the agreed settlement."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-15T09:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The vehicle accident claim has been officially closed following settlement and payment issuance."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-16T09:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All claim documents and communications were archived securely for future reference and audit purposes."
+    }
+  ]
+}

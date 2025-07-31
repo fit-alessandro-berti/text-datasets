@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-01-12T08:30:00Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "The customer reported a collision involving their car striking a tree on icy roads, resulting in significant front-end damage."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-01-12T09:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was categorized as an Auto Accident based on the submitted accident details and related keywords."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-01-12T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An agent specializing in auto claims was assigned to handle the customer's case to ensure proper processing."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-01-12T09:45:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The claim has been acknowledged and the customer was informed about the next steps in the process."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-01-12T10:15:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "The customer was requested to submit photos of vehicle damage, police reports, and a copy of the driving license."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-01-14T14:30:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The customer submitted all required documents including images of the damaged car and the official police accident report."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-01-15T08:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The investigation team began reviewing the submitted documents, contacting witnesses, and assessing vehicle damage."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-01-20T16:00:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "Investigation concluded finding the accident was caused by icy road conditions and no third party liability was involved."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-01-21T10:30:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement for repairs and associated costs was proposed to the customer, covering the full damage estimate."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-01-22T11:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The customer expressed satisfaction with the timely response and the proposed settlement amount."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-01-23T09:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim approval was finalized after verifying all documentation and agreement on the settlement terms."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-01-24T12:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "The payment to cover vehicle repairs was issued directly to the authorized repair shop as agreed upon."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-01-25T15:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim was closed after confirming that the vehicle repairs were completed and the customer was fully compensated."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-01-26T08:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All records related to this auto accident claim were archived for future reference and compliance purposes."
+    }
+  ]
+}

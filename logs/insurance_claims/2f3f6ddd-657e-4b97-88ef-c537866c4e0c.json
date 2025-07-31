@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T08:30:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The customer filed a claim after their car was involved in a rear-end collision at a stoplight. Vehicle sustained significant rear damage."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:15:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "Claim was reviewed and categorised under Auto Accident cluster due to keywords including car and collision in the report."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An insurance agent was promptly assigned to manage the claimant’s case and provide regular updates on progress."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T12:45:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The insurer acknowledged receipt of the claim and confirmed that the investigation would commence shortly."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T09:30:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Request was made for the customer to submit a police report and photos of the vehicle’s damaged areas."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-03T14:20:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Customer submitted all requested documents including the police report, vehicle photos, and damage assessment form."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-04T10:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation team began reviewing submitted evidence and contacting involved parties to verify claim details."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-08T16:30:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "The investigation was completed confirming that the claimant was not at fault and damage matched incident report."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-09T11:45:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement was proposed offering to cover the repair costs and provide a rental vehicle for three days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-10T09:10:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer expressed satisfaction with the proposed settlement and appreciated the speedy handling of their claim."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-10T15:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was officially approved, authorising the payment process to begin as per the agreed settlement terms."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-11T13:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Settlement payment was issued to the claimant’s account to cover vehicle repairs and associated expenses."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-12T10:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim was closed successfully after confirming the claimant received payment and all repairs were underway."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-13T09:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "Final documentation and case files were archived following closure to maintain records for any future reference."
+    }
+  ]
+}

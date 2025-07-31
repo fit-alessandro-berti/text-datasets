@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-04-10T09:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The policyholder reported a car accident occurring at an intersection involving another vehicle. No injuries were immediately reported."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-04-10T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was reviewed and categorised under the Auto Accident cluster based on keywords found in the initial report."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-04-10T11:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An insurance agent was assigned to handle the car accident claim and will coordinate further communications."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-04-10T12:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The policyholder was contacted to confirm receipt of the claim and informed about the next steps in the process."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-04-11T08:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "The insured was asked to submit the police report, photos of vehicle damage, and any witness statements related to the accident."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-04-13T15:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "All requested documents including accident photos and the police report were received from the claimant for review."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-04-14T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation team began assessing the submitted documents and contacted the other party involved for additional verification."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-04-18T16:30:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "The investigation concluded that the claimant was not at fault and the damage assessment report was finalized."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-04-19T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "A settlement amount was proposed to the claimant to cover vehicle repair costs as per the damage assessment."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-04-20T13:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The claimant responded expressing satisfaction with the proposed settlement and the support received during the process."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-04-21T09:30:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The insurance company formally approved the claim based on investigation results and claimant agreement."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-04-22T11:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment covering approved repair costs was issued to the claimant’s bank account as scheduled."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-04-23T16:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim was officially closed after payment confirmation and final communication with the insured customer."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-04-24T10:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "Complete claim file with investigation reports and correspondence was archived for future reference and audit purposes."
+    }
+  ]
+}

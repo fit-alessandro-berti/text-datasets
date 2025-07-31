@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "I was involved in a car accident on April 30th; my vehicle sustained significant damage and I need to start the claim process."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim has been categorized under Auto Accident due to the mention of vehicle collision and damage reported by the claimant."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An insurance agent has been assigned to the case to guide the customer through the auto accident claim process."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T11:30:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "We acknowledge receipt of your auto accident claim and appreciate you providing all initial details promptly."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T08:45:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Please submit photos of the damaged vehicle, police report, and your driver's license to proceed with the investigation."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-04T14:20:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The customer has submitted all requested documents including photos of the damage and official police report for review."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-05T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Our claims team has begun investigating the details of the collision and assessing the extent of vehicle damage."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T15:30:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "The investigation concluded with confirmation of the accident circumstances and verified damage estimate provided."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement offer has been proposed to cover repair costs and other related expenses for your vehicle damages."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-12T17:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The customer has responded positively to the proposed settlement and expressed satisfaction with the claim handling so far."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-13T09:30:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Your auto accident claim was approved based on the investigation and submitted documentation."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-14T07:45:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "The payment for your approved claim has been processed and should reflect in your account within 3 business days."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-15T12:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim has been successfully closed after settlement payment and positive feedback from the customer."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-20T10:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "The claim documents and case files have been archived in accordance with company policy for future reference."
+    }
+  ]
+}

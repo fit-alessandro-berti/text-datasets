@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The customer reported a car accident involving their vehicle struck by another driver at an intersection."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was categorized under Auto Accident based on the description of the vehicle collision and damages reported."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An agent was assigned promptly to the customer's case to ensure timely processing of the auto accident claim."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T11:30:00Z",
+      "contextual_activity": "Claim Acknowledged (Neutral)",
+      "message": "The insurance company acknowledged receipt of the claim and confirmed the vehicle accident is registered in the system."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T08:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "The customer was asked to submit photos of the vehicle damage, police report, and driver's license for further evaluation."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-03T14:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Documents including accident photos, police report, and insurance information were submitted by the customer promptly."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-04T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The investigation of the vehicle collision details and verification of damages has begun with assigned adjusters."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-06T16:30:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "The investigation concluded that the other driver was at fault, and all vehicle damage estimates were verified."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-07T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement offer covering repair costs and rental car reimbursement was proposed to the customer for approval."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-08T13:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The customer expressed satisfaction with the proposed settlement terms and indicated willingness to proceed."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-08T14:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was officially approved based on investigation results and customer acceptance of the settlement."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-09T09:45:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "The payment for the claim settlement was processed and sent to the customer's bank account successfully."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-09T10:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "After payment completion, the claim case was officially closed with a confirmation sent to the customer."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-10T12:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "The claim file was archived in the system for records and future reference, marking the end of the process."
+    }
+  ]
+}

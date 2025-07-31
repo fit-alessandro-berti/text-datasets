@@ -1,0 +1,89 @@
+{
+  "cluster": "Personal Loan",
+  "events": [
+    {
+      "activity": "Application Submitted",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Application Submitted (Positive)",
+      "message": "The applicant has successfully submitted a request for a personal loan to cover upcoming medical expenses."
+    },
+    {
+      "activity": "Application Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Application Categorised (Neutral)",
+      "message": "Application categorized under personal loans due to mention of medical expenses and absence of business-related info."
+    },
+    {
+      "activity": "Loan Officer Assigned",
+      "timestamp": "2024-05-01T11:30:00Z",
+      "contextual_activity": "Loan Officer Assigned (Positive)",
+      "message": "A loan officer specializing in personal loans has been assigned to handle this case for more tailored processing."
+    },
+    {
+      "activity": "Initial Review",
+      "timestamp": "2024-05-02T08:45:00Z",
+      "contextual_activity": "Initial Review (Neutral)",
+      "message": "The first review of the application shows sufficient documentation but requires credit detail verification."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T12:30:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Additional proof of income and medical bills requested to validate expenses listed within the application."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-04T09:00:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Applicant provided all requested documents including pay slips and detailed medical invoices promptly."
+    },
+    {
+      "activity": "Credit Check Completed",
+      "timestamp": "2024-05-05T14:20:00Z",
+      "contextual_activity": "Credit Check Completed (Neutral)",
+      "message": "Credit history has been reviewed with no major delinquencies found, but some recent loan inquiries noted."
+    },
+    {
+      "activity": "Risk Assessment Completed",
+      "timestamp": "2024-05-06T10:00:00Z",
+      "contextual_activity": "Risk Assessment Completed (Neutral)",
+      "message": "Risk evaluation indicates moderate risk due to recent financial history; requires further deliberation."
+    },
+    {
+      "activity": "Offer Presented",
+      "timestamp": "2024-05-07T13:45:00Z",
+      "contextual_activity": "Offer Presented (Positive)",
+      "message": "A loan offer with competitive interest and repayment terms was presented to the applicant for review."
+    },
+    {
+      "activity": "Applicant Feedback Received",
+      "timestamp": "2024-05-08T16:10:00Z",
+      "contextual_activity": "Applicant Feedback Received (Positive)",
+      "message": "Applicant responded positively to the offer and expressed willingness to proceed with the outlined terms."
+    },
+    {
+      "activity": "Loan Approved",
+      "timestamp": "2024-05-09T09:00:00Z",
+      "contextual_activity": "Loan Approved (Positive)",
+      "message": "With all checks complete, the loan has been approved formally subject to final documentation."
+    },
+    {
+      "activity": "Loan Funded",
+      "timestamp": "2024-05-10T11:30:00Z",
+      "contextual_activity": "Loan Funded (Positive)",
+      "message": "Loan funds were successfully disbursed to the applicant’s bank account as per agreement."
+    },
+    {
+      "activity": "Post-Approval Follow-up",
+      "timestamp": "2024-05-20T15:00:00Z",
+      "contextual_activity": "Post-Approval Follow-up (Neutral)",
+      "message": "Follow-up conducted to ensure applicant has received funds and answer any questions about repayment."
+    },
+    {
+      "activity": "Application Closed",
+      "timestamp": "2024-05-21T10:00:00Z",
+      "contextual_activity": "Application Closed (Positive)",
+      "message": "The application file has been closed successfully after confirming all processes were completed satisfactorily."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "cluster": "Personal Loan",
+  "events": [
+    {
+      "activity": "Application Submitted",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Application Submitted (Positive)",
+      "message": "Applicant submitted a personal loan request to cover upcoming medical bills and related expenses."
+    },
+    {
+      "activity": "Application Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Application Categorised (Neutral)",
+      "message": "Loan application was reviewed and correctly categorised as a personal loan based on applicant’s description."
+    },
+    {
+      "activity": "Loan Officer Assigned",
+      "timestamp": "2024-05-01T11:30:00Z",
+      "contextual_activity": "Loan Officer Assigned (Positive)",
+      "message": "A loan officer was assigned to the file to initiate follow-up and clarification of applicant’s financial details."
+    },
+    {
+      "activity": "Initial Review",
+      "timestamp": "2024-05-02T14:00:00Z",
+      "contextual_activity": "Initial Review (Neutral)",
+      "message": "Preliminary assessment of the application was conducted, focusing on credit history and loan purpose validation."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T15:15:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Applicant was asked to provide additional documentation including medical invoices, proof of income, and ID proofs."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-05T10:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Applicant successfully submitted all requested documents, enabling the loan officer to proceed with thorough evaluation."
+    },
+    {
+      "activity": "Credit Check Completed",
+      "timestamp": "2024-05-05T12:30:00Z",
+      "contextual_activity": "Credit Check Completed (Neutral)",
+      "message": "Credit report was obtained and reviewed, indicating a stable credit history with minor prior medical debt."
+    },
+    {
+      "activity": "Risk Assessment Completed",
+      "timestamp": "2024-05-06T09:00:00Z",
+      "contextual_activity": "Risk Assessment Completed (Neutral)",
+      "message": "Comprehensive risk assessment evaluated the applicant’s ability to repay the personal loan under current terms."
+    },
+    {
+      "activity": "Offer Presented",
+      "timestamp": "2024-05-06T13:45:00Z",
+      "contextual_activity": "Offer Presented (Positive)",
+      "message": "Loan offer was communicated to the applicant including interest rate, repayment schedule, and other conditions."
+    },
+    {
+      "activity": "Applicant Feedback Received",
+      "timestamp": "2024-05-07T08:30:00Z",
+      "contextual_activity": "Applicant Feedback Received (Positive)",
+      "message": "Applicant responded positively accepting the terms and expressed gratitude for quick processing of their application."
+    },
+    {
+      "activity": "Loan Approved",
+      "timestamp": "2024-05-07T12:00:00Z",
+      "contextual_activity": "Loan Approved (Positive)",
+      "message": "Loan was officially approved by credit committee after confirming all compliance and eligibility criteria were met."
+    },
+    {
+      "activity": "Loan Funded",
+      "timestamp": "2024-05-08T09:00:00Z",
+      "contextual_activity": "Loan Funded (Positive)",
+      "message": "Loan amount was disbursed successfully into applicant’s bank account, enabling payment of medical bills."
+    },
+    {
+      "activity": "Post-Approval Follow-up",
+      "timestamp": "2024-05-15T10:00:00Z",
+      "contextual_activity": "Post-Approval Follow-up (Neutral)",
+      "message": "Follow-up call was made to confirm that funds were received and to offer assistance with repayment plan support."
+    },
+    {
+      "activity": "Application Closed",
+      "timestamp": "2024-05-20T16:00:00Z",
+      "contextual_activity": "Application Closed (Positive)",
+      "message": "The loan application file was closed successfully after completion of all funding and initial post-approval procedures."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T08:30:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The claimant submitted a report indicating involvement in a minor car accident on May 1st. The vehicle was rear-ended at a stoplight, causing damage to the bumper and trunk."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim has been categorized under Auto Accident after review of the initial report and keywords related to vehicle collision and damage."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:15:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "Agent Smith has been assigned to the claim and will serve as the primary point of contact for the claimant to ensure smooth communication."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T12:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "An acknowledgment email has been sent to the claimant confirming receipt of the auto accident claim and informing them of the next steps."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T09:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "The claimant was requested to provide a police report, photos of the vehicle damage, and repair estimates to support processing of the auto accident claim."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-05T14:30:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "All requested documents were submitted by the claimant, including police report, photos showing rear-end damage, and two separate repair quotes."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-06T08:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation into the vehicle accident claim was initiated to verify details, damages, and circumstances surrounding the collision reported."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T17:00:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "The investigation concluded that the claimant’s vehicle was indeed rear-ended as described, and all claims were found to be valid and supported by evidence."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T09:30:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "A settlement offer based on repair estimates and policy terms was proposed to the claimant to cover the auto damages caused by the accident."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-12T15:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The claimant responded positively to the proposed settlement, expressing satisfaction with the compensation offered for the vehicle repairs."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-13T10:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Approval was granted for the claim payout as per the terms agreed upon in the settlement proposal for the auto accident damages."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-14T13:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "The approved claim payment was disbursed to the claimant’s account to cover the costs of the vehicle repairs resulting from the collision."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-15T09:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim was formally closed after confirmation that the claimant received the payment and the repair process was underway or completed."
+    }
+  ]
+}

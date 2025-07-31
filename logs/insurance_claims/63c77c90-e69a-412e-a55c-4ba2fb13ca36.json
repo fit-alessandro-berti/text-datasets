@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T08:30:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "Customer reported a car collision that occurred on April 28th involving their sedan and another vehicle in a parking lot."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T09:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was reviewed and categorised under Auto Accident due to keywords like vehicle collision and car accident."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T10:15:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An experienced agent was assigned to this vehicle collision claim to assist the insured with further procedures."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The claim acknowledgement notice was sent to the customer confirming receipt of the auto accident claim."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T08:45:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Customer was requested to submit photos of the damaged vehicle, police report, and repair estimates."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-04T14:20:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Customer provided all requested documentation including detailed photos, official police report, and repair bills."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-05T09:30:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The investigation team began assessing the collision details, verifying the authenticity of submitted documents."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T15:00:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "Investigation confirmed that the customer’s vehicle was at fault and estimated damages were accurate."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T12:00:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "A settlement proposal was sent to the customer outlining compensation for vehicle repairs post-accident."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-12T17:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer responded positively to the settlement offer and expressed satisfaction with the claim handling process."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-13T10:15:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was officially approved, authorizing payment to cover repair costs for the damaged vehicle."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-14T09:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment for the approved settlement was processed and issued to the repair shop as agreed with the customer."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-20T16:45:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The auto accident claim was officially closed after confirmation that all payments were received and repairs completed."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-21T08:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All documentation and correspondence related to this car collision claim were archived for record-keeping purposes."
+    }
+  ]
+}

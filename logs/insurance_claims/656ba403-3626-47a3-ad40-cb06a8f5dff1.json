@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The customer reported a car accident that occurred on the morning of May 1st involving a collision at a traffic light."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim has been categorised under Auto Accident as the report clearly mentions vehicle collision and damages."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An insurance agent was assigned to handle the vehicle accident claim and begin client communication."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T11:30:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The customer was promptly contacted and acknowledged that their claim has been received and is being processed."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-01T12:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "The agent requested photos of the damaged vehicle and a police report to assist the investigation of the accident."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-02T09:00:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The customer uploaded all required documents including damage images and the official police accident report."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-02T10:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The claims investigation team began reviewing submitted evidence and contacting witnesses to validate the accident details."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-05T16:00:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "The investigation confirmed the accident facts and liability, allowing the claim to move to the settlement phase."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-06T09:30:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "An initial settlement amount was proposed to cover the repair costs and any medical expenses resulting from the accident."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-06T12:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The customer responded positively to the proposed settlement and requested the next steps to finalize the claim."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-06T15:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "After validating all details, the claim was formally approved for payment according to the proposed settlement."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-07T10:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "The settlement payment was successfully issued to the customer’s account for repairs and associated expenses."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-07T12:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim has been formally closed after successful payment, with no outstanding issues reported by the customer."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-08T08:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All claim documents and communication were archived for record-keeping and future reference if needed."
+    }
+  ]
+}

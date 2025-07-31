@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:30:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The customer reported a vehicle collision that occurred on the highway at 8 AM, resulting in significant car damage."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim has been categorised under Auto Accident according to the reported keywords and incident description."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T10:15:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An experienced claims agent has been assigned to assist the customer throughout the claims process promptly."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T10:30:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "Acknowledgement of the claim has been sent to the customer confirming receipt and outlining the next steps."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "The customer was requested to submit a police report, photos of the damaged vehicle, and repair estimates."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-02T14:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "All requested documents including police report and vehicle damage photos have been submitted by the customer."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-03T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation into the vehicle collision details has commenced using the submitted documentation and statements."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-05T17:30:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "The investigation has concluded confirming the liability and extent of damage in the reported car accident."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-06T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A fair settlement amount was proposed to the customer based on current repair estimates and policy coverage."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-07T12:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer provided positive feedback expressing satisfaction with the timely communication and proposed settlement."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-08T09:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The insurance claim has been formally approved for payment following agreement on the settlement terms."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-08T12:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment has been issued to the customer’s account to cover the approved settlement amount for car repairs."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-08T16:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim file has been closed following successful payment and confirmation from the customer."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-09T10:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All claim documents and correspondence have been archived securely for future reference and compliance audits."
+    }
+  ]
+}

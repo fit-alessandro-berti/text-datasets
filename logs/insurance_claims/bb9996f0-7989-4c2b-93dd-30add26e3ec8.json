@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "Customer reported a collision involving their vehicle on 2024-04-30 which resulted in front-end damage."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "Claim reviewed and categorised under Auto Accident cluster due to keywords indicating a car collision."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Assigned claims agent Michael Rogers to oversee the investigation and processing of the automobile accident claim."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T13:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "Sent formal acknowledgement to customer confirming receipt and initiation of processing for their vehicle accident claim."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T09:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Requested police report, vehicle repair estimate, and photos of the vehicle damage to proceed with the claim investigation."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-04T15:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Customer submitted all requested documentation including official police report and mechanic’s damage assessment."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-05T08:30:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Claims agent began detailed investigation of the accident circumstances based on submitted documents and statements."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T16:00:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "Completed review of evidence confirming the customer was not at fault for the car collision; damage verified."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "Proposed a settlement amount covering all repair costs and loss of use, sent details to the customer for approval."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-12T14:25:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer responded positively to the proposed settlement, expressing satisfaction with the handling and offer."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-13T09:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Approved claim based on completed investigation and customer agreement to settlement terms for the accident claim."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-14T12:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Processed and issued payment to customer to cover the full settlement amount for vehicle repairs and damages."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-15T16:30:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "Closed the claim file after confirmation that payment was received and repairs were successfully completed."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-20T09:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "Archived all documentation and case files related to the automobile accident claim for future reference."
+    }
+  ]
+}

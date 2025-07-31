@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "Customer filed a claim reporting a car collision that occurred on a busy highway with minor vehicle damages but no injuries."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "Claim was categorised under the Auto Accident cluster after review of the submitted accident description and keywords."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:30:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An agent specializing in auto claims was assigned promptly to handle the case ensuring customer support."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T12:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The claim was officially acknowledged, and the customer received confirmation and next steps for documentation."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T09:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Customer was requested to submit photos of the damaged vehicle, police report, and insurance card for claim processing."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-04T14:15:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "All requested documents including police report and vehicle photos were submitted by the customer within the deadline."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-05T08:30:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation commenced to assess the facts surrounding the collision and verify the authenticity of the claim."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T16:45:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "Investigation completed with confirmation of accident details and validation of all submitted paperwork."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement offer was proposed to the customer reflecting coverage limits and repair cost estimates."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-12T09:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer responded positively to the proposed settlement and expressed satisfaction with the handling of the claim."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-13T11:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Claim was officially approved following customer acceptance of the settlement terms and verification of all documents."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-14T15:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment for vehicle repair was issued promptly to the customer's designated repair shop account."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-15T10:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim was formally closed with all procedures completed and confirmation sent to the customer."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-20T09:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "The entire claim file was archived in compliance with company policies for future reference and audit purposes."
+    }
+  ]
+}

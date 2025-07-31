@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-04-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The customer reported an accident involving their vehicle on the highway, requesting insurance claim initiation immediately."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-04-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was reviewed and classified under the 'Auto Accident' category due to reported car collision details."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-04-01T11:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An insurance agent was assigned to the case to coordinate all follow-up actions and communications with the claimant."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-04-01T12:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The insurance company formally acknowledged receipt of the auto accident claim and assured prompt processing."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-04-02T08:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "The claimant was asked to provide police reports, vehicle damage photos, and medical bills related to the collision."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-04-03T14:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "All requested documents including accident photos, police report, and repair estimates were submitted by the customer."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-04-04T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The investigation team began reviewing the claim details, documents, and evidence related to the vehicle collision."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-04-08T17:00:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "Investigators concluded their review, confirming the cause of the accident and verifying claimant’s submitted proof."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-04-09T10:30:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement offer covering vehicle repair costs and medical expenses was made to the claimant following investigation."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-04-10T15:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The claimant expressed satisfaction with the settlement proposal and provided positive remarks on the claims process."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-04-11T09:45:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The insurance provider formally approved the claim in accordance with the agreed settlement terms and conditions."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-04-12T16:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment was issued to the claimant’s nominated bank account covering repair and medical cost reimbursement."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-04-15T12:00:00Z",
+      "contextual_activity": "Claim Closed (Neutral)",
+      "message": "The auto accident claim was officially closed after confirmation of payment receipt and claimant’s final approval."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-04-20T09:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All records and correspondence related to the vehicle accident claim were archived for future reference."
+    }
+  ]
+}

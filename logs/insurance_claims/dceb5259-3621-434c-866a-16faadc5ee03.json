@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-04-10T08:15:00Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "Customer reported a collision involving their car on the highway resulting in vehicle damage and minor injuries."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-04-10T09:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was reviewed and correctly categorized under the auto accident cluster based on the vehicle collision details."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-04-10T10:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A dedicated claims agent was assigned to handle the case and communicate with the customer regarding next steps."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-04-10T11:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The customer was contacted to acknowledge receipt of the claim and assured that assistance would be provided promptly."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-04-10T11:45:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Requested vehicle registration, photos of the damage, police report, and medical reports for processing the claim."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-04-12T15:20:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Customer submitted all the required documents including accident photos, police report, and medical bills without delay."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-04-13T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "An investigation team began reviewing the submitted documents and assessing the circumstances of the vehicle collision."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-04-20T14:30:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "Investigation concluded that the collision was accidental and all submitted documents verified the claim’s legitimacy."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-04-21T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement offer was made to cover vehicle repair costs, medical expenses, and related damages as per policy limits."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-04-22T13:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer acknowledged the offer and expressed satisfaction with the prompt handling of the claim and proposed settlement."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-04-23T08:15:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was officially approved by the claims manager after successful negotiation and verification of all facts."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-04-24T16:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment for the claim settlement was processed and successfully transferred to the claimant’s bank account."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-04-25T10:30:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim file was closed following successful payment issuance and confirmation from the customer on settlement."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-04-30T09:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "The documentation related to the closed claim was archived in the system for future reference and auditing purposes."
+    }
+  ]
+}

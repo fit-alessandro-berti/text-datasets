@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-02-10T09:15:00Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "The customer reported a car accident involving a collision with another vehicle at an intersection."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-02-10T10:05:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "After initial review, the claim was categorised under Auto Accident due to the nature of the incident described."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-02-10T11:00:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An insurance agent was assigned to the case to oversee the progression and communication with the claimant."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-02-10T14:30:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The insurance provider sent an acknowledgment to the customer confirming receipt of the auto accident claim."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-02-11T09:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Documents including police report, pictures of the damaged vehicle, and driver’s license were requested from the claimant."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-02-13T16:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The claimant provided the requested documents to assist with claim investigation and verify the details of the collision."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-02-14T08:30:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The investigation team began reviewing the submitted evidence and contacted witnesses to establish fault and damages."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-02-20T17:00:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "The investigation concluded that the claimant was not at fault and determined the extent of damages to the vehicle."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-02-21T09:45:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement offer was sent to the claimant based on the repair estimates and policy coverage limits."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-02-22T12:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The claimant expressed satisfaction with the proposed settlement and requested expedited processing of the payment."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-02-23T10:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was formally approved by the claims department following acceptance of the settlement terms by the claimant."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-02-24T15:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment for the approved settlement amount was issued to the claimant’s designated account to cover vehicle repairs."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-02-25T09:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim was officially closed after confirmation that the claimant received payment and completed repairs."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-02-26T11:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "The case file was archived for record keeping and future reference in accordance with company policy."
+    }
+  ]
+}

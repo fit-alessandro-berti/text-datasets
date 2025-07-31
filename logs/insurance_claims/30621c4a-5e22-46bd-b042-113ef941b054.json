@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T08:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "Customer reported a car collision that occurred on highway 50, requesting to file an insurance claim for vehicle damages."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:30:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "Claim officially categorized under Auto Accident due to keywords in the report such as car and collision."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An insurance agent specialized in auto accident claims was assigned to the case to ensure timely handling."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T12:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "Acknowledgment sent to the customer confirming receipt of the claim and providing next steps for processing."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T09:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Requested copies of the police report, driver's license, and photos of the vehicle damages for further assessment."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-05T16:30:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Customer promptly submitted all required documents including police report and vehicle photos within requested timeframe."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-06T08:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation team began reviewing submitted evidence and contacted involved parties to verify claim details."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T15:00:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "Investigation concluded with a clear report confirming liability and extent of the vehicle damage."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T10:45:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "A settlement offer was formulated and sent to the customer covering the repair costs and deductible."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-12T14:20:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer responded positively, thanked the team for quick resolution and agreed to proposed settlement."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-13T09:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Claim officially approved by underwriting after confirming all conditions were met satisfactorily."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-13T17:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment for the approved settlement was processed and transferred to the customer’s account successfully."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-14T08:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The auto accident claim was formally closed following payment issuance and customer satisfaction confirmation."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-15T12:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "Claim documents and case files archived securely in compliance with company data retention policies."
+    }
+  ]
+}

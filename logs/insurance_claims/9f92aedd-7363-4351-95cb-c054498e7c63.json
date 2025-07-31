@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "Customer reports a vehicle collision that occurred at a busy intersection involving their car and another vehicle."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim has been categorized under Auto Accident based on the description of the car collision provided."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An insurance agent has been assigned to handle this auto accident claim and will contact the customer shortly."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T13:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The claimant has been officially notified that their auto accident claim has been received and is under review."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-01T14:30:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "The customer was asked to submit photos of the damaged vehicle, police report, and any witness statements."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-03T10:20:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The claimant has provided all requested documents, including photos of the damaged car and the official police report."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-03T14:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The investigation into the details of the collision has commenced to verify the claim and assess liability."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T15:30:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "The investigation team completed the inquiry and confirmed the accident circumstances matched the customer's report."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "A settlement has been proposed to cover vehicle repairs and medical bills resulting from the car accident."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-12T08:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The customer expressed satisfaction with the quick response and proposed settlement for their auto accident claim."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-13T11:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim has been formally approved, confirming that coverage will be provided for the damages sustained."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-14T09:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment was issued to the customer to cover the vehicle repairs as detailed in the approved settlement agreement."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-15T17:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The insurance claim for the auto accident has been closed following successful payment and resolution."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-20T12:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All related documents and correspondence have been archived for record-keeping and future reference purposes."
+    }
+  ]
+}

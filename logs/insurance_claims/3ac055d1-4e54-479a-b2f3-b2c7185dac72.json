@@ -1,0 +1,83 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "The customer reported a vehicle collision on April 30th, resulting in significant damage to the front bumper and airbags deploying."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T11:30:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim has been categorized under Auto Accident after reviewing the initial report and confirming the incident involved the insured car."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T13:00:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An insurance agent specialized in auto claims has been assigned to handle the files and guide the customer through the process."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T14:45:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "Acknowledgment sent to the claimant confirming receipt of the auto accident claim and the next steps clearly outlined."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T09:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Request issued for police report, vehicle repair estimates, and photographs of the accident scene and damaged vehicle parts."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-04T16:30:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The claimant provided all requested documents including the official police report and detailed estimates from certified repair shops."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-05T10:15:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation into the circumstances and liability of the accident commenced with review of submitted documentation and witness statements."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T14:00:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "The investigation confirmed the insured party was not at fault, and damage claims correspond to verified accident details."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T09:30:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement offer for repair costs and medical expenses was proposed, aligning with policy coverages and damage assessments."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-12T12:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The claimant responded positively to the proposed settlement and expressed satisfaction with the communication during the claim process."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-13T08:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Formal approval was granted for the claim, confirming coverage and authorizing payment for vehicle repairs and associated costs."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-14T10:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "The payment for the repair invoice and additional expenses was processed and transferred to the claimant’s designated account."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-15T15:45:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim file was officially closed after confirming all payments completed and claimant satisfaction with the resolution."
+    }
+  ]
+}

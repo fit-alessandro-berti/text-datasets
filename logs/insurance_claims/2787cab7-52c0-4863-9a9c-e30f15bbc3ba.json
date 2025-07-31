@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-04-01T08:30:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The customer reported a car accident involving rear-end collision and submitted initial details of the incident."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-04-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "Claim has been categorized under Auto Accident based on provided description mentioning vehicle and collision."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-04-01T11:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An agent specialized in auto claims was assigned to the case to assist with claim processing and customer support."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-04-01T12:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "Customer was informed that their auto accident claim was received and acknowledged; next steps were clearly communicated."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-04-02T09:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Requested customer's vehicle registration, police report, and photos of car damage to support the accident claim."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-04-03T14:20:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Customer submitted all requested documents including police report and pictures of the damaged vehicle."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-04-04T08:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation team initiated review of submitted documents and began contacting witnesses regarding the collision."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-04-10T16:45:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "Completed thorough investigation confirming the customer was not at fault and all accident details were verified."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-04-11T10:30:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement amount was proposed to the customer covering the repair costs and rental car expenses."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-04-12T09:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer expressed satisfaction with the proposed settlement and appreciated prompt communication and support."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-04-13T08:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Claim was formally approved following customer's acceptance of the settlement agreement."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-04-13T12:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment for repairs and related expenses was issued to the customer and their preferred service provider."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-04-14T09:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The auto accident claim case was closed with all procedures completed and payment successfully delivered."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-04-15T07:30:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "The file and all related documents have been archived in the system for future reference if needed."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T08:30:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "Customer reported a vehicle accident occurred on April 30th involving a collision with another car at an intersection."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T09:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was categorized as an auto accident based on keywords referencing a car collision and damages."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T10:15:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An insurance agent was assigned to the customer's case to manage all communications and support claim processing."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The customer received formal acknowledgment of the claim submission along with details about the next steps."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T08:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Request sent to customer for supporting documentation including police report, photos of the vehicle damage, and driver license."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-04T14:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Customer uploaded all requested documents such as the police report, accident photos, and personal identification successfully."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-05T09:30:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The insurance investigation team began reviewing the submitted evidence and contacted witnesses to confirm accident details."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T16:00:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "Investigation concluded with verification of liability confirming the other party was at fault in the collision."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "A settlement amount was proposed to the customer reflecting repair costs and loss of use for the damaged vehicle."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-12T15:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer responded expressing satisfaction with the quick response and transparency throughout the claim process."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-13T09:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Internal approval was granted to proceed with the settlement following positive customer feedback and thorough investigation."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-14T11:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment was successfully issued to the customer’s bank account covering the agreed settlement for vehicle repairs."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-15T08:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim was formally closed after payment issuance and confirmation with customer that all concerns were addressed."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-20T12:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "The case file was archived in the records system in compliance with company data retention policies for auto accident claims."
+    }
+  ]
+}

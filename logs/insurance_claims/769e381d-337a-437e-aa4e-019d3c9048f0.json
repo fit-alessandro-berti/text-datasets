@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "Customer reported a car collision on highway resulting in minor damages to the vehicle's front bumper."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "Claim was assigned to the 'Auto Accident' category based on keywords identified in the initial report."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:30:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An experienced claims agent was allocated to manage the vehicle accident claim to ensure prompt assistance."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T12:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "Acknowledgment sent to the customer confirming receipt of the auto accident claim and outlining next steps."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T08:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Request issued for police report, photos of vehicle damage, and repair estimates to proceed with claim evaluation."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-04T16:30:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Customer submitted all requested documentation including police report, photos, and mechanic’s repair quote."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-05T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation team began reviewing submitted documents and contacted the repair shop for damage assessment."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T14:00:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "Investigation confirmed collision details and verified repair cost estimates are reasonable and justified."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "An initial settlement offer was sent to the customer covering damages and repair expenses as per policy terms."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-13T15:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer responded positively to the settlement offer and expressed satisfaction with the prompt handling."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-14T11:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Claim formally approved after customer agreement to the terms of settlement and confirmation of repair plans."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-15T13:45:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Settlement payment was successfully issued to the customer’s designated account for vehicle repair expenses."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-16T09:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The auto accident claim was officially closed following payment disbursement and customer confirmation."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-20T10:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All claim documents and records were archived in compliance with regulatory requirements for future reference."
+    }
+  ]
+}

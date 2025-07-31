@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T08:15:00Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "The customer reported their car was involved in a collision on April 30th, resulting in significant front-end damage."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T09:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was categorized as an Auto Accident involving collision damage to the vehicle’s front bumper and hood."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T09:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An insurance agent was assigned to manage the case and begin communication with the claimant."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The claimant was formally acknowledged and informed that their case is being processed with priority."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-01T10:15:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Additional documents including police report, repair estimates, and photos of the vehicle damage were requested."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-03T14:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The claimant submitted all requested documents promptly, including detailed repair invoices and police statements."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-04T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "A thorough investigation began to verify the circumstances of the accident and the extent of vehicle damage."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-07T12:30:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "The investigation confirmed the details provided and verified the repairs needed are consistent with the collision."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-07T15:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement amount was proposed to cover the repairs and any towing fees resulting from the accident."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-08T10:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The customer expressed satisfaction with the prompt handling of their claim and the proposed settlement offer."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-08T11:15:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was officially approved after thorough review of all submitted evidence and investigation results."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-09T09:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "The settlement payment was issued to the claimant’s account to cover all approved vehicle repair costs."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-10T08:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim was closed successfully following payment disbursement and confirmation that repairs were completed."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-11T12:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All case files and correspondence were archived for record-keeping and future reference if needed."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-04-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "The customer reported an accident involving their car on Main Street, resulting in visible front-end damage and airbags deployed."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-04-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim has been categorised under Auto Accident as the damage was caused to a vehicle in a collision."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-04-01T11:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An agent from the auto claims department has been assigned to handle the investigation and customer correspondence."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-04-01T12:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The customer was notified that the claim has been acknowledged and that the process will commence shortly."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-04-01T12:45:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Requested all relevant documentation including police report, photographs of the vehicle damage, and driver's license copy."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-04-03T09:00:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The customer submitted the police report, photos of the collision, and proof of insurance as requested."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-04-03T10:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The claims department has started investigating the collision details and verifying submitted documents."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-04-08T15:30:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "Investigation concluded with confirmation that the customer's vehicle was damaged due to a third-party collision."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-04-09T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement amount covering repair costs and rental car reimbursement was proposed to the customer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-04-10T14:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer responded positively to the proposed settlement and expressed appreciation for the prompt processing."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-04-11T09:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was officially approved based on the investigation outcome and agreed settlement terms."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-04-12T12:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "The agreed settlement payment was issued to the customer's bank account for vehicle repairs and related expenses."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-04-15T17:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim case was closed after the payment issuance and completion of all claim processing steps."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-04-20T10:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "The closed claim record was archived in the system for future reference and audit purposes."
+    }
+  ]
+}

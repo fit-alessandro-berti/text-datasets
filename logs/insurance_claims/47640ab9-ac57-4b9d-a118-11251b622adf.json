@@ -1,0 +1,83 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T08:30:00Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "The customer reported a car accident where their vehicle was hit from behind at a stoplight, causing significant rear bumper damage."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T09:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was reviewed and categorised under Auto Accident due to keywords related to vehicle collision and damages incurred."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T10:15:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An experienced claims agent specialized in auto accident claims was assigned to handle the case and assist the customer moving forward."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T10:45:00Z",
+      "contextual_activity": "Claim Acknowledged (Neutral)",
+      "message": "The claim has been officially acknowledged and logged within the system; the customer was notified of claim receipt and next steps."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T11:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "The customer was asked to provide a copy of the police report, photos of the vehicle damage, and their insurance policy for further assessment."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-04T14:20:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "All requested documents, including the detailed police report and multiple pictures of the car from different angles, were submitted by the customer."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-05T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The claims investigation team began reviewing all submitted documents and statements to verify the circumstances of the vehicle collision."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T16:30:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "Investigation concluded confirming the customer was not at fault and the damage report aligns with the collision described in the police report."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "A settlement offer was drafted detailing coverage for the repair costs and any associated rental vehicle expenses during the repair period."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-12T17:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The customer provided feedback expressing satisfaction with the transparent communication and the prompt settlement offer they received."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-13T08:45:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was officially approved by underwriting based on the investigation findings and coverage terms in the policy agreement."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-14T12:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment was issued to the customer’s preferred bank account covering all approved damages and associated costs without delay."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-15T09:30:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim case was closed successfully after confirming payment receipt and customer agreement that all matters were resolved."
+    }
+  ]
+}

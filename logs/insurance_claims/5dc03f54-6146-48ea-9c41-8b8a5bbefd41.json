@@ -1,0 +1,83 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:30Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "I am submitting a claim regarding the car accident that occurred last night involving my vehicle and another driver on Main Street."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim has been categorised under Auto Accident after initial review of the details submitted by the claimant."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An agent was assigned to this auto accident claim to assist the customer through the next steps of the process."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T12:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "We have acknowledged receipt of your claim and will proceed with the necessary investigations to resolve it as soon as possible."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T08:45:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Please provide a copy of the police report, your driver’s license, and photographs of the damage sustained by your vehicle during the collision."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-05T14:20:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The claimant submitted all requested documents including the police report, photos of the damaged vehicle, and a scanned copy of their driver’s license."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-06T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The investigation into the circumstances and liability of the car accident has officially started as the claims team examines the submitted evidence."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T17:30:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "The investigation has concluded with findings indicating the claimant was not at fault in the collision, supporting a favorable outcome."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T10:15:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement proposal has been prepared and sent to the claimant outlining the coverage for vehicle repairs and rental reimbursement."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-12T14:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The claimant responded positively to the settlement offer and expressed satisfaction with the support received from the assigned agent."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-13T09:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Following the customer’s acceptance of the proposed settlement, the claim has now been approved for payment processing."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-14T15:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment for the approved claim has been successfully issued to the claimant covering all agreed damages and expenses."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-15T11:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim has been officially closed after issuance of payment and receipt of confirmation from the claimant that all matters were satisfactorily resolved."
+    }
+  ]
+}

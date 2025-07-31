@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-10T09:15:00Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "Customer reported an auto accident involving a rear-end collision with another vehicle, requesting claim initiation."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-10T11:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was categorized under 'Auto Accident' following the review of submitted accident details and police report."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-10T12:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Assigned claims agent to manage the case and establish communication with the claimant for further processing."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-10T13:15:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "Acknowledged receipt of claim and informed the customer about the next steps and estimated timeline for resolution."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-11T08:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Requested additional documents from the customer including photos of damage, police report, and repair estimates."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-13T15:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Customer submitted all requested documentation including detailed photos and official police report promptly."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-14T09:30:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation team began reviewing submitted documents and contacted involved parties to verify accident details."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-17T16:00:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "Investigation concluded confirming liability on the other party and estimating the damage costs accurately."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-18T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "Proposed a settlement amount covering damages and rental car expenses, communicated to the claimant for approval."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-19T14:20:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Received positive feedback from the customer appreciating the timely communication and proposed settlement offer."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-20T09:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Claim officially approved following the customer's acceptance of the settlement proposal without any objections."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-21T11:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Processed payment to the customer for the approved settlement covering vehicle repairs and associated costs."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-22T15:45:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "Closed the claim after confirming receipt of payment and satisfaction from the customer on the resolution."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-25T08:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "Archived the completed claim record for future reference and compliance with company data retention policies."
+    }
+  ]
+}

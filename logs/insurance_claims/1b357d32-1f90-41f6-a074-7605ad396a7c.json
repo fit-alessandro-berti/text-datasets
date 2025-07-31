@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "Policyholder reported a car collision that occurred on April 30, 2024, involving significant front-end damage."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "Claim has been classified under the Auto Accident cluster due to keywords regarding vehicle damage and collision."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:30:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An agent with specialization in auto claims was assigned to handle the policyholder’s accident case promptly."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T12:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "Acknowledgement sent to the policyholder confirming receipt of claim and next steps in the assessment process."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T09:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Request for vehicle repair estimates, police report, and photos of the damaged car sent to the claimant."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-03T16:00:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Claimant submitted all requested documents including repair invoices, official police collision report, and car photos."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-04T08:30:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation began to verify circumstances of the accident and to assess liability and damage extent."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-08T15:45:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "Investigation successfully completed confirming the accident details provided were accurate and valid."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-09T10:30:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A fair settlement amount covering repair costs and damages was proposed to the policyholder by the insurer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-10T13:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Positive feedback received from customer expressing satisfaction with the speed and clarity of the claims process."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-10T16:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Claim was officially approved for the settlement amount, authorizing release of payment to the claimant."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-12T10:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Insurance payment was processed and issued directly to the claimant’s repair shop for vehicle restoration."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-15T09:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim process has been officially closed following successful payment and completion of vehicle repairs."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-20T12:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All claim documents and communications have been archived for record-keeping and future reference."
+    }
+  ]
+}

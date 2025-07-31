@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-04-01T08:30:00Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "I am reporting a car accident that occurred last night involving my vehicle and another car. My vehicle sustained heavy rear-end damage."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-04-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim has been reviewed and categorized under the Auto Accident cluster due to the involvement of a vehicle collision."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-04-01T11:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An insurance agent has been assigned to your case to help guide you through the claim process and communications."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-04-01T12:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "We have acknowledged your auto accident claim and will begin processing all related documentation and investigations."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-04-02T09:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Please submit your police report, photos of the damage to your vehicle, and any repair estimates for our review."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-04-03T14:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "All requested documents, including photos and the police report, have been submitted successfully for further investigation."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-04-04T08:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The investigation into the circumstances of the auto accident has officially commenced with a focus on fault and liability."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-04-10T15:30:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "The investigation has concluded, confirming the other party's fault in the rear-end collision incident involving your vehicle."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-04-11T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "A settlement offer has been proposed based on the damage assessment and repair estimates reviewed by our claims department."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-04-12T08:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Negative)",
+      "message": "Customer expressed concerns about the proposed settlement amount, stating it is insufficient to cover all repair costs."
+    },
+    {
+      "activity": "Claim Escalated",
+      "timestamp": "2024-04-13T09:00:00Z",
+      "contextual_activity": "Claim Escalated (Neutral)",
+      "message": "Due to customer concerns over the settlement, the claim has been escalated to a senior claims adjuster for review."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-04-15T11:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "After review, the claim has been approved with an updated settlement amount more aligned with repair costs."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-04-16T14:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment for the approved settlement amount has been issued to your bank account to cover repairs."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-04-20T16:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim has been officially closed following payment and confirmation that repair work has commenced."
+    }
+  ]
+}

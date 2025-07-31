@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-04-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "Customer submitted a claim reporting a collision involving their vehicle and another car on the highway."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-04-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "Claim categorised under Auto Accident due to the keywords detected including vehicle and collision."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-04-01T12:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An agent specializing in auto accident claims has been assigned to manage this case and guide the customer."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-04-01T13:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "Customer received formal acknowledgement of the claim with details on expected processing times and next steps."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-04-02T08:45:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Request sent to customer for photos of the damaged vehicle and the official police accident report for review."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-04-04T15:20:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Customer provided photographs of the car damage and uploaded the police report through the online portal."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-04-05T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation team has begun analyzing submitted documents and contacted witnesses to verify the accident details."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-04-10T17:30:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "Investigation completed confirming fault with the other driver; damage assessment report finalized without discrepancies."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-04-11T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement offer has been proposed covering full vehicle repair costs and rental car expenses during repair period."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-04-12T14:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer expressed satisfaction with the timely updates and the fairness of the proposed settlement terms."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-04-13T09:45:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Claim officially approved by the claims manager following positive feedback and verification of the settlement offer."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-04-14T12:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Settlement payment was issued promptly to the customer’s bank account covering all approved damages and expenses."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-04-15T08:30:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim was successfully closed after confirmation that all payments were received and the vehicle was repaired."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-04-20T10:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All documentation and correspondence related to this auto accident claim have been archived in the system."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T08:30:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "Customer reported a car accident involving a rear-end collision during rush hour on April 30th."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T09:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The incident was categorized under Auto Accident due to keywords like vehicle, collision, and accident found in the claim."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T10:15:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An experienced claims agent was assigned to handle the case, ensuring thorough investigation and customer support."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T10:30:00Z",
+      "contextual_activity": "Claim Acknowledged (Neutral)",
+      "message": "Acknowledgement sent to the customer confirming receipt of the claim and informing next steps in the process."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Requested police report, photos of the damaged vehicle, and repair estimates from the customer for evaluation."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-02T14:00:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Customer submitted the police report, accident photos, and a detailed repair estimate as requested without delays."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-03T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The claims team has begun investigating the circumstances of the collision to verify the claim details."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-07T16:30:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "Investigation completed confirming fault and validating the submitted documents and damage assessment."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-08T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement amount covering the full repair costs and rental car reimbursement has been proposed to the claimant."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-09T12:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer expressed satisfaction with the prompt handling and proposed settlement offer for the vehicle damage claim."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-10T09:15:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Claim approval was granted after all conditions were met and settlement terms accepted by the claimant."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-11T14:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "The payment for vehicle repairs and rental reimbursement was processed and issued to the claimant."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-15T17:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The insurance claim was officially closed after final payment was confirmed and customer acknowledged completion."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-16T10:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All case files and documents were archived for record-keeping and future reference following claim closure."
+    }
+  ]
+}

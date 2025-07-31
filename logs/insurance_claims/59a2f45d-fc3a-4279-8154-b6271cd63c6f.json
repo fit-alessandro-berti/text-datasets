@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T08:30:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The insured submitted a claim following a collision involving their car and another vehicle at an intersection."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T09:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was reviewed and categorized as an Auto Accident based on the accident description and keywords provided."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T10:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An insurance agent was assigned to the case to guide the customer through the claims process and gather additional information."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The customer was officially notified that their claim had been received and acknowledged by the insurance company."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-01T13:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "The agent requested the submission of the police report, photos of the damaged vehicle, and the insurance card for claim validation."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-02T14:00:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The customer promptly submitted all requested documents including the police report and photographs of their vehicle damages."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-03T09:30:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "An investigation was initiated by the claims department to verify accident details and assess vehicle damage severity."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-06T17:45:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "The accident investigation concluded successfully, confirming the insured’s account without uncovering any discrepancies."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-07T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement amount was proposed to cover repair costs of the insured vehicle based on the damage evaluation report."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-08T15:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The customer provided positive feedback on the process, expressing satisfaction with timely communication and support."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-09T08:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The entire claim was reviewed and approved by the claims manager to proceed with payment for vehicle repairs."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-10T12:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "The settlement payment was successfully issued to the insured, ensuring coverage of the auto repair expenses."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-11T09:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "Following payment issuance and confirmation of repair completion, the claim was officially closed by the insurer."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-20T10:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "The case files and all associated documents were archived for long-term record keeping and future reference."
+    }
+  ]
+}

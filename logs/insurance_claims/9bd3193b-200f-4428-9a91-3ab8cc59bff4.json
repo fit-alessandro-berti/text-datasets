@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "Customer reported a car collision that occurred on April 30th involving their vehicle and another driver at an intersection."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was categorized under Auto Accident due to keywords mentioning vehicle collision and car accident."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A claims agent was assigned to handle the investigation and follow up with the customer for further details."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T12:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "Acknowledged receipt of the claim and informed the customer about the process and expected timeline."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T08:20:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Requested police report, photos of the damaged vehicle, and driver’s license to proceed with claim assessment."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-03T14:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Customer submitted all requested documents including the official police report and photographs of the accident area."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-04T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Initiated the investigation by reviewing submitted documents and verifying details with relevant authorities."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T17:30:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "Completed the investigation confirming the third party’s fault and the extent of damage reported by the claimant."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T10:15:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "Proposed a settlement amount covering the repair costs and rental car expenses during the repair period."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-11T15:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer expressed satisfaction with the proposed settlement and appreciated the prompt handling of their claim."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-12T08:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Approved the claim as per the investigation outcome and settlement agreement with the customer."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-13T13:45:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Processed and issued payment to the claimant’s bank account to cover the vehicle repair and related expenses."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-14T09:30:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "Closed the claim file after confirming receipt of payment and none further issues from the customer."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-20T10:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "Archived the claim records for future reference and compliance with company record retention policies."
+    }
+  ]
+}

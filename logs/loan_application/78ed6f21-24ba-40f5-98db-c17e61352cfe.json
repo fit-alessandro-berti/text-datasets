@@ -1,0 +1,89 @@
+{
+  "cluster": "Personal Loan",
+  "events": [
+    {
+      "activity": "Application Submitted",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Application Submitted (Positive)",
+      "message": "The applicant has submitted a personal loan request to cover medical expenses pending for the last two months."
+    },
+    {
+      "activity": "Application Categorised",
+      "timestamp": "2024-05-01T10:30:00Z",
+      "contextual_activity": "Application Categorised (Neutral)",
+      "message": "Loan application has been categorised under personal loans for medical reasons as specified in the request."
+    },
+    {
+      "activity": "Loan Officer Assigned",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Loan Officer Assigned (Positive)",
+      "message": "Loan officer Jane Smith has been assigned to handle the applicant’s personal loan for medical bills."
+    },
+    {
+      "activity": "Initial Review",
+      "timestamp": "2024-05-02T08:45:00Z",
+      "contextual_activity": "Initial Review (Neutral)",
+      "message": "Initial review completed, verifying eligibility and necessity of loan for covering urgent medical treatment costs."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T09:15:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Applicant requested to submit medical bills, ID proofs, and recent bank statements to proceed with loan processing."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-05T15:30:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Applicant submitted all requested documents, including detailed medical invoices and proof of income."
+    },
+    {
+      "activity": "Credit Check Completed",
+      "timestamp": "2024-05-06T10:00:00Z",
+      "contextual_activity": "Credit Check Completed (Neutral)",
+      "message": "Credit history reviewed with no prior defaults; applicant maintains a good credit score suitable for loan approval."
+    },
+    {
+      "activity": "Risk Assessment Completed",
+      "timestamp": "2024-05-07T14:20:00Z",
+      "contextual_activity": "Risk Assessment Completed (Neutral)",
+      "message": "Risk assessment completed with moderate risk identified due to recent medical emergency but low default probability."
+    },
+    {
+      "activity": "Offer Presented",
+      "timestamp": "2024-05-08T09:00:00Z",
+      "contextual_activity": "Offer Presented (Positive)",
+      "message": "Personal loan offer of $15,000 presented to the applicant with favorable interest rate and flexible repayment terms."
+    },
+    {
+      "activity": "Applicant Feedback Received",
+      "timestamp": "2024-05-08T14:45:00Z",
+      "contextual_activity": "Applicant Feedback Received (Positive)",
+      "message": "Applicant responded positively to the loan offer and agreed to the terms, requesting next steps for funding."
+    },
+    {
+      "activity": "Loan Approved",
+      "timestamp": "2024-05-09T11:30:00Z",
+      "contextual_activity": "Loan Approved (Positive)",
+      "message": "The personal loan application has been formally approved following verification of documents and satisfactory risk rating."
+    },
+    {
+      "activity": "Loan Funded",
+      "timestamp": "2024-05-10T13:00:00Z",
+      "contextual_activity": "Loan Funded (Positive)",
+      "message": "Loan amount of $15,000 has been successfully transferred to the applicant’s bank account for medical expenses."
+    },
+    {
+      "activity": "Post-Approval Follow-up",
+      "timestamp": "2024-05-15T10:00:00Z",
+      "contextual_activity": "Post-Approval Follow-up (Neutral)",
+      "message": "Follow-up conducted with the applicant to confirm receipt of funds and answer any questions about repayment schedule."
+    },
+    {
+      "activity": "Application Closed",
+      "timestamp": "2024-05-20T16:00:00Z",
+      "contextual_activity": "Application Closed (Positive)",
+      "message": "The loan application process has been closed successfully after confirming the applicant is satisfied with the loan terms."
+    }
+  ]
+}

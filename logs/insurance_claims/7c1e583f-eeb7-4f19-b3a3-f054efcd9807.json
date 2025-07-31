@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-04-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "Customer reported a vehicle collision that occurred on March 30, resulting in significant front-end damage to their car."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-04-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "Claim was reviewed and categorised under 'Auto Accident' due to references of car collision and damage."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-04-01T11:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A claims agent was assigned to handle the investigation and processing of the customer’s vehicle accident claim."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-04-01T13:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "Customer was contacted to acknowledge receipt of the auto accident claim and informed about the next steps."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-04-02T08:45:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Customer was asked to provide police report, vehicle damage photos, and repair estimates to proceed with claim processing."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-04-03T16:20:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Customer uploaded requested evidence including accident report, detailed damage photos, and mechanic's repair quote."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-04-04T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Assigned agent began reviewing submitted documents and coordinating with third-party assessors for vehicle inspection."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-04-08T14:30:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "Investigation concluded confirming the accident circumstances and validating the extent of vehicle damage claimed."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-04-09T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "A settlement offer was prepared including total estimated repair costs and compensation for temporary transport."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-04-10T09:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer responded with acceptance of the settlement offer and appreciation for clear communication throughout the process."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-04-11T08:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was formally approved authorizing the disbursement of funds to cover vehicle repairs and associated costs."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-04-12T12:15:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment was processed and sent directly to the customer’s designated bank account for the insured vehicle repairs."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-04-15T16:45:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim file was closed after confirmation that repairs were completed satisfactorily and no further action needed."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-04-20T10:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All documentation and correspondence were archived in the system per compliance regulations for future reference."
+    }
+  ]
+}

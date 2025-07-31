@@ -1,0 +1,83 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-03-01T08:15:30Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The insured reported a car collision that occurred on the highway at approximately 7:45 PM involving their sedan and another vehicle."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-03-01T09:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was categorized under 'Auto Accident' based on the keywords reported in the initial filing regarding vehicle collision."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-03-01T10:30:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An agent specialized in vehicle accident claims has been assigned to handle the claim promptly and guide the customer through the process."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-03-01T11:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "Acknowledgment sent to the customer confirming receipt of their auto accident claim and outlining the next steps for processing."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-03-01T12:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Requested police report, vehicle damage photos, and driver's license copies necessary to validate the details of the car accident claim."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-03-03T09:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Customer uploaded required documents including police report and images of the damaged vehicle for review by the claims department."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-03-04T10:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Initiated investigation to assess the cause of the vehicle collision and verify all submitted evidence regarding the auto accident."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-03-10T15:30:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "The investigative team completed their assessment confirming details of the accident and verifying the validity of the claim."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-03-12T08:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement offer was proposed to the customer outlining compensation for vehicle repairs and associated damages from the collision."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-03-14T10:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer responded positively to the settlement proposal, expressing satisfaction with the offer and the claims process thus far."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-03-15T09:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The auto accident claim has been officially approved after final review of all documentation and acceptance of the proposed settlement."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-03-16T11:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment for the approved claim was processed and issued to the customer’s bank account to cover the vehicle repair costs."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-03-20T09:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim file was closed following payment issuance and confirmation from the customer that all damages were satisfactorily resolved."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T08:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "Customer reported a car accident that occurred on April 28th involving a rear-end collision at a traffic stop."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T09:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was categorized under Auto Accident based on the details about the vehicle collision provided by the claimant."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T09:30:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "Claim assigned to agent Sarah Thompson, who specializes in handling auto accident claims to ensure quick processing."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Neutral)",
+      "message": "An acknowledgment email was sent to the customer confirming receipt and logging of the accident claim on the system."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T11:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Requested police report, photos of vehicle damage, and repair estimates to properly evaluate the accident claim."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-05T15:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Customer submitted all required documents promptly, including the accident report, car photos, and repair shop estimates."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-06T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Initiated investigation into the accident details and vehicle damage to determine liability and coverage eligibility."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T17:30:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "Investigation concluded with confirmation that the customer was not at fault and damages are covered under policy terms."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "Proposed settlement amount includes full repair costs and a rental car reimbursement for the claim period."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-12T14:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer expressed appreciation for the quick processing and thorough communication throughout the claim procedure."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-13T09:15:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Claim officially approved based on investigation results and the customer’s coverage terms under their auto policy."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-13T16:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Issued payment for approved settlement amount directly to the repair shop and rental car provider as agreed."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-14T12:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "Claim was closed after payment issuance with confirmation that the customer’s vehicle has been repaired satisfactorily."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-20T08:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All claim documents and correspondence archived in company systems for future reference and record-keeping."
+    }
+  ]
+}

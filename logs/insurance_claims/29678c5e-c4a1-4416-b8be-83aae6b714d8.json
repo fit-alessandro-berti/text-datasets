@@ -1,0 +1,83 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-10T09:15:00Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "The insured reported a car collision that occurred early this morning involving their vehicle and a tree. Immediate claim filing was required due to significant damage."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-10T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "Claim has been categorised under Auto Accident based on initial description mentioning vehicle collision and damage to the car."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-10T11:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An agent specializing in auto insurance cases has been assigned to the claim to ensure proper handling and customer support."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-10T12:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "Customer has been sent an acknowledgment of their claim submission with assurance on further support and updates throughout the process."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-11T08:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Request for police report, photos of the damaged vehicle, and repair estimates has been sent to the claimant to proceed with investigation."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-12T14:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The claimant successfully submitted all requested documents including the police report, vehicle photos, and mechanic’s damage evaluation."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-13T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation team has started reviewing submitted evidence and inspecting the vehicle damage to assess the claim validity."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-15T16:30:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "Investigation concluded confirming the collision caused significant damage covered under the policy with no signs of negligence."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-16T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement amount covering vehicle repairs and rental car reimbursement has been proposed to the claimant for acceptance."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-17T13:20:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The claimant responded positively to the proposed settlement and expressed satisfaction with the communication and support."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-18T09:45:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Formal approval of the claim was granted based on investigation findings and agreement on settlement terms."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-18T15:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment for the approved settlement amount has been issued and scheduled for transfer to the claimant’s bank account."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-20T10:30:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim file has been officially closed following successful payment disbursement and claimant’s confirmation of settlement receipt."
+    }
+  ]
+}

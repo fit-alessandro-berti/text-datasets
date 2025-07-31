@@ -1,0 +1,95 @@
+{
+  "cluster": "Auto Loan",
+  "events": [
+    {
+      "activity": "Application Submitted",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Application Submitted (Positive)",
+      "message": "The applicant has submitted the auto loan application to purchase a new vehicle. All basic personal details and requested information were provided promptly."
+    },
+    {
+      "activity": "Application Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Application Categorised (Neutral)",
+      "message": "The submitted application was categorized under Auto Loan after keywords referencing 'car' and 'vehicle' were identified in the request."
+    },
+    {
+      "activity": "Loan Officer Assigned",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Loan Officer Assigned (Positive)",
+      "message": "Loan officer Jane Smith has been assigned to manage this case and will oversee the subsequent review and approval process."
+    },
+    {
+      "activity": "Initial Review",
+      "timestamp": "2024-05-02T14:30:00Z",
+      "contextual_activity": "Initial Review (Neutral)",
+      "message": "An initial review of the auto loan application was conducted focusing on the applicant's credit history and vehicle details."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T15:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Additional documents such as proof of income, vehicle purchase agreement, and identification were requested to process the application."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-05T09:00:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The applicant submitted all requested documents on time, including recent pay stubs, driver's license copies, and the vehicle sales contract."
+    },
+    {
+      "activity": "Credit Check Completed",
+      "timestamp": "2024-05-06T12:00:00Z",
+      "contextual_activity": "Credit Check Completed (Positive)",
+      "message": "Credit check results came back favorable with a good credit score and no delinquent payments, supporting the applicant's loan eligibility."
+    },
+    {
+      "activity": "Risk Assessment Completed",
+      "timestamp": "2024-05-06T15:00:00Z",
+      "contextual_activity": "Risk Assessment Completed (Neutral)",
+      "message": "Risk evaluation was performed considering the applicant's financial status and the vehicle's depreciation value, showing manageable risk."
+    },
+    {
+      "activity": "Offer Presented",
+      "timestamp": "2024-05-07T10:30:00Z",
+      "contextual_activity": "Offer Presented (Positive)",
+      "message": "A loan offer was presented to the applicant including terms, interest rate, and repayment schedule tailored to their financial profile."
+    },
+    {
+      "activity": "Applicant Feedback Received",
+      "timestamp": "2024-05-08T08:45:00Z",
+      "contextual_activity": "Applicant Feedback Received (Positive)",
+      "message": "The applicant responded positively to the loan terms and requested minor clarifications on payment deadlines and early repayment penalties."
+    },
+    {
+      "activity": "Application Escalated",
+      "timestamp": "2024-05-08T12:00:00Z",
+      "contextual_activity": "Application Escalated (Neutral)",
+      "message": "The application was escalated to senior management for final approval given the loan amount was slightly above usual limits."
+    },
+    {
+      "activity": "Loan Approved",
+      "timestamp": "2024-05-09T14:00:00Z",
+      "contextual_activity": "Loan Approved (Positive)",
+      "message": "After review by senior management, the loan was officially approved confirming all criteria were satisfactorily met."
+    },
+    {
+      "activity": "Loan Funded",
+      "timestamp": "2024-05-10T10:00:00Z",
+      "contextual_activity": "Loan Funded (Positive)",
+      "message": "Funds were successfully disbursed to the applicant’s account to complete the vehicle purchase, marking completion of approval."
+    },
+    {
+      "activity": "Post-Approval Follow-up",
+      "timestamp": "2024-05-15T09:00:00Z",
+      "contextual_activity": "Post-Approval Follow-up (Neutral)",
+      "message": "A follow-up call was made to check on the applicant’s satisfaction and provide information on loan servicing options."
+    },
+    {
+      "activity": "Application Closed",
+      "timestamp": "2024-05-20T16:00:00Z",
+      "contextual_activity": "Application Closed (Positive)",
+      "message": "The auto loan application case was officially closed after confirming all processes were completed and no further action was pending."
+    }
+  ]
+}

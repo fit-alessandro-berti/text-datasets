@@ -1,0 +1,83 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "I have filed a claim for a recent car accident that occurred yesterday. My vehicle was hit by another driver at an intersection, causing significant damage."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T11:30:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim has been categorised under Auto Accident after review of the initial report and description of the collision."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T12:00:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An insurance agent was assigned to my case to assist with processing and to provide updates throughout the claim lifecycle."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T14:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "Received an acknowledgment from the insurance company confirming that they have officially accepted the claim for processing."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T08:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "The insurance agency requested additional documents including photos of the damaged vehicle and the police accident report to proceed with investigation."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-02T18:30:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Submitted all requested documents promptly, including detailed photographs of the accident damage and the official police report for further review."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-03T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation has started to assess the circumstances of the car accident and to verify all the details provided in the claim submission."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-07T16:00:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "Investigation concluded without any discrepancies found; liability determination and damage assessment were completed successfully."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-08T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "The insurance company proposed a settlement amount covering the repair costs and related expenses based on the damage evaluation."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-08T15:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I have provided positive feedback regarding the prompt and clear communication during the claim settlement process."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-09T09:30:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Received notification that the claim was officially approved and that processing for payment disbursement will begin immediately."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-10T12:45:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment for the approved claim amount has been issued to my bank account as reimbursement for vehicle repairs."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-11T08:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim case is now officially closed after successful payment issuance and resolution of all related matters."
+    }
+  ]
+}

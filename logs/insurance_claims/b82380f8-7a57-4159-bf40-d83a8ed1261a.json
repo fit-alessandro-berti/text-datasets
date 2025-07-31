@@ -1,0 +1,83 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-06-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The customer submitted a claim after a car collision that occurred on 2024-05-30 involving their vehicle and another car at an intersection."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-06-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was categorized under the 'Auto Accident' cluster due to keywords pertaining to vehicle collision and accident reported by the customer."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-01T11:30:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An insurance agent was assigned to the case to guide the customer through the claims process and answer any questions related to the accident."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-06-01T12:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Neutral)",
+      "message": "The insurance company officially acknowledged receipt of the customer's auto accident claim and confirmed that it is now under review."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-06-02T09:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Request was sent to the customer for additional documents including police report, vehicle damage photos, and repair estimates to proceed with claim investigation."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-06-03T14:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The customer submitted all requested documents promptly including the police report, photos of the damaged car, and quotes from certified repair shops."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-06-04T10:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "An internal investigation team commenced their review of the submitted documents and details surrounding the auto accident to assess the claim validity."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-06-10T16:30:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "The investigation concluded successfully, verifying that the claim is legitimate and that damages to the vehicle align with the reported accident."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-06-11T09:00:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "A settlement amount was proposed based on repair estimates and policy coverage, and a detailed explanation was sent to the customer for review."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-12T15:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The customer responded positively to the proposed settlement and expressed satisfaction with the timely communication and support from the agent."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-06-13T11:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was officially approved by the insurance company, confirming coverage of the agreed settlement amount under the policy terms."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-06-14T10:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "The settlement payment was processed and issued to the customer’s registered bank account to cover the vehicle repair costs."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-06-15T08:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "Following successful payment issuance and confirmation from the customer, the claim was officially closed in the system."
+    }
+  ]
+}

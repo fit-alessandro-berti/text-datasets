@@ -1,0 +1,83 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-06-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "The customer reported a serious car accident that occurred on downtown Main Street. Immediate claim submission initiated for the damaged vehicle."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-06-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was reviewed and categorised under the Auto Accident cluster to ensure accurate processing and specialist handling."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-01T11:30:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "A dedicated claims agent has been assigned to handle the case and provide timely assistance to the customer throughout the process."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-06-01T12:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Neutral)",
+      "message": "An acknowledgment of the claim was sent to the customer confirming receipt and outlining the next steps for vehicle damage assessment."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-06-02T08:45:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "The claims team requested photographs of the damaged car and a police report to verify the collision details and support the claim."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-06-03T15:20:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Customer submitted all requested documents, including detailed pictures of the car damage and official accident report from local authorities."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-06-04T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation has commenced to assess the extent of the vehicle damage and determine liability in the reported auto accident."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-06-06T14:30:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "The investigation report has been finalized confirming the damage details and establishing fault assignment based on evidence."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-06-07T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement offer was prepared and communicated to the customer, covering repair costs and additional compensation as applicable."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-08T16:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer provided positive feedback regarding the efficient communication and fairness of the proposed settlement offer."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-06-09T11:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Approval of the claim was granted based on the investigation findings and acceptance of the settlement terms by the customer."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-06-09T15:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "The payment covering the vehicle repairs and related damages was successfully issued to the customer's designated bank account."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-06-10T09:00:00Z",
+      "contextual_activity": "Claim Closed (Neutral)",
+      "message": "The claim was officially closed after confirming all payments were settled and the customer expressed satisfaction with the resolution."
+    }
+  ]
+}

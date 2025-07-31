@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-04-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "The insured filed a claim reporting a rear-end collision involving their vehicle, resulting in significant bumper damage."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-04-01T12:30:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "Claim was categorized under Auto Accident after reviewing the initial report and police documentation submitted."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-04-02T08:00:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An agent was assigned to the case to manage communications and follow up on claim processing steps."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-04-02T10:45:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "Customer received an acknowledgment notification stating their auto accident claim is under review."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-04-03T09:30:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "The insurer requested additional documents, including vehicle repair estimates and the police accident report."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-04-05T15:20:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The claimant submitted all requested documents, including detailed photos of vehicle damage and repair quotes."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-04-06T08:10:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation began to verify liability, damage extent, and review related traffic camera footage as part of claim process."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-04-10T14:00:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "Investigation concluded confirming fault was with the other driver, and damage estimate was verified as accurate."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-04-11T09:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement amount covering vehicle repair costs and rental car reimbursement was proposed to the claimant."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-04-12T11:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer expressed satisfaction with the proposed settlement and appreciated the efficient handling of the claim."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-04-13T08:45:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Claim was officially approved, confirming the payout to be processed shortly in favor of the insured."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-04-14T10:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment for the vehicle repairs and related expenses was issued to the customer’s bank account promptly."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-04-15T16:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The auto accident claim was closed following the successful payment and confirmation of vehicle repairs completed."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-04-16T09:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All documentation and claim files were securely archived for record-keeping and future reference as required."
+    }
+  ]
+}

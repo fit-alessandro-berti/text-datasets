@@ -1,0 +1,89 @@
+{
+  "cluster": "Personal Loan",
+  "events": [
+    {
+      "activity": "Application Submitted",
+      "timestamp": "2024-05-01T08:30:00Z",
+      "contextual_activity": "Application Submitted (Positive)",
+      "message": "The applicant has submitted their personal loan application seeking funds to cover upcoming wedding expenses."
+    },
+    {
+      "activity": "Application Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Application Categorised (Neutral)",
+      "message": "Upon initial categorization, this application falls under the Personal Loan cluster primarily due to references to wedding financing."
+    },
+    {
+      "activity": "Loan Officer Assigned",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Loan Officer Assigned (Positive)",
+      "message": "A dedicated loan officer, specialized in personal loans, has been assigned to handle this application with priority."
+    },
+    {
+      "activity": "Initial Review",
+      "timestamp": "2024-05-02T09:15:00Z",
+      "contextual_activity": "Initial Review (Neutral)",
+      "message": "The officer completed an initial review of submitted details, confirming applicant’s stated income and loan amount."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T11:30:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Additional documentation requested includes proof of income, ID verification, and detailed wedding budget estimates."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-05T14:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Applicant has promptly submitted all requested documents including payslips, identification, and vendor contracts."
+    },
+    {
+      "activity": "Credit Check Completed",
+      "timestamp": "2024-05-06T10:00:00Z",
+      "contextual_activity": "Credit Check Completed (Neutral)",
+      "message": "Credit report received showing a stable credit history with no delinquencies and a moderate credit utilization ratio."
+    },
+    {
+      "activity": "Risk Assessment Completed",
+      "timestamp": "2024-05-07T08:20:00Z",
+      "contextual_activity": "Risk Assessment Completed (Positive)",
+      "message": "Risk assessment indicates low risk due to solid income and no prior defaults; loan amount fits debt-to-income guidelines."
+    },
+    {
+      "activity": "Offer Presented",
+      "timestamp": "2024-05-07T15:00:00Z",
+      "contextual_activity": "Offer Presented (Positive)",
+      "message": "A loan offer with competitive rates and flexible repayment terms has been presented to the applicant for review."
+    },
+    {
+      "activity": "Applicant Feedback Received",
+      "timestamp": "2024-05-08T09:00:00Z",
+      "contextual_activity": "Applicant Feedback Received (Positive)",
+      "message": "Applicant confirmed acceptance of the loan offer and expressed appreciation for the flexible repayment structure."
+    },
+    {
+      "activity": "Loan Approved",
+      "timestamp": "2024-05-08T12:00:00Z",
+      "contextual_activity": "Loan Approved (Positive)",
+      "message": "Loan officially approved by the underwriting team following positive credit and risk evaluations."
+    },
+    {
+      "activity": "Loan Funded",
+      "timestamp": "2024-05-09T14:30:00Z",
+      "contextual_activity": "Loan Funded (Positive)",
+      "message": "Loan amount disbursed to applicant’s bank account to assist with wedding-related expenditures as planned."
+    },
+    {
+      "activity": "Post-Approval Follow-up",
+      "timestamp": "2024-06-01T10:00:00Z",
+      "contextual_activity": "Post-Approval Follow-up (Neutral)",
+      "message": "Follow-up conducted with applicant to ensure loan usage aligns with stated purpose and repayment schedule."
+    },
+    {
+      "activity": "Application Closed",
+      "timestamp": "2024-06-02T09:00:00Z",
+      "contextual_activity": "Application Closed (Positive)",
+      "message": "The application lifecycle has been formally closed after successful loan funding and no further required actions."
+    }
+  ]
+}

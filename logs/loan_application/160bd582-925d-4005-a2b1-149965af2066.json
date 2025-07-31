@@ -1,0 +1,95 @@
+{
+  "cluster": "Mortgage Loan",
+  "events": [
+    {
+      "activity": "Application Submitted",
+      "timestamp": "2024-05-01T09:00:00Z",
+      "contextual_activity": "Application Submitted (Neutral)",
+      "message": "Customer submitted a mortgage loan application to purchase a new house located in downtown area."
+    },
+    {
+      "activity": "Application Categorised",
+      "timestamp": "2024-05-01T10:15:00Z",
+      "contextual_activity": "Application Categorised (Neutral)",
+      "message": "Application was reviewed and categorised under the Mortgage Loan cluster based on property purchase details."
+    },
+    {
+      "activity": "Loan Officer Assigned",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Loan Officer Assigned (Positive)",
+      "message": "Loan officer Jessica Lee assigned to handle mortgage application and guide the customer through the process."
+    },
+    {
+      "activity": "Initial Review",
+      "timestamp": "2024-05-02T14:30:00Z",
+      "contextual_activity": "Initial Review (Neutral)",
+      "message": "Initial review of application documents and financial statements completed to verify eligibility criteria."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T15:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Request sent to applicant for additional proof of income and property appraisal report for further assessment."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-05T09:30:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Applicant successfully submitted requested financial documents and updated property appraisal for review."
+    },
+    {
+      "activity": "Credit Check Completed",
+      "timestamp": "2024-05-06T16:00:00Z",
+      "contextual_activity": "Credit Check Completed (Neutral)",
+      "message": "Credit check was performed on the applicant showing a strong credit score and reliable repayment history."
+    },
+    {
+      "activity": "Risk Assessment Completed",
+      "timestamp": "2024-05-07T11:00:00Z",
+      "contextual_activity": "Risk Assessment Completed (Neutral)",
+      "message": "Risk assessment report prepared with moderate risk; applicant meets the bank’s lending guidelines."
+    },
+    {
+      "activity": "Offer Presented",
+      "timestamp": "2024-05-08T10:00:00Z",
+      "contextual_activity": "Offer Presented (Positive)",
+      "message": "Formal mortgage loan offer presented to applicant including interest rates, tenure, and repayment options."
+    },
+    {
+      "activity": "Applicant Feedback Received",
+      "timestamp": "2024-05-09T14:00:00Z",
+      "contextual_activity": "Applicant Feedback Received (Positive)",
+      "message": "Applicant provided positive feedback and requested minor clarifications about the repayment schedule."
+    },
+    {
+      "activity": "Application Escalated",
+      "timestamp": "2024-05-09T16:00:00Z",
+      "contextual_activity": "Application Escalated (Neutral)",
+      "message": "Application escalated to senior underwriting team for additional review of repayment terms and conditions."
+    },
+    {
+      "activity": "Loan Approved",
+      "timestamp": "2024-05-12T12:45:00Z",
+      "contextual_activity": "Loan Approved (Positive)",
+      "message": "The mortgage loan application was approved by underwriting with agreed terms and no further conditions."
+    },
+    {
+      "activity": "Loan Funded",
+      "timestamp": "2024-05-15T09:00:00Z",
+      "contextual_activity": "Loan Funded (Positive)",
+      "message": "Funds were disbursed to the applicant’s nominated account as per mortgage agreement and closing instructions."
+    },
+    {
+      "activity": "Post-Approval Follow-up",
+      "timestamp": "2024-05-22T10:00:00Z",
+      "contextual_activity": "Post-Approval Follow-up (Neutral)",
+      "message": "Follow-up call made to applicant to confirm satisfaction and clarify any questions about loan servicing."
+    },
+    {
+      "activity": "Application Closed",
+      "timestamp": "2024-05-25T17:00:00Z",
+      "contextual_activity": "Application Closed (Positive)",
+      "message": "Mortgage application file closed successfully after confirming all procedures were completed properly."
+    }
+  ]
+}

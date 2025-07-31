@@ -1,0 +1,83 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:00:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The customer reported that their vehicle was involved in a collision on the highway resulting in moderate damage to the front bumper and hood."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:15:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "After review, the claim was categorized under Auto Accident due to keywords identified in the report such as vehicle and collision."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An experienced claims agent was assigned to handle the case to ensure proper assessment and prompt customer service."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T12:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The claim acknowledgement was sent to the customer confirming receipt and informing them of the next steps and expected timelines."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-01T14:30:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Customer was requested to submit photos of the damaged vehicle, police report, and repair estimates to proceed with the investigation."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-03T09:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The customer promptly submitted all requested documents including detailed photos and an official police report from the day of the accident."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-03T10:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The investigation team initiated the claims review process, analyzing the submitted documents and verifying details with involved parties."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T16:00:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "Investigation concluded with confirmation of the liability and assessment of repair costs based on the submitted evidence and expert opinions."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement offer was proposed to the customer covering the full repair costs less the deductible, aiming for a fair and timely resolution."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-12T08:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The customer expressed satisfaction with the proposed settlement and appreciated the support provided throughout the claim process."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-12T12:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Following customer acceptance, the claim was officially approved, confirming the terms and paving the way for payment issuance."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-13T09:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "The agreed compensation amount was paid to the customer’s bank account to cover all authorized vehicle repairs."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-14T17:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "With payment complete and no further queries, the claim was officially closed, concluding the auto accident insurance process."
+    }
+  ]
+}

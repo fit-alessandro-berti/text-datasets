@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "Customer reported a major collision involving their vehicle at the intersection of 5th and Elm. The car sustained significant front-end damage."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim has been categorized under Auto Accident due to keywords related to vehicle collision and damage."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:30:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An agent specializing in auto accident claims was assigned to assist the customer for a smoother claim process."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T12:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Neutral)",
+      "message": "Customer received confirmation that their auto accident claim has been officially acknowledged and is now under review."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-01T13:15:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Request sent to customer for submitting vehicle repair estimates, police report, and photos from the accident scene."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-02T09:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Customer provided all requested documents, including repair shop invoices and the official police accident report."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-02T10:30:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation commenced to verify details of the collision and evaluate damages to the insured vehicle."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-04T16:00:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "Investigation concluded confirming the accident details and validating the claim for repair costs."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-05T09:00:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "A settlement offer was proposed covering all verified vehicle repair expenses according to the policy."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-05T12:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer expressed satisfaction with the settlement offer and the handling of their auto accident claim."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-06T08:45:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was officially approved enabling disbursement for vehicle repairs to begin promptly."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-06T10:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Insurance payment was successfully issued to the customer's preferred account for the authorized repair amount."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-07T15:00:00Z",
+      "contextual_activity": "Claim Closed (Neutral)",
+      "message": "All claim processes have been completed and the case was formally closed with no outstanding issues."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-08T09:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "The claim documentation was archived securely for future reference in accordance with company policies."
+    }
+  ]
+}

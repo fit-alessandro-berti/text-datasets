@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-04-15T09:20:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The customer reported an accident involving their vehicle colliding with another car at an intersection."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-04-15T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was reviewed and categorised under Auto Accident due to keywords referencing a car collision."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-04-15T11:30:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An insurance agent was assigned promptly to assist the customer with the next steps of the claim process."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-04-15T12:15:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The insurance company sent an acknowledgment email confirming receipt of the auto accident claim."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-04-16T08:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "The customer was asked to provide a police report, photos of the vehicle damage, and a copy of the vehicle registration."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-04-17T14:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "All requested documents including the police report and vehicle photos were submitted by the customer for review."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-04-18T10:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The investigation team began examining the claim details and verifying the circumstances of the accident."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-04-21T16:30:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "The investigation concluded that the claim is valid and there were no discrepancies in the accident report."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-04-22T09:00:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "A fair settlement offer based on the damage assessment and policy terms was proposed to the customer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-04-23T12:20:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The customer responded positively to the settlement proposal and expressed gratitude for the prompt handling."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-04-24T15:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim received final approval after the customer accepted the settlement terms without any objections."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-04-25T10:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "The agreed settlement amount was successfully disbursed to the customer's account covering repair costs."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-04-26T09:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim was formally closed after payment issuance and confirmation from the customer that issue is resolved."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-04-26T17:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "The claim files and documents were archived in the system for future reference and regulatory compliance purposes."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-03-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The customer reported a collision involving their vehicle and a stationary pole, causing significant front-end damage."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-03-01T11:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim has been categorized under Auto Accident based on the keywords found in the initial report."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-03-01T13:30:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An agent with experience in auto claims has been assigned to assist the customer in processing their claim."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-03-01T15:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "We acknowledge receipt of your auto accident claim and will begin processing it promptly."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-03-02T09:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Please provide photos of the damaged vehicle, the police report, and any witness statements related to the accident."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-03-03T14:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The customer has submitted all requested documents, including photos and the official police report."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-03-04T10:30:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Our investigation team has begun reviewing the submitted evidence and statements to assess the claim."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-03-08T16:00:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "The review of available evidence has been completed, and the findings support the claim validity."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-03-09T10:15:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement offer has been proposed covering repair costs and rental car expenses during the repair period."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-03-10T12:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer responded with acceptance of the settlement and expressed satisfaction with the handling of their claim."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-03-11T09:45:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim has been formally approved by the claims manager and is ready for payment processing."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-03-12T08:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "The approved settlement amount has been transferred to the customer's bank account successfully."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-03-12T10:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim is now closed following the payment issuance and final confirmation from the customer."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-03-13T12:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "The entire claim file including all documents and correspondence has been archived for future reference."
+    }
+  ]
+}

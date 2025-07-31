@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T08:30:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The customer reported their car was involved in a collision with another vehicle at an intersection yesterday afternoon."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T09:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was categorised under Auto Accident after reviewing the initial report and the type of damage described."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An agent was assigned to the claim to assist the customer through the process and answer any immediate questions."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T10:30:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The insurance company acknowledged the receipt of the claim and confirmed the initiation of the review process."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Further documents were requested including photos of the damaged vehicle and a police accident report for assessment."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-02T09:00:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "The customer submitted all requested documents promptly, including detailed images of the collision damage."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-02T15:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation into the details of the car accident was initiated to verify the claim’s accuracy and coverage details."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-04T14:00:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "The investigation concluded confirming the collision circumstances matched those reported by the policyholder."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-04T16:30:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement amount based on repair estimates and policy limits was proposed to the claimant for approval."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-05T11:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The customer responded positively to the proposed settlement and expressed satisfaction with the claims process."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-05T12:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Following customer approval, the claim was formally approved for payment issuing without further delay."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-06T09:00:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "An electronic payment was issued to cover the vehicle repairs as per the approved settlement agreement."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-06T15:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim was officially closed after confirming the payment was received and repair work was scheduled."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-07T10:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "All documents and claim records were archived for future reference and regulatory compliance purposes."
+    }
+  ]
+}

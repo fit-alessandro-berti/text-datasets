@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "The customer reported a car accident that occurred yesterday afternoon involving a rear-end collision on the highway."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim was categorized under Auto Accident after review of the initial incident report and involved parties' vehicle details."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Agent Assigned (Positive)",
+      "message": "An insurance agent specialized in auto claims has been assigned to assist the claimant throughout the process."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T11:30:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The insurance company formally acknowledged receipt of the accident claim and assured prompt handling."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-01T12:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "The claimant was asked to submit photos of the damaged vehicle, police report, and driver’s license for verification."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-02T08:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "All requested documentation including accident photos, police report, and claim form have been received successfully."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-02T09:30:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The investigation into the collision details and liability has commenced with the appointed claims investigator."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-05T16:00:00Z",
+      "contextual_activity": "Investigation Completed (Neutral)",
+      "message": "Investigation concluded confirming the claimant was not at fault, and the other party’s insurance is liable."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-06T10:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement amount for the vehicle repairs and related expenses has been proposed and communicated to the customer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-06T14:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "The claimant expressed satisfaction with the proposed settlement and timely communication from the insurance team."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-07T09:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "The claim was officially approved following acceptance of the settlement terms by the insured party."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-07T12:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment was successfully processed and transferred to the claimant’s account to cover car repair costs."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-08T10:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim file was closed after confirming the claimant was satisfied with the payment and resolution."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-08T15:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "The complete claim documentation and correspondence were archived for future reference and compliance."
+    }
+  ]
+}

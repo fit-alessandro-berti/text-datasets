@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Negative)",
+      "message": "I am reporting a car accident that occurred on April 30th involving a collision with another vehicle at an intersection."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The claim has been categorized under Auto Accident category following review of the initial report and submitted details."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T11:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An insurance agent has been assigned to handle your claim and will be the primary contact for any further communications."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T12:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "Your claim has been acknowledged successfully, and we have initiated our internal processing procedures."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-02T08:00:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Please provide photos of the damaged vehicle, police report, and any medical reports related to the accident."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-03T14:45:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "All requested documents including accident photos, police report, and hospital bills have been submitted for review."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-04T09:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "The investigation team has begun reviewing all submitted evidence and verifying accident circumstances with involved parties."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-10T16:30:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "The investigation into the accident is complete; liability and damages have been assessed based on collected facts."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-11T10:15:00Z",
+      "contextual_activity": "Settlement Proposed (Neutral)",
+      "message": "A settlement offer addressing vehicle repairs and medical costs has been proposed for your consideration."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-12T09:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Negative)",
+      "message": "The customer expressed dissatisfaction with the initial settlement offer, requesting a higher compensation amount."
+    },
+    {
+      "activity": "Claim Escalated",
+      "timestamp": "2024-05-12T15:00:00Z",
+      "contextual_activity": "Claim Escalated (Neutral)",
+      "message": "Due to customer concerns, the claim has been escalated to senior management for further review of the settlement terms."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-15T11:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "After review, the claim has been approved with an updated settlement that satisfies the customer’s requirements."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-16T13:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "The approved settlement amount has been processed and payment issued to the claimant’s designated bank account."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-17T10:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "This claim file has been officially closed following successful payment and confirmation that all matters are resolved."
+    }
+  ]
+}

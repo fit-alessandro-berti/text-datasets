@@ -1,0 +1,89 @@
+{
+  "cluster": "Auto Accident",
+  "events": [
+    {
+      "activity": "Claim Filed",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Claim Filed (Neutral)",
+      "message": "Customer reported a vehicle collision that occurred on a busy intersection resulting in moderate damage to their car."
+    },
+    {
+      "activity": "Claim Categorised",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Claim Categorised (Neutral)",
+      "message": "The incident has been categorized under Auto Accident following the review of the initial claim details submitted."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T10:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An insurance agent specialized in auto claims was assigned to handle the customer's case and coordinate next steps."
+    },
+    {
+      "activity": "Claim Acknowledged",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Claim Acknowledged (Positive)",
+      "message": "The claim has been acknowledged and the customer was informed that their case is being processed promptly."
+    },
+    {
+      "activity": "Documents Requested",
+      "timestamp": "2024-05-01T11:30:00Z",
+      "contextual_activity": "Documents Requested (Neutral)",
+      "message": "Request sent to customer for photos of the damaged vehicle and a copy of the police accident report."
+    },
+    {
+      "activity": "Documents Submitted",
+      "timestamp": "2024-05-02T09:00:00Z",
+      "contextual_activity": "Documents Submitted (Positive)",
+      "message": "Customer submitted all required documents, including police report and images showing the extent of the vehicle damage."
+    },
+    {
+      "activity": "Investigation Started",
+      "timestamp": "2024-05-02T10:00:00Z",
+      "contextual_activity": "Investigation Started (Neutral)",
+      "message": "Investigation into the cause of the collision and liability determination has begun by claims adjustment team."
+    },
+    {
+      "activity": "Investigation Completed",
+      "timestamp": "2024-05-05T16:00:00Z",
+      "contextual_activity": "Investigation Completed (Positive)",
+      "message": "The investigation was completed with clear evidence supporting the claimant's report of the auto accident."
+    },
+    {
+      "activity": "Settlement Proposed",
+      "timestamp": "2024-05-06T09:00:00Z",
+      "contextual_activity": "Settlement Proposed (Positive)",
+      "message": "A settlement proposal has been issued covering repairs and associated costs for the vehicle damage sustained."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-06T11:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Customer expressed satisfaction with the promptness and fairness of the settlement proposal offered."
+    },
+    {
+      "activity": "Claim Approved",
+      "timestamp": "2024-05-06T14:00:00Z",
+      "contextual_activity": "Claim Approved (Positive)",
+      "message": "Based on positive feedback and investigation results, the claim has been approved for payment."
+    },
+    {
+      "activity": "Payment Issued",
+      "timestamp": "2024-05-07T09:30:00Z",
+      "contextual_activity": "Payment Issued (Positive)",
+      "message": "Payment for the approved claim was issued to the customer's bank account to cover vehicle repairs."
+    },
+    {
+      "activity": "Claim Closed",
+      "timestamp": "2024-05-07T10:00:00Z",
+      "contextual_activity": "Claim Closed (Positive)",
+      "message": "The claim was officially closed after payment confirmation with no further issues raised by the customer."
+    },
+    {
+      "activity": "Claim Archived",
+      "timestamp": "2024-05-08T09:00:00Z",
+      "contextual_activity": "Claim Archived (Neutral)",
+      "message": "The completed claim documents and correspondence have been archived for future reference and compliance."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+> **Task:** Generate a *single* conversational **customer-support case** as JSON.
+>
+> ### A. Clustering criterion
+>
+> Inspect the *content* of all messages and assign the case to **one** of these clusters (write the value into the "cluster" key):
+>
+> | Cluster value                                                           | Trigger keywords / ideas (match case-insensitive) |
+> | ----------------------------------------------------------------------- | ------------------------------------------------- |
+> | **Refund**                                                              | refund, return, money back, exchange      |
+> | **Delivery Delay**                                                      | delay, late, shipping, tracking           |
+> | **Product Defect**                                                      | broken, defect, damage, faulty, scratch |
+> | Choose the first matching cluster; if none match, default to **Other**. |                                                   |
+>
+> ### B. Activities
+>
+> Produce a trace with 10 – 15 **general-purpose activities**.
+>
+> | #  | General-purpose activity     | Typical intent of the textual message |
+> | -- | ---------------------------- | ------------------------------------- |
+> | 1  | *Issue Reported*             | Customer opens the case               |
+> | 2  | *Issue Categorised*          | System/agent labels the issue         |
+> | 3  | *Agent Assigned*             | Routing information                   |
+> | 4  | *Agent Greeting*             | First human reply                     |
+> | 5  | *Information Requested*      | Agent asks for clarifications         |
+> | 6  | *Customer Reply*             | Customer provides info / reacts       |
+> | 7  | *Solution Proposed*          | Agent proposes a fix / compensation   |
+> | 8  | *Customer Feedback Received* | Customer reacts to proposed solution  |
+> | 9  | *Issue Escalated*            | Transferred to senior staff           |
+> | 10 | *Issue Resolved*             | Agent states resolution               |
+> | 11 | *Follow-up Sent*             | Post-resolution check-in              |
+> | 12 | *Case Closed*                | Formal closure                        |
+> | 13 | *Survey Sent*                | Satisfaction survey invitation        |
+> | 14 | *Survey Answered*            | Customer fills survey                 |
+> | 15 | *Case Archived*              | Automated archival                    |
+>
+> ### C. Context-specific activities
+>
+> For **every** event add a "contextual_activity" that starts with the value of "activity" and appends the **sentiment** (derived from the message) in parentheses:
+>
+> * *positive* → “(Positive)”
+> * *neutral*  → “(Neutral)”
+> * *negative* → “(Negative)”
+>   Example: Customer Reply (Negative)
+>
+> ### D. Output format
+>
+> Return exactly one JSON object with:
+>
+> * **cluster**: *string* – one of Refund, Delivery Delay, Product Defect, Other
+> * **events**: *array* of objects **in strictly increasing timestamp order**. Each event has:
+>
+>   * **activity**: *one of the 15 activities above*
+>   * **timestamp**: *ISO 8601 full date-time with Z-suffix* (e.g. "2025-07-31T08:15:30Z")
+>   * **contextual\_activity**: *string* (must start with activity)
+>   * **message**: *string, at least 50 characters*
+>
+> Produce no additional keys, no commentary, no Markdown – **only the bare JSON**.

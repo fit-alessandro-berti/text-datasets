@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Support-Case",
+  "type": "object",
+  "required": ["cluster", "events"],
+  "additionalProperties": false,
+
+  "properties": {
+    "cluster": {
+      "type": "string",
+      "enum": ["Refund", "Delivery Delay", "Product Defect", "Other"]
+    },
+    "events": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["activity", "timestamp", "contextual_activity", "message"],
+        "additionalProperties": false,
+        "properties": {
+          "activity": {
+            "type": "string",
+            "enum": [
+              "Issue Reported",
+              "Issue Categorised",
+              "Agent Assigned",
+              "Agent Greeting",
+              "Information Requested",
+              "Customer Reply",
+              "Solution Proposed",
+              "Customer Feedback Received",
+              "Issue Escalated",
+              "Issue Resolved",
+              "Follow-up Sent",
+              "Case Closed",
+              "Survey Sent",
+              "Survey Answered",
+              "Case Archived"
+            ]
+          },
+          "timestamp": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "contextual_activity": {
+            "type": "string",
+            "pattern": "^(Issue Reported|Issue Categorised|Agent Assigned|Agent Greeting|Information Requested|Customer Reply|Solution Proposed|Customer Feedback Received|Issue Escalated|Issue Resolved|Follow-up Sent|Case Closed|Survey Sent|Survey Answered|Case Archived) \\((Positive|Neutral|Negative)\\)$"
+          },
+          "message": {
+            "type": "string",
+            "minLength": 50
+          }
+        }
+      }
+    }
+  }
+}

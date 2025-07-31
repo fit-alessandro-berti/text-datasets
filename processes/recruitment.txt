@@ -1,0 +1,50 @@
+> **Task:** Produce *one* conversational **recruitment case** as JSON.
+>
+> ### A. Clustering criterion
+>
+> Inspect all messages and set `"cluster"` to exactly **one** of:
+>
+> | Cluster value                                                             | Trigger keywords / phrases (case-insensitive)       |
+> | ------------------------------------------------------------------------- | --------------------------------------------------- |
+> | **Engineering**                                                           | `engineer`, `developer`, `software`, `devops`       |
+> | **Sales**                                                                 | `sales`, `account`, `quota`, `prospect`, `pipeline` |
+> | **Marketing**                                                             | `marketing`, `brand`, `seo`, `content`, `campaign`  |
+> | **Customer Support**                                                      | `support`, `helpdesk`, `service`, `ticket`          |
+> | **Other**                                                                 | none of the above keywords appear                   |
+> | Use the **first** matching rule; default to **Other** if nothing matches. |                                                     |
+>
+> ### B. Activities (use *only* these)
+>
+> 1. Application Received
+> 2. Application Categorised
+> 3. Recruiter Assigned
+> 4. Initial Screening
+> 5. Candidate Response
+> 6. Technical Interview Scheduled
+> 7. Technical Interview Completed
+> 8. HR Interview Scheduled
+> 9. HR Interview Completed
+> 10. Offer Proposed
+> 11. Candidate Feedback Received
+> 12. Offer Accepted
+> 13. Offer Declined
+> 14. Onboarding Started
+> 15. Hire Closed
+>
+> ### C. Context-specific activities
+>
+> For **every** event add `"contextual_activity"` that starts with the exact `activity` value and appends sentiment in parentheses — `(Positive)`, `(Neutral)`, or `(Negative)`.
+> Example: `Technical Interview Completed (Positive)`
+>
+> ### D. Output format
+>
+> Return **one** JSON object — no Markdown or commentary — with:
+>
+> * **cluster** – one of `Engineering`, `Sales`, `Marketing`, `Customer Support`, `Other`
+> * **events** – array in strictly increasing timestamp order; each event object must contain
+>
+>   * **activity** – one of the 15 activities above
+>   * **timestamp** – full ISO-8601 date-time with `Z` (e.g. `"2025-07-31T14:20:05Z"`)
+>   * **contextual\_activity** – starts with `activity`, then space, then sentiment in parentheses
+>   * **message** – string **≥ 50 characters**
+>     Produce nothing else.

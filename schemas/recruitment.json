@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Recruitment Case",
+  "type": "object",
+  "required": ["cluster", "events"],
+  "additionalProperties": false,
+
+  "properties": {
+    "cluster": {
+      "type": "string",
+      "enum": [
+        "Engineering",
+        "Sales",
+        "Marketing",
+        "Customer Support",
+        "Other"
+      ]
+    },
+    "events": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "activity",
+          "timestamp",
+          "contextual_activity",
+          "message"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "activity": {
+            "type": "string",
+            "enum": [
+              "Application Received",
+              "Application Categorised",
+              "Recruiter Assigned",
+              "Initial Screening",
+              "Candidate Response",
+              "Technical Interview Scheduled",
+              "Technical Interview Completed",
+              "HR Interview Scheduled",
+              "HR Interview Completed",
+              "Offer Proposed",
+              "Candidate Feedback Received",
+              "Offer Accepted",
+              "Offer Declined",
+              "Onboarding Started",
+              "Hire Closed"
+            ]
+          },
+          "timestamp": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "contextual_activity": {
+            "type": "string",
+            "pattern": "^(Application Received|Application Categorised|Recruiter Assigned|Initial Screening|Candidate Response|Technical Interview Scheduled|Technical Interview Completed|HR Interview Scheduled|HR Interview Completed|Offer Proposed|Candidate Feedback Received|Offer Accepted|Offer Declined|Onboarding Started|Hire Closed) \\((Positive|Neutral|Negative)\\)$"
+          },
+          "message": {
+            "type": "string",
+            "minLength": 50
+          }
+        }
+      }
+    }
+  }
+}

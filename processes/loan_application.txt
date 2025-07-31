@@ -1,0 +1,52 @@
+> **Task:** Create *one* textual **loan-application case** in JSON.
+>
+> ### A. Clustering criterion
+>
+> After reading all messages, set the `"cluster"` field to **one** of:
+>
+> | Cluster value                                                           | Trigger keywords / phrases (match case-insensitive)  |
+> | ----------------------------------------------------------------------- | ---------------------------------------------------- |
+> | **Mortgage Loan**                                                       | `mortgage`, `home`, `property`, `house`              |
+> | **Personal Loan**                                                       | `personal`, `vacation`, `debt`, `medical`, `wedding` |
+> | **Auto Loan**                                                           | `auto`, `car`, `vehicle`, `truck`                    |
+> | **Business Loan**                                                       | `business`, `company`, `capital`, `startup`          |
+> | **Other**                                                               | None of the above keywords appear                    |
+> | Choose the *first* matching cluster; if nothing matches, use **Other**. |                                                      |
+>
+> ### B. Activities
+>
+> Produce **10 – 15 events** using only these general-purpose activity names:
+>
+> 1. Application Submitted
+> 2. Application Categorised
+> 3. Loan Officer Assigned
+> 4. Initial Review
+> 5. Documents Requested
+> 6. Documents Submitted
+> 7. Credit Check Completed
+> 8. Risk Assessment Completed
+> 9. Offer Presented
+> 10. Applicant Feedback Received
+> 11. Application Escalated
+> 12. Loan Approved
+> 13. Loan Funded
+> 14. Post-Approval Follow-up
+> 15. Application Closed
+>
+> ### C. Context-specific activities
+>
+> For **every** event add `"contextual_activity"` that starts with the exact `activity` value and appends the sentiment in parentheses — one of `(Positive)`, `(Neutral)`, `(Negative)`.
+> Example: `Documents Submitted (Neutral)`
+>
+> ### D. Output format
+>
+> Return **one** JSON object (no Markdown, no commentary) with:
+>
+> * **cluster** – one of `Mortgage Loan`, `Personal Loan`, `Auto Loan`, `Business Loan`, `Other`
+> * **events** – array in strictly increasing timestamp order; each event object contains
+>
+>   * **activity** – one of the 15 activities above
+>   * **timestamp** – ISO-8601 date-time with `Z` suffix (e.g. `"2025-07-31T12:04:00Z"`)
+>   * **contextual\_activity** – starts with `activity` then space then sentiment in parentheses
+>   * **message** – free text, **≥ 50 characters**
+>     Produce nothing else.

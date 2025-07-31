@@ -1,0 +1,50 @@
+> **Task:** Create *one* textual **insurance-claim case** in JSON format.
+>
+> ### A. Clustering criterion
+>
+> Examine all messages and set the `"cluster"` field to **one** of the following, using the first rule that matches (case-insensitive):
+>
+> | Cluster value            | Trigger keywords / phrases                                      |
+> | ------------------------ | --------------------------------------------------------------- |
+> | **Auto Accident**        | `auto`, `car`, `vehicle`, `collision`, `accident`               |
+> | **Home Damage**          | `home`, `house`, `roof`, `fire`, `leak`, `flood`, `storm`       |
+> | **Health Reimbursement** | `hospital`, `medical`, `doctor`, `surgery`, `treatment`, `bill` |
+> | **Other**                | none of the above keywords appear                               |
+>
+> ### B. Activities
+>
+> Produce **10 – 15 events** using the following general-purpose activity names:
+>
+> 1. Claim Filed
+> 2. Claim Categorised
+> 3. Agent Assigned
+> 4. Claim Acknowledged
+> 5. Documents Requested
+> 6. Documents Submitted
+> 7. Investigation Started
+> 8. Investigation Completed
+> 9. Settlement Proposed
+> 10. Customer Feedback Received
+> 11. Claim Escalated
+> 12. Claim Approved
+> 13. Payment Issued
+> 14. Claim Closed
+> 15. Claim Archived
+>
+> ### C. Context-specific activities
+>
+> For **every** event add a `"contextual_activity"` that starts with the **exact** `activity` value and appends the derived **sentiment** in parentheses – one of `(Positive)`, `(Neutral)`, `(Negative)`.
+> Example: `Documents Submitted (Neutral)`
+>
+> ### D. Output format
+>
+> Return exactly **one** JSON object — **no Markdown, no commentary** — with:
+>
+> * **cluster**: string – one of `Auto Accident`, `Home Damage`, `Health Reimbursement`, `Other`
+> * **events**: array (strictly increasing timestamps). Each event object contains
+>
+>   * **activity** – one of the 15 activities above
+>   * **timestamp** – ISO-8601 date-time with `Z` (e.g. `"2025-07-31T10:12:45Z"`)
+>   * **contextual\_activity** – starts with `activity`, then a space, then sentiment in parentheses
+>   * **message** – free text, **≥ 50 characters**
+>     Produce nothing else.

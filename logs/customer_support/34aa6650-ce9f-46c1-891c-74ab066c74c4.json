@@ -1,0 +1,71 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:13:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my order today, but the product is faulty with multiple scratches and it does not work properly."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:14:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue has been identified as a product defect based on the customer's description of damage and malfunction."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to customer support representative Jamie for further assistance."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for contacting us about the issue with your product. I'm here to help resolve this as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:35:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the scratches and the faulty parts so we can assess the damage and find the best solution?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T10:05:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "I have attached the pictures showing the scratches on the surface and how the device fails to turn on at all."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:30:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the photos. We can offer you a replacement unit or a full refund. Please let us know which option you prefer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T11:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Neutral)",
+      "message": "I would prefer to receive a replacement rather than a refund if possible, as I still want to use your product."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T11:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed your replacement order, which will be shipped within 2 business days. You will receive a tracking number shortly."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-20T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "We just wanted to check in and make sure your replacement product arrived and is working as expected. Please reach out if you need any more help."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-20T09:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since we have received confirmation that your replacement arrived in good condition, we are now closing this case. Thank you for your patience."
+    }
+  ]
+}

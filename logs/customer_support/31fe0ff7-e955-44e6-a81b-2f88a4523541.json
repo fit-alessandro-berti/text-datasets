@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-01T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the wrong size for my recent order and would like to request a refund as I no longer want this product."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-01T09:20:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been identified as a refund request due to incorrect item size received by the customer."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-01T09:22:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Your case has been assigned to agent Sarah T. who will assist you further with the refund process."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-01T09:26:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! This is Sarah from customer support. I'm here to help you with your refund for the incorrect item size you received."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-01T09:28:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and a photo of the item you received so we can process your refund swiftly?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-01T10:00:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 4587321. I've attached a photo showing the size tag on the item that is incorrect."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-01T10:30:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. We will initiate a full refund to your original payment method within 3 to 5 business days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-01T11:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Great, thank you for handling this quickly. I appreciate the prompt refund confirmation."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-01T11:05:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The refund process has been completed successfully. Please let us know if you need any further assistance."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-07T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "We are following up to confirm you have received your refund and if everything is satisfactory with your case closure."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-07T09:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Your refund case has now been officially closed. Thank you for your patience and please contact us anytime for future needs."
+    }
+  ]
+}

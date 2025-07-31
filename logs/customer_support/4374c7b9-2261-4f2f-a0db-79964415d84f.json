@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I recently received the product but I want to return it because it does not meet my expectations and I would like a full refund."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue has been categorized under refund as the customer requested a return and money back."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:22:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to the refund specialist team to handle the return and refund process."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I understand you want to return your purchase and get a refund. I’m here to assist you."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:35:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the reason for the return so we can process the refund as quickly as possible?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 123456789. The product didn’t match the description on your website, so I no longer want it."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:15:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. We can initiate your refund immediately after you send the item back using the prepaid return label we'll email you shortly."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:25:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thank you for your prompt response and for providing a prepaid return label. I will send the item back as soon as I receive it."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-12T14:40:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have confirmed receipt of your returned item and processed your refund. The amount should reflect in your account within 3-5 business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-15T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to ensure your refund was received and if there is anything else we can assist you with today."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-15T09:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "As you confirmed your refund was successful and no further assistance is needed, we are closing this case. Thank you for contacting support."
+    }
+  ]
+}

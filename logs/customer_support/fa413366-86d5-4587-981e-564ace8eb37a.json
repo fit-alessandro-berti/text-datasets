@@ -1,0 +1,77 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I just received my order, but the laptop screen has a large crack and the device doesn’t turn on at all."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:13:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue has been identified as a product defect due to a broken screen and malfunction."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An agent has been assigned to assist with your defective product case and will reach out shortly."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:45:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, I’m here to help you with the issue regarding your laptop’s broken screen. Sorry for the inconvenience."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:46:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the cracked screen and confirm if the laptop powers on at all?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:05:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "I attached photos showing the crack clearly, and unfortunately, the laptop does not power up despite multiple attempts."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:30:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "We will arrange a replacement unit to be shipped to you immediately and provide a return label for the defective laptop."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thank you for the quick response and the replacement offer. I appreciate your help resolving this issue."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T10:47:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The replacement process has been initiated and the return package will be sent shortly for your defective laptop."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Checking in to confirm you have received the replacement laptop and if everything is working as expected now."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-17T11:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since you confirmed the replacement works well, we are closing this case. Please contact us again if needed."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-17T11:05:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We have sent you a satisfaction survey to gather your feedback on how we handled your product defect issue."
+    }
+  ]
+}

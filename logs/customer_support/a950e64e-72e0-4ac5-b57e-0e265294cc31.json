@@ -1,0 +1,83 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:10:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I ordered a phone case two weeks ago, and it still hasn't arrived. The tracking information hasn't updated at all and I'm really concerned about the delay."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been categorized under Delivery Delay based on the customer's report of a late shipment and stagnant tracking status."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:15:30Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent John has been assigned to handle the customer's case concerning the delayed delivery."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out about your order delay. I'm here to help you with this issue and get it resolved as soon as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:22:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide me with your order number and any tracking details you currently have? This will help me investigate the shipment status."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:30:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, the order number is 123456789, and the tracking number listed is ZX987654321. As I mentioned, the tracking hasn't updated in over a week."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "I've checked the system and it appears your package is delayed due to a shipping carrier issue. We can either issue a reshipment or offer a full refund if you prefer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:10:00Z",
+      "contextual_activity": "Customer Feedback Received (Negative)",
+      "message": "I really wanted the product since it was a gift, so I'd prefer a reshipment rather than a refund, please. But I am frustrated it got delayed this long."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:30:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for letting me know. I've initiated a priority reshipment for your order at no extra charge. You will receive updated tracking information shortly."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T11:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The reshipment has been confirmed, and your case is now resolved. Please expect the new package within 5-7 business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-25T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "We wanted to check in and confirm that your reshipped order has arrived and that you are satisfied with the solution provided."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-25T09:30:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, the package arrived yesterday, and everything is perfect. Thanks for the prompt reshipment and your help throughout!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-25T10:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "The case has been closed following customer confirmation of successful delivery and satisfaction with the resolution."
+    }
+  ]
+}

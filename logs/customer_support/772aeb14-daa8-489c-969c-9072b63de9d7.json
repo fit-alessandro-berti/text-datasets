@@ -1,0 +1,71 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-01T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my new headphones yesterday, but the left ear cup is completely broken and doesn’t fit properly."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-01T09:13:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer reported a broken headphone component indicating a product defect, categorizing the issue accordingly."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-01T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to customer support agent Emma, who specializes in product quality issues."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-01T09:20:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m Emma, and I’m sorry to hear about the defect in your headphones. I’m here to help you resolve this issue."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-01T09:25:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide a photo of the broken ear cup and confirm if the packaging arrived intact?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-01T10:00:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "I’ve attached two pictures showing the damage to the ear cup. The box looked fine when it arrived with no visible external damage."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-01T10:30:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the photos. We can send you a replacement pair free of charge, or if you prefer, we can offer a full refund."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-01T11:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would prefer the replacement headphones as I really like the model. Thanks for the quick response!"
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-01T11:15:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed your replacement order and you will receive a tracking number shortly. Your case is now resolved."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-07T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just following up to ensure your replacement headphones arrived and that everything is working well now."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-10T12:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We’re closing this case as resolved. Please contact us anytime if you need further assistance. Thank you!"
+    }
+  ]
+}

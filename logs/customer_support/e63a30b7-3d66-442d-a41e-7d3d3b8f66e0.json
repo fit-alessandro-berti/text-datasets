@@ -1,0 +1,65 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I recently received my order but I want to return it because it is not what I expected. Please let me know how to get a refund."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:15:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The case has been assigned to the Refund cluster based on the customer's request to return the item and get money back."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:16:30Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Agent Sarah has been assigned to handle the refund request for this customer inquiry."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I’m here to help you process your refund for the recent order you received."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:22:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and confirm whether the product has been opened or used?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:35:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "My order number is 123456789. The product was opened but not used since it did not match the description."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T09:45:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. You are eligible for a full refund even if opened. Please send the item back using the prepaid label we will provide."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T09:50:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That sounds good to me. I appreciate the quick response and helpful instructions for the return."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T10:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have sent you the prepaid return label by email. Once we receive the package, the refund will be processed within 3-5 business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-18T14:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm you received the prepaid label and if you need any further assistance with your refund process."
+    }
+  ]
+}

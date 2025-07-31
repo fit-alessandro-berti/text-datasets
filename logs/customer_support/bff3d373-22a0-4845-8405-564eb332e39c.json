@@ -1,0 +1,83 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-05-12T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago and it still hasn't arrived. The tracking page hasn't updated in several days, so I'm concerned about the delay."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-05-12T09:16:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "System identified issue cluster based on keywords such as delay and tracking indicating a delivery delay problem."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-12T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The support case was assigned to the logistics support team to handle the delayed shipment inquiry."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-05-12T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I understand your order hasn’t arrived yet, and I’m here to help you track and resolve this."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-05-12T09:27:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the shipping address to help me check the current status with the courier?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-05-12T09:35:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 123456789 and the shipping address is 456 Pine Street, Springfield."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-05-12T09:50:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "I contacted the shipping provider and found your package is delayed due to a transit hub backlog. It should be delivered within the next 3 days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-12T09:53:00Z",
+      "contextual_activity": "Customer Feedback Received (Neutral)",
+      "message": "Thanks for the update. I’m a bit concerned about the delay but appreciate your efforts to look into it."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-05-12T10:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We will monitor the delivery and notify you if there are further issues, but your package should arrive shortly as per the latest information."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-05-15T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that your order has arrived and that you are satisfied with the resolution."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-05-15T09:10:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, my order arrived yesterday. Thank you very much for your help and quick responses."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-05-15T09:12:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "The support case has been closed following successful delivery and customer confirmation of receipt."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-05-15T09:15:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "A customer satisfaction survey invitation was sent to collect feedback on the support experience."
+    }
+  ]
+}

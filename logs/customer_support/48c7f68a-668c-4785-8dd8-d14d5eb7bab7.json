@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the wrong item in my order and would like to request a refund as soon as possible."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:17:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The case has been categorized as a refund request based on the customer's message about receiving the wrong product."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A customer service agent has been assigned to handle the refund request and contact the customer."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:45:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m sorry to hear about the wrong item you received. I’ll assist you with the refund process."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:50:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and a photo of the item you received so we can verify the issue?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:10:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 987654321 and I have attached a photo showing the item that doesn’t match what I ordered."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T11:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. We will process your refund within 3-5 business days and send you a confirmation email shortly."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T11:20:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the quick response and clear instructions. I appreciate the effort to resolve my issue."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T11:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your refund request has been successfully processed. Please allow a few days for the amount to appear in your account."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-15T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "We’re following up to ensure your refund was received and that you are satisfied with the resolution."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-15T09:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since we have not heard back, we will now close this refund case. Please contact us again if you have further questions."
+    }
+  ]
+}

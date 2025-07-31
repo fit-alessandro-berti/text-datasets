@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I purchased a jacket last week but it doesn't fit, and I want to request a refund as soon as possible."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:16:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The case has been categorized as a refund request following the customer's message about returning a product for money back."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:18:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent Alice has been assigned to handle the refund case for the returned jacket."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I'm here to help you with your refund request. Could you please provide your order number?"
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:20:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you also confirm if the jacket is unused and still has all tags attached to qualify for a full refund?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:45:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 78541236. The jacket is brand new and I haven’t worn it outside; all tags are intact as well."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thanks for the information. Please send the jacket back using the prepaid shipping label we will email you shortly, and once we receive it, we will process your refund immediately."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:05:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That sounds great, thank you for handling this so quickly. I appreciate the prepaid label offer."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T15:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have received the returned jacket and processed your refund. The money should appear in your account within 3-5 business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-18T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that you received your refund and if there is anything else we can assist you with."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-18T10:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since your refund has been completed and you haven’t reported any further issues, we are closing this case. Thank you for choosing our store!"
+    }
+  ]
+}

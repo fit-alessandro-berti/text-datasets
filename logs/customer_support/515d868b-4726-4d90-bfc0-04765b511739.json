@@ -1,0 +1,89 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-18T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order for a laptop two weeks ago, but it still hasn't arrived and the tracking status hasn't been updated for days."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-18T09:13:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer's issue has been classified under Delivery Delay due to complaint about late shipment and no tracking updates."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-18T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent James has been assigned to handle the delivery delay issue reported by the customer."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-18T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thanks for reaching out to us. I'm sorry to hear your laptop hasn't arrived yet. Let me check the shipment status for you."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-18T09:26:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide me with your order number or tracking ID so I can look up your delivery details?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-18T09:40:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 5587321, and the tracking ID given was TRK987654321."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-18T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "Thank you for the information. I checked with the courier, and it seems the package is delayed due to unforeseen shipping issues. We expect delivery within the next 3 days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-18T10:10:00Z",
+      "contextual_activity": "Customer Feedback Received (Neutral)",
+      "message": "I appreciate the update, but I wish the package was here sooner as I need it urgently for work."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-18T10:20:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "I understand your urgency. As an apology for the delay, we can offer you expedited shipping on your next order or a small discount coupon."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-18T10:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the offer, I would gladly accept the discount coupon for my next purchase."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-18T10:35:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Great! I've applied the discount coupon to your account and noted the delivery update. Please contact us if your package doesn't arrive within 3 days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-21T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that your laptop was delivered and everything is as expected now. Let us know if you need further assistance."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-21T13:15:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, the laptop arrived yesterday in perfect condition. Thank you for your help and the discount coupon!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-21T14:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing this case now as resolved. Feel free to reach out anytime if you need support in the future."
+    }
+  ]
+}

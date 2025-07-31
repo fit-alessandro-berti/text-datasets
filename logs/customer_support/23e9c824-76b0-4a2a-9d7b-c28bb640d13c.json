@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the wrong item in my order and I would like to request a refund as soon as possible because I did not get what I paid for."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:15:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue has been identified as a refund request due to incorrect item delivery."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A customer service agent has been assigned to handle the refund case for the incorrect item."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I'm sorry to hear about the issue with your order. I'll be happy to assist you with your refund request."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:27:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and a photo of the received item so I can verify the mistake for the refund process?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T10:00:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 452781 and I have attached a photo showing the item I received is different from what I ordered."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:30:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. We will process your refund immediately and you should see the amount credited back to your payment method within 3-5 business days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thank you for the quick response and solution. I appreciate your help in resolving this issue fast."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T10:50:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your refund has been processed successfully. If there is anything else you need, please let us know."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-18T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm that your refund has been received. Please contact us if there are any further issues."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-18T09:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing this case now as the refund was completed and no additional concerns were reported."
+    }
+  ]
+}

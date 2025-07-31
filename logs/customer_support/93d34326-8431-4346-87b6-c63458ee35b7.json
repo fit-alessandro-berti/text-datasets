@@ -1,0 +1,95 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-05-01T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the wrong item in my recent order and would like to request a refund as soon as possible."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer's request mentioning 'refund' and 'wrong item' was categorized under the Refund cluster."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Customer service agent Anna has been assigned to handle the refund request for order #45872."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-05-01T09:22:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I'm Anna, here to help you with your refund request for the wrong item you received."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-05-01T09:25:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide a photo of the item you received and your order number so we can proceed with the refund?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-05-01T09:40:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, here is the photo of the incorrect item along with my order number 45872 as requested."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. We will process your refund immediately and send you a confirmation email within 24 hours."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-01T10:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I appreciate your quick response and am glad the refund will be processed promptly."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-05-01T10:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The refund has been successfully processed. Please check your bank account within the next 3-5 business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-05-03T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm that you have received your refund and that everything is settled to your satisfaction."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-03T09:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Yes, I have received the refund. Thank you for your assistance throughout the process."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-05-03T09:35:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "The case has been formally closed following confirmation of refund receipt and customer satisfaction."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-05-03T09:40:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "A satisfaction survey has been sent to the customer to gather feedback on the support experience."
+    },
+    {
+      "activity": "Survey Answered",
+      "timestamp": "2024-05-04T14:00:00Z",
+      "contextual_activity": "Survey Answered (Positive)",
+      "message": "The customer completed the survey, rating their refund case support experience as very satisfactory."
+    },
+    {
+      "activity": "Case Archived",
+      "timestamp": "2024-05-10T12:00:00Z",
+      "contextual_activity": "Case Archived (Neutral)",
+      "message": "This refund support case has been archived in the system for record-keeping and future reference."
+    }
+  ]
+}

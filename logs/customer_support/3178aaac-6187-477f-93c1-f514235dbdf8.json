@@ -1,0 +1,89 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago, but it still hasn't arrived. The tracking info hasn't updated for several days."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:16:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue described by the customer matches common delay keywords such as 'still hasn't arrived' and 'tracking info hasn't updated'."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:17:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Assigned the delivery support agent to handle the customer's delayed shipment inquiry."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for contacting us regarding your order delay. I’m here to help resolve this as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:31:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and any tracking details you have so I can investigate the shipping status?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:45:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 123456789 and the last tracking update was from five days ago indicating it left the sorting facility."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "I’ve contacted the courier and they confirmed a delay due to weather conditions. Your package is expected to be delivered within the next 3 days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Negative)",
+      "message": "Thanks for the update, but I’m disappointed because I really needed the item sooner. Please let me know if there’s any faster option."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:30:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "I understand your situation and can offer you an expedited shipping voucher for your next purchase as an apology for this inconvenience."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That sounds good, thank you for the gesture. I appreciate your help resolving this."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T10:50:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Glad to hear you’re satisfied. Your case will remain open until delivery is confirmed, but feel free to reach out anytime."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-15T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "We just wanted to check in to confirm your order was successfully delivered and that everything is in order."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T12:15:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I received the package today and it is all perfect. Thanks again for your assistance!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-15T12:20:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Closing this case now as the delivery was completed successfully and customer is satisfied with the outcome."
+    }
+  ]
+}

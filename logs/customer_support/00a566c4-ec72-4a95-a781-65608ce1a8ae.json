@@ -1,0 +1,95 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my order last week but the product is not as described, and I would like to request a refund because it does not meet my expectations."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:17:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue has been categorized under the Refund cluster due to keywords relating to money back and dissatisfaction."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:25:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Customer support agent Sarah has been assigned to handle the refund request for this case."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m Sarah from customer support. I understand you want to request a refund, and I’m here to help you with that."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:32:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please confirm the order number and provide photos of the product you received so we can proceed with your refund?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Thank you, Sarah. My order number is 789456123, and I have attached photos showing the product does not match the description on your website."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:15:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "We have reviewed your photos and confirmed the issue. We will initiate a full refund to your original payment method within 3-5 business days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:20:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That sounds great, thank you for your prompt response and for resolving this issue quickly."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T10:25:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The refund has been processed successfully. Please check your payment account in a few days to confirm the refund."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just following up to ensure you have received your refund and that everything is satisfactory with your case resolution."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-17T09:10:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Yes, I received the refund and everything is perfect now. Thank you again for your assistance."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-17T09:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Thank you for confirming. We are closing this case now. Have a great day!"
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-17T09:16:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We have sent you a short survey to rate your satisfaction with the support experience."
+    },
+    {
+      "activity": "Survey Answered",
+      "timestamp": "2024-06-17T12:00:00Z",
+      "contextual_activity": "Survey Answered (Positive)",
+      "message": "I completed the survey and gave a high rating because the service was very helpful and timely."
+    },
+    {
+      "activity": "Case Archived",
+      "timestamp": "2024-07-01T00:00:00Z",
+      "contextual_activity": "Case Archived (Neutral)",
+      "message": "This case has been archived as all customer issues have been resolved and no further action is required."
+    }
+  ]
+}

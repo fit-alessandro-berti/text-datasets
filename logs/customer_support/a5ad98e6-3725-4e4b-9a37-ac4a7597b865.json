@@ -1,0 +1,83 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my new headphones yesterday, but they have a scratch on the left ear cup and the sound sometimes cuts out."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:16:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been categorized as a product defect based on the customer's report of physical damage and faulty audio."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to an agent specializing in product defects for further assistance."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for contacting support. I'm sorry to hear your headphones arrived damaged, and I’m here to help resolve this."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:32:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the scratch and any issues with audio so we can better understand the defect?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "Here are the photos showing the scratch on the left ear cup and a video demonstrating the audio cutting out intermittently."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:15:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the photos and video. We can offer you a replacement pair or a full refund. Please let us know which you prefer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would like to receive a replacement, please. Thanks for the quick response and clear options."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T11:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed your replacement request and a new set of headphones will be shipped within two business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-15T14:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm you have received your replacement headphones and that everything is working well."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T14:30:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I received the replacement today and everything is perfect now. Thanks for your help!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-15T14:45:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are glad your issue was resolved. Closing this case now. Please reach out if you need further assistance."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-15T15:00:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We have sent you a survey to rate your support experience. Your feedback helps us improve our service."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I ordered a laptop two weeks ago, and the shipping tracking still shows 'in transit' with no updates. It's much later than the estimated delivery date."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:16:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "System auto-classified this customer message under Delivery Delay cluster due to keywords related to shipping and late delivery."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case was routed to customer support agent Sarah to handle concerns related to delayed shipping and provide status update."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:22:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I’m here to help with the shipping delay for your laptop order. Let me check the details."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:23:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide the order number or tracking ID so I can look into the shipment status more accurately for you?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:30:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, the order number is 987654321. The tracking ID I was given is TRK1234567890, but the carrier website hasn't updated anything for days."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T09:45:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. I contacted the carrier directly and they reported a delay due to weather in the transit region. Your package should arrive within 3-4 business days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T09:50:00Z",
+      "contextual_activity": "Customer Feedback Received (Neutral)",
+      "message": "I appreciate the update, though it's disappointing the delay will take a few more days. Please keep me posted if there are any further changes."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Understood. We will monitor your shipment and notify you immediately if there are additional delays. Thank you for your patience with this matter."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-13T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Following up to confirm your order has arrived safely and if there’s anything else we can assist you with regarding your recent purchase."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-13T12:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since your order was successfully delivered and no further issues have been reported, we are closing this support case now. Thank you for contacting us."
+    }
+  ]
+}

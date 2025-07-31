@@ -1,0 +1,71 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago and it still hasn't arrived. The tracking information hasn't updated for days, and I'm really worried about the delay."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:13:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue has been identified as a Delivery Delay based on customer messages indicating late shipment and tracking concerns."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to delivery specialist agent Karen for further investigation and customer communication."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out to us about your delayed order. I'm here to help resolve this issue as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:22:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the shipping address so I can check the status with the courier service in detail?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:30:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 987654321 and it was shipped to 123 Maple Lane, Springfield. I hope this helps to locate the package."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "After checking with the courier, your package is delayed due to a logistical issue but is expected to arrive within the next 3 days. We will monitor and keep you updated."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:10:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the update! I appreciate your quick response and will wait for the delivery in the coming days."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-18T14:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your order has now been successfully delivered according to the courier’s confirmation. Please let us know if there are any further issues."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-21T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just following up to check if your order arrived in good condition and if you are satisfied with the resolution of your delivery delay."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-22T12:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since there has been no further response, we are closing this case. Thank you for your patience and please contact us anytime for future assistance."
+    }
+  ]
+}

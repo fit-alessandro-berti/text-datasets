@@ -1,0 +1,95 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-20T10:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my order yesterday, but unfortunately the item arrived with a large scratch on the surface and it looks damaged."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-20T10:20:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue has been identified as a product defect due to reported damage upon delivery."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-20T10:22:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to a support agent for further assistance regarding the damaged product."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-20T10:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m sorry to hear about the damage to your product. I’m here to help resolve this issue as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-20T10:28:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the damaged item and the packaging it arrived in? This will help us understand the extent of the defect."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-20T11:00:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Thanks for the quick response. I’ve attached several photos showing the scratched surface as well as the box it came in."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-20T11:15:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "We apologize for the inconvenience. We can send you a replacement item immediately or provide a full refund. Please let us know which option you prefer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-20T11:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would like to go ahead with the replacement option. Thank you for offering a solution so quickly."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-20T12:10:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The replacement order has been processed and shipped. You should receive a tracking number shortly. We appreciate your patience."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-25T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "We are following up to ensure that your replacement product arrived in perfect condition and that you are satisfied with the resolution."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-25T09:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I received the replacement yesterday and it’s in perfect condition. Thank you for the excellent support!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-25T10:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Glad to hear everything is resolved. Closing the case now but feel free to contact us anytime if you need further assistance."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-25T10:05:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We have sent a short satisfaction survey to gather your feedback on this support experience."
+    },
+    {
+      "activity": "Survey Answered",
+      "timestamp": "2024-06-26T08:00:00Z",
+      "contextual_activity": "Survey Answered (Positive)",
+      "message": "I completed the survey and rated the support 5 stars. Really appreciated how fast and helpful you were."
+    },
+    {
+      "activity": "Case Archived",
+      "timestamp": "2024-07-01T00:00:00Z",
+      "contextual_activity": "Case Archived (Neutral)",
+      "message": "This case has been archived automatically after 7 days of inactivity following case closure."
+    }
+  ]
+}

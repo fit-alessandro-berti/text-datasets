@@ -1,0 +1,71 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "Hello, I placed an order two weeks ago and it still hasn't arrived. The tracking information hasn't updated for days."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:12:05Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue appears to concern a delivery delay based on the customer's description of the late shipment and lack of tracking updates."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "This case has been assigned to a delivery support agent who will assist with the delay inquiry."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I'm here to help you with your order delivery. I understand it is delayed, and I will look into this right away."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:22:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the shipping address to help me track down the issue with your delivery?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:05:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 123456789 and the shipping address is 789 Sunset Blvd, Springfield."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:45:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "I have checked with the logistics provider, and it appears your package was delayed due to a shipping carrier issue. We can expedite a replacement shipment at no extra cost."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T11:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thank you for the update and the offer to resend the package quickly. I appreciate your help resolving this."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T11:05:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed the expedited replacement shipment, and you will receive a new tracking number shortly via email."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm you have received your order and everything is satisfactory. Please let us know if you need further assistance."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-17T09:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since your issue is resolved and confirmed, we are closing this support case. Thank you for your patience and business."
+    }
+  ]
+}

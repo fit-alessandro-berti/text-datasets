@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I would like to request a refund for the headphones I bought last week because they stopped working after just two days of use."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:16:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer's request was identified as a refund issue related to a malfunctioning electronic product."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Assigning the case to the refund specialist team to process the refund request for the faulty headphones."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I understand you'd like a refund for your headphones, and I'm here to help you with that."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:30:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and any pictures showing the issue with the headphones to assist with your refund?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:45:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 123456789. I have also attached pictures of the headphones showing the damage and the issue with the left earcup."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. We will initiate a full refund to your original payment method. Please return the headphones using the prepaid shipping label we will email shortly."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the quick response and solution. I appreciate the prepaid label and look forward to receiving confirmation once the refund is processed."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T10:20:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The refund process has been initiated, and you should receive a confirmation email shortly. Please send the product back within 14 days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm that you have sent back the headphones and to ask if there is anything else we can assist you with today."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-17T09:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing this case now as the refund was successfully processed and the product returned. Thank you for your patience."
+    }
+  ]
+}

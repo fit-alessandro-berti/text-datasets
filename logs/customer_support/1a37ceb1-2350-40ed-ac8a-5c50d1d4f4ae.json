@@ -1,0 +1,77 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-01T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my new headphones yesterday, but unfortunately the right earbud is making a crackling noise whenever I move. It sounds faulty and disappointing."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-01T09:13:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "Customer reported a potential product defect involving a crackling noise in the right earbud of new headphones."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-01T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to an agent specialized in product quality issues for further assistance."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-01T09:45:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m sorry to hear about the problem with your headphones. I’m here to help you get this sorted out quickly."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-01T09:46:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please confirm if the crackling noise occurs all the time or only when moving the earbud? Also, do you see any visible damage or scratches on the product?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-01T10:10:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "The noise happens mostly when I adjust the earbud slightly, and there are no visible scratches or damages on the outside."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-01T10:30:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. We can offer you a replacement under the warranty policy as this appears to be a product defect. Would you like us to arrange the shipment?"
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-01T10:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Yes, I would appreciate that. Please send me the replacement as soon as possible because I rely on these for work."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-01T11:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Great! We have arranged a replacement shipment to your address. You will receive tracking details shortly, and the return for the defective unit is handled automatically."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-10T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to ensure your replacement headphones arrived and are working properly. Please let us know if you have any further issues."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-12T08:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since we haven't heard back, we are closing this case. Thank you for your cooperation, and enjoy your new headphones!"
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-12T08:05:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "Please take a moment to complete our customer satisfaction survey regarding your recent support experience."
+    }
+  ]
+}

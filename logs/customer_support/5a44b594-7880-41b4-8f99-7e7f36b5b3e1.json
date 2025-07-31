@@ -1,0 +1,71 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:45Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I just received my order and the tablet screen has a large scratch on it. It's very disappointing to see a damaged product right out of the box."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:13:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer's complaint has been categorized under Product Defect due to the scratched screen reported."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "This case has been assigned to agent Sarah L. for further handling of the product defect report."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:30:12Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I'm Sarah from support. I'm sorry to hear about the scratch on your tablet screen. Let's get this sorted out for you as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:35:45Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the scratch and the packaging so we can assess the damage and proceed with the best solution?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T10:02:22Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "I have attached several clear photos showing the scratch on the screen and the intact packaging box as requested."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:45:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the photos. We can either send you a replacement tablet or offer a full refund. Please let us know which option you prefer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T11:10:35Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would prefer to receive a replacement if possible, since I still want to use the tablet but need one without defects."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T11:45:20Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "A replacement tablet has been arranged and will be shipped to your address within the next 3 business days. We will send you tracking details shortly."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-20T13:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm you have received your replacement tablet and that it is in perfect condition. Please reach out if you need further assistance."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-21T08:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since the replacement was successfully delivered and no further issues were reported, we are closing this support case. Thank you for your patience."
+    }
+  ]
+}

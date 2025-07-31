@@ -1,0 +1,83 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I ordered a jacket last week but it doesn't fit me at all. I would like to request a refund or exchange for a different size."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:15:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue about the jacket not fitting has been categorized under 'Refund' due to the customer's request for a refund or exchange."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to customer support agent Samantha to assist with the refund and exchange request."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for contacting us. I’m here to help you with your refund or exchange for the jacket that doesn’t fit."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:30:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and let us know if you would prefer a refund or an exchange for a different size?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:45:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "My order number is 87654321. I think I would prefer to exchange it for a size medium instead of the large I originally ordered."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T09:55:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the info! We can process an exchange for the medium size jacket right away. I will send you a prepaid shipping label to return the current jacket."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:10:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the quick reply! I appreciate the prepaid label and look forward to receiving the medium size soon."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T10:20:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The exchange request has been processed and the shipping label sent. Your exchange should arrive within 7-10 business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-22T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to see if you received the medium jacket and if everything is satisfactory with your exchange."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-22T09:15:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I got the new jacket yesterday and it fits perfectly. Thank you so much for your help!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-22T09:20:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Glad to hear that the jacket fits well now! We are closing this case but feel free to contact us again anytime."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-22T09:25:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We have sent a short satisfaction survey to your email. Your feedback helps us improve our services."
+    }
+  ]
+}

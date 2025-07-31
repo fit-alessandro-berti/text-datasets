@@ -1,0 +1,71 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago, but my package still hasn't arrived and the tracking info hasn't updated in days."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:12:01Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue is classified under Delivery Delay, given the customer's concern about shipping and tracking status."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A customer service agent has been assigned to review and respond to the customer's delivery delay complaint."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for contacting us. I understand your package hasn't arrived yet, and I'm here to help solve this issue."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:30:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide me with your order number and any tracking details you have so I can investigate the shipment status?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T10:00:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 987654321. The tracking number is 1Z999AA10123456784, but it shows 'in transit' without any update for a week."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T11:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. I've contacted the shipping carrier to request an update and expedited handling. We expect to provide you with news within 24 hours."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T11:05:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I appreciate your quick response and help. Looking forward to hearing back soon about the delivery status."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-16T12:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The carrier informed us that your package was delayed due to weather but will be delivered by end of day tomorrow. We apologize for the inconvenience caused."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T15:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Hello, just checking in to confirm that you have received your package and that everything is in order. Please let us know if you need any further assistance."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-17T16:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since the delivery issue has been resolved and the package was received, we are closing this case. Feel free to reach out anytime."
+    }
+  ]
+}

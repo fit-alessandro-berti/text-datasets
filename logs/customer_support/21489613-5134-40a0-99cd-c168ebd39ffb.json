@@ -1,0 +1,89 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-05T14:20:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago, but my package still hasn't arrived yet. The tracking info hasn't updated for days."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-05T14:22:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been categorized under Delivery Delay due to customer mentioning late shipment and tracking delays."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-05T14:23:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case was assigned to agent Sarah Thompson to handle the delayed delivery inquiry."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-05T14:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I'm sorry to hear your package hasn't arrived yet. I'll look into this for you right away."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-05T14:26:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the shipping address so I can track your package in more detail?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-05T15:00:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 8745623, and it was supposed to be delivered to 123 Elm Street, Springfield."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-05T15:10:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "I checked with the courier service and your package is currently delayed due to unforeseen logistical issues. We expect delivery within 3 more days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-05T15:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Negative)",
+      "message": "This delay is really disappointing as I needed the product urgently. I hope it will arrive on time this time."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-05T15:20:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "As an apology for the delay, we will upgrade your shipping to express at no extra cost once it ships again."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-05T15:25:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thank you for the upgrade offer. That helps a lot. I appreciate the assistance."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-06T09:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your shipping method has been upgraded to express and your package is now prioritized for delivery. We will notify you when it ships."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-09T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "We are following up to confirm your package was delivered successfully. Please let us know if you have any other questions or issues."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-09T12:30:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, my package arrived this morning and everything is perfect. Thank you for your help and quick response."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-09T13:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are glad to hear your package arrived and have now closed this case. Thank you for contacting support."
+    }
+  ]
+}

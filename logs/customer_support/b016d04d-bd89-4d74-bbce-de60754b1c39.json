@@ -1,0 +1,77 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago but my package still hasn't arrived, and the tracking information shows no updates."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:16:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been identified as a potential delivery delay based on the customer's description of missing tracking updates and late arrival."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:17:45Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to a customer service representative specialized in delivery and shipping issues."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for contacting us about your delayed shipment. I’m here to help resolve this issue for you as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:26:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and any tracking details you have so I can investigate this delay further?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:10:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, the order number is 123456789 and the tracking number is TRACK987654. The last update on the courier’s site was five days ago."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T11:00:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "I have contacted the courier service and they confirmed a delay due to weather conditions. We can offer a full tracking update and an expedited reshipment if the package is lost."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T11:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thank you for the update and the offer. I appreciate the proactive communication and would like to proceed with the expedited reshipment."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T11:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your new shipment has been arranged and should be delivered within 3 business days. We will send you the new tracking details shortly."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that you have received your package and that everything is satisfactory with the delivery now."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-17T10:00:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, the package arrived yesterday and everything is in perfect condition. Thanks again for your help and quick follow-up!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-17T10:05:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are glad your issue has been resolved successfully. We are closing this case now but feel free to contact us anytime if you need further assistance."
+    }
+  ]
+}

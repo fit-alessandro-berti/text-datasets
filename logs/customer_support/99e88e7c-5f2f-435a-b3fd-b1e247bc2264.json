@@ -1,0 +1,77 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the blender this morning, but it has a large crack on the jar and doesn't work properly."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:12:01Z",
+      "contextual_activity": "Issue Categorised (Negative)",
+      "message": "The customer reported a cracked blender jar and faulty operation which fits the Product Defect category."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support case has been assigned to agent Emily Davis for handling the reported blender defect."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Agent Greeting (Neutral)",
+      "message": "Hello! This is Emily from support. I am sorry to hear about the broken blender jar you received. Let's get this sorted out."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:22:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the crack and any visible damage along with your order number to verify and expedite resolution?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:45:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "I just sent the pictures. The crack is clearly visible and I am quite disappointed because I was looking forward to using the blender immediately."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the photos. We will send you a replacement blender free of charge with expedited shipping and include a prepaid return label for the damaged item."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:05:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That solution works for me, thanks for the quick response! I appreciate the free expedited shipping and return label."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T10:10:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed your replacement order and emailed the shipping details along with the return label. Please let us know if you need further assistance."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-22T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that you have received your replacement blender and that everything is working well now."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-22T09:15:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, the replacement arrived yesterday and works perfectly. Thanks again for your help and prompt service."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-22T09:20:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Glad to hear everything is resolved! Closing your support case now, and feel free to reach out if anything else comes up."
+    }
+  ]
+}

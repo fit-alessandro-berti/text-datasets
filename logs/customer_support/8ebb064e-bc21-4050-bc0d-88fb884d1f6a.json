@@ -1,0 +1,77 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I recently purchased a blender from your website, but it is not working properly and I would like to request a refund."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:13:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been categorized as a refund request due to product malfunction reported by the customer."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:14:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent Sarah has been assigned to handle the refund case for the defective blender."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:15:30Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I'm Sarah, here to help you with your refund request. Could you please provide your order number and more detail about the issue?"
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:16:45Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please send us pictures of the blender and describe what exactly is not working? This will help us process your refund faster."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:25:30Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "I’ve attached photos showing the blender won’t turn on despite being plugged in multiple times. It’s completely broken."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T09:30:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. We will initiate a full refund to your original payment method within 5-7 business days. Please keep the blender packaged for the return shipment."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T09:35:15Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the quick response. I appreciate you handling this so promptly and will wait for the refund confirmation."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T09:40:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your refund request has been processed successfully. You will receive an email confirmation shortly with further instructions regarding the return shipment."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-22T09:40:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm that you have received your refund and if there is anything else we can assist you with today."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-22T10:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since the refund has been completed and no further issues were reported, we are closing this case. Thank you for contacting support."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-22T10:01:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We have sent you a short satisfaction survey via email. Your feedback is valuable and helps us improve our service."
+    }
+  ]
+}

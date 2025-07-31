@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:30Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I ordered a pair of shoes last week but they don’t fit at all. I want to return them and get a refund as soon as possible."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:12:45Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The case was identified as a refund request due to customer wanting to return an ill-fitting product."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The support case has been assigned to agent Sarah to assist with the refund process."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:17:10Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m Sarah from customer support. I understand you’d like to return your shoes and receive a refund. I’m here to help!"
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:18:45Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and confirm if the shoes are unworn and in the original packaging?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:25:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, the order number is 123456789. The shoes are still in the box, unworn, and with all tags attached."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T09:30:20Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the info. I have initiated the refund process. Please ship the shoes back using the prepaid return label I will email you shortly."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T09:32:45Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the quick response and help! I appreciate the prepaid label and will send the shoes back today."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-17T14:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have received your returned shoes and processed your refund. The amount should appear in your account within 3-5 business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-20T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm you received your refund and if there is anything else we can assist you with."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-20T12:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since your refund has been successfully processed and no further issues were reported, this case is now closed."
+    }
+  ]
+}

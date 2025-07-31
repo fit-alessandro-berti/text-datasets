@@ -1,0 +1,71 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-12T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my order yesterday, but the laptop has a large scratch on the screen and a faulty keyboard. I need assistance."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-12T09:20:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue involves a broken and scratched product component, categorizing this case under Product Defect."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-12T09:25:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to a technical support agent specialized in hardware issues for further assistance."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-12T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, I’m sorry to hear about the issues with your laptop. I’m here to help you resolve this as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-12T09:32:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the scratch on the screen and the issues you are experiencing with the keyboard?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-12T10:00:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "I have attached several photos showing the scratch on the screen and the keyboard keys that do not respond properly."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-12T10:15:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. We can offer to replace the laptop or provide a full refund. Please let us know your preference."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-12T10:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would prefer to have the laptop replaced rather than a refund. Please proceed with the replacement process."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-12T11:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have initiated the replacement shipment for your laptop. You will receive tracking details shortly. Thank you for your patience."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-19T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "We wanted to check that your replacement laptop has arrived and is functioning properly. Please let us know if you need any further assistance."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-19T15:45:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "As no further issues have been reported, we are closing this case. Thank you for contacting support and have a great day!"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my order last week, but I want to request a refund because the item is not what I expected and does not match the description on your website."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:16:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The case has been categorized under Refund based on the customer's request for money back due to dissatisfaction with the product."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A customer service agent has been assigned to handle this refund request and will reach out shortly to assist the customer."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I’m here to assist you with your refund request. Could you please provide your order number and the reason for the return?"
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:32:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "To process your refund quickly, we need to know if the product was opened or used and if you still have the original packaging available."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:05:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "The product was opened but not used, and unfortunately, I no longer have the original packaging since I discarded it after checking the item upon arrival."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:30:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "Thank you for the information. We can still proceed with your refund even without the original packaging. Please send the item back to our returns address, and we will process the refund upon receipt."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T11:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the quick follow-up. I appreciate that you can accept the return without the original packaging. I will ship the item back today."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T15:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have received the returned item and processed your refund. The full amount should be reflected back on your payment method within 3-5 business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-18T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm that you have received the refund and if there is anything else we can assist you with."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-18T14:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Yes, I’ve received the refund today. Thank you very much for your support throughout the process."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-18T15:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing this case now. Please don’t hesitate to contact us again if you need any further assistance in the future."
+    }
+  ]
+}

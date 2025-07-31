@@ -14,6 +14,7 @@ import sys
 import json
 import argparse
 from pathlib import Path
+from datetime import datetime
 
 from pm4py.objects.log.obj import EventLog, Trace, Event
 from pm4py.objects.log.exporter.xes.variants import line_by_line
@@ -65,6 +66,20 @@ def build_event_log(traces):
             if 'timestamp' in ev:
                 ev['time:timestamp'] = ev.pop('timestamp')
 
+            # Convert time:timestamp string and replace '+00:00' suffix with 'Z'
+            if 'time:timestamp' in ev and isinstance(ev['time:timestamp'], str):
+                ts_str = ev['time:timestamp']
+                # Replace '+00:00' with 'Z' for UTC representation
+                if ts_str.endswith('+00:00'):
+                    ts_str = ts_str[:-6] + 'Z'
+                # Normalize for parsing: convert 'Z' back to '+00:00'
+                parse_str = ts_str.replace('Z', '+00:00') if ts_str.endswith('Z') else ts_str
+                try:
+                    ev['time:timestamp'] = datetime.fromisoformat(parse_str)
+                except ValueError:
+                    # Fall back to original string if parsing fails
+                    print(f"Warning: failed to parse timestamp '{ev['time:timestamp']}' for event in trace {trace_id}")
+
             # Create Event object with updated attributes
             evt = Event(ev)
             trace.append(evt)
@@ -91,7 +106,7 @@ def main():
     # Export to XES using line-by-line exporter
     xes_file = f"{args.name}.xes"
     try:
-        line_by_line.apply("logs/"+event_log, xes_file)
+        line_by_line.apply(event_log, "logs/" + xes_file)
         print(f"Successfully exported XES to {xes_file}")
     except Exception as e:
         print(f"Error writing XES file: {e}")
@@ -100,4 +115,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

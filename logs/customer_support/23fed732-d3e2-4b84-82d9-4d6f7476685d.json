@@ -1,0 +1,77 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-01T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I just received the blender I ordered, and unfortunately it has a large crack on the main glass container. I’m very disappointed as I wanted to use it right away."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-01T09:16:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been categorized as Product Defect due to the customer's report of a cracked glass container on the delivered blender."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-01T09:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to agent Sarah M. from the product support team to address the defective product issue."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-01T10:00:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m Sarah from the product support team. I’m sorry to hear about the crack in your blender. I’m here to help you resolve this as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-01T10:05:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please send us a few photos of the cracked glass container so we can assess the damage and proceed with the appropriate solution?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-01T11:00:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "I attached several photos showing the crack clearly on the glass jar. It looks like it happened during transit as the box was slightly damaged on arrival."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-01T12:30:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the pictures. We can either send you a replacement glass container at no extra cost or offer a full replacement of the blender. Which option would you prefer?"
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-01T13:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would prefer a full replacement of the blender if possible, please. That way I’m sure it’s all brand new and tested."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-01T14:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have arranged for a full replacement blender to be shipped to your address with expedited delivery. You will receive tracking information shortly."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-10T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm you received the replacement blender and that it is in perfect condition. Please let us know if you need any further assistance."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-10T17:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since the replacement was received and no further issues reported, we are closing this case. Thank you for your patience and understanding."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-10T17:05:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "A customer satisfaction survey has been sent to gather your feedback on how we handled your defective product issue."
+    }
+  ]
+}

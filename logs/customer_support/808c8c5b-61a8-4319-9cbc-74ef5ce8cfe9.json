@@ -1,0 +1,71 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:17:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago and the shipping is still delayed with no updated tracking information available."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:18:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been identified as a Delivery Delay based on the customer's report about late shipping and missing tracking updates."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent Sarah has been assigned to assist the customer with their delayed shipment concern."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:22:15Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I’m here to help you with the delay in your order delivery."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:23:50Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the shipping address so I can check the status with the carrier?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 123456789 and the shipping address is 742 Evergreen Terrace, Springfield."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:15:30Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "I’ve contacted the shipping company and your package should arrive within the next 3 business days. We will monitor this and update you."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the update. I appreciate you looking into this and will wait for the next notification."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-13T15:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your shipment has now been delivered successfully. Please let us know if there’s anything else we can help you with."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-15T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to ensure your order arrived in good condition and that you are satisfied with the resolution provided."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-16T17:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since no further issues were reported, we are closing this case. Thank you for your patience and understanding."
+    }
+  ]
+}

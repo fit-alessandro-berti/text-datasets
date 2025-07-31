@@ -1,0 +1,71 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago, but my package still hasn’t arrived. The tracking information hasn’t updated in several days."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer's complaint about their order not arriving on time has been categorized as a Delivery Delay issue."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:25:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to a support agent specializing in shipping and delivery concerns."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m sorry to hear your package hasn’t arrived yet. I’ll do my best to help you track it down."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:32:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the shipping address so I can check the current status for you?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:40:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 123456789, and it was shipped to 45 Elm Street, Springfield."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T09:50:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "Thank you! I’ve contacted the shipping carrier and it seems your package was delayed due to weather conditions. It should arrive within the next 3 days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T09:55:00Z",
+      "contextual_activity": "Customer Feedback Received (Neutral)",
+      "message": "Thanks for the update. I’m a bit disappointed about the delay but appreciate you looking into it."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We’ve updated your case to reflect the expected delivery time. Please let us know if your package does not arrive within the next few days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-15T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm your order arrived safely and everything is in order. Please reach out if you need any further help."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-16T09:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since there have been no further issues reported, we are closing this case. Thank you for your patience and understanding."
+    }
+  ]
+}

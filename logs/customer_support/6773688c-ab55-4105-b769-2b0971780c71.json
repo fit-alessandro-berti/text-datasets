@@ -1,0 +1,83 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-12T10:05:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the wrong size for the shoes I ordered and would like to request a refund or exchange as soon as possible."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-12T10:10:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been classified under 'Refund' due to the customer's request for a refund or exchange related to a wrong size delivery."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-12T10:12:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent Sarah has been assigned to handle this refund request and will reach out to the customer shortly."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-12T10:15:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! This is Sarah from customer support. I’m here to help you with your refund request for the incorrect shoe size."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-12T10:16:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and a photo of the received shoes so I can process your refund quickly?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-12T10:30:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Thanks for responding. My order number is 123456789 and I have attached pictures showing the wrong size shoes I received."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-12T11:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "We have reviewed your photos and will initiate a full refund immediately. Please allow 5-7 business days for the amount to appear in your account."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-12T11:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I appreciate the quick resolution and the clear instructions. Thank you for the support and prompt refund processing."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-12T11:20:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The refund case has been closed from our side after confirming that the refund process was successfully initiated."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-19T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Hello again! We wanted to check if your refund has been completed satisfactorily and if you need any further assistance."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-19T10:30:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I received the refund today. Everything went smoothly. Thanks for following up and your excellent support!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-19T10:35:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing this case now. Thank you for being a valued customer and please reach out if you need anything else."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-19T10:36:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "A satisfaction survey has been sent to your email. We appreciate your feedback to improve our service."
+    }
+  ]
+}

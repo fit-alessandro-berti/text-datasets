@@ -1,0 +1,77 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-18T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I just received my new headphones, but there is a noticeable scratch on the left ear cup and the sound quality is off."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-18T09:15:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been categorized as a Product Defect due to reported damage and sound issues."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-18T09:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A customer care agent has been assigned to handle the defective headphone case."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-18T09:32:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m sorry to hear about the issue with your headphones. I’m here to help you get this resolved."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-18T09:35:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the scratch and confirm if the headphones were tested on multiple devices?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-18T10:00:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "I’ve attached the photos showing the scratch clearly. Yes, I tried the headphones on my laptop and phone, and the sound still sounds distorted."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-18T10:20:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. We can offer you a replacement unit or a full refund. Please let us know which option you prefer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-18T10:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Neutral)",
+      "message": "I would prefer a replacement if the new one has no defects. Please proceed with that option."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-18T11:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "A replacement headphone unit has been arranged for shipment, and you will receive the tracking details shortly."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-25T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to ensure your replacement headphones arrived in good condition and are working properly."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-25T09:30:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I received the replacement yesterday and it looks perfect with great sound quality. Thank you for the speedy help!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-25T10:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are glad everything is resolved. Your case has been closed. Thank you for contacting support."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed my order two weeks ago, but the package still hasn't arrived. The tracking shows no updates."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:13:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The case was categorized as a delivery delay issue based on the customer's message mentioning late shipment and tracking lack of updates."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Agent John has been assigned to handle the customer's delivery delay inquiry and provide assistance."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:17:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I'm John from customer support. I’m here to help you with your order delay. Could you please provide your order number?"
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:18:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "To better assist you, may I have the exact order number and the shipping address used when placing the order?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:20:45Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 123456789 and it was shipped to 456 Maple Street, Springfield. Thanks for your help."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T09:30:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "Thank you for the details. I've contacted the courier service to get an update, and we'll expedite the shipping to ensure your package arrives within the next three days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T09:35:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I appreciate your prompt response and effort to speed up the delivery. Looking forward to receiving the package soon."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-18T13:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have confirmed that your package has been shipped and is out for delivery. Please expect it to arrive today or tomorrow at the latest."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-21T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just following up to ensure your package arrived safely and that you are satisfied with the resolution of your delivery delay."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-21T10:10:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since your delivery issue is resolved, we are closing this case now. Please contact us if you need further assistance in the future."
+    }
+  ]
+}

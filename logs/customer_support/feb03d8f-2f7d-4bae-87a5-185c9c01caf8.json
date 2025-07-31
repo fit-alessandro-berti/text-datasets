@@ -1,0 +1,77 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I just received my order today, but the laptop screen is scratched and it does not turn on properly."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:17:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported problem has been categorized under Product Defect due to the mention of a scratched screen and malfunction."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Your case has been assigned to one of our product support agents to assist you further."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:45:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, I’m sorry to hear about the scratched screen and the issue with powering on. I’m here to help resolve this for you."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:50:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the scratched screen and any error messages you see when attempting to turn the laptop on?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:05:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "Attached are some photos showing the deep scratches clearly, and it just blinks the power light without booting up."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:20:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the photos. We can send a replacement unit immediately or arrange a technician visit to inspect and repair the damage at no cost."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:35:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would prefer a replacement unit as soon as possible. Thanks for your quick response and help."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T11:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed the replacement order. You will receive a shipment confirmation shortly and a return label for the defective laptop."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-15T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm you received the replacement laptop and if everything is working fine now."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:25:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I received the replacement and it works perfectly. Thanks again for the support!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-15T09:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are glad to hear that your issue is resolved. We are closing this case now, and do let us know if you need further assistance."
+    }
+  ]
+}

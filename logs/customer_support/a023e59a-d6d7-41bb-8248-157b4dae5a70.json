@@ -1,0 +1,77 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I just received my order and unfortunately the new blender I bought has a crack on the glass jar. It looks broken right out of the box and I am really disappointed."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:16:30Z",
+      "contextual_activity": "Issue Categorised (Negative)",
+      "message": "The system classified this reported problem as a product defect due to the customer stating the item is broken and damaged on arrival."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An agent has been assigned to handle the customer's claim regarding the damaged product in their recent order."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:32:00Z",
+      "contextual_activity": "Agent Greeting (Neutral)",
+      "message": "Hello, this is Alex from customer support. I’m sorry to hear about the cracked blender jar you received. Let’s get this fixed for you as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:33:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide a photo of the damaged jar and your order number so I can verify the issue and start the replacement process?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:05:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "Thank you for responding. I’ve attached the photos of the cracked blender jar and my order number is 123456789. Please let me know what happens next."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:20:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "We can send you a replacement blender jar at no extra cost or offer a full refund if you prefer. Please let us know which option works best for you."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T11:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would appreciate receiving a replacement please. A refund isn’t necessary since I still want to use the blender. Thanks for your help so far."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T11:15:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your replacement blender jar has been dispatched today and you should receive it within 3-5 business days. We apologize again for the inconvenience caused."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-15T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to see if your replacement blender jar has arrived and if everything is working fine now. Please let us know if any further assistance is needed."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-15T12:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "After confirming the customer’s satisfaction with the replacement, we have formally closed the case. Thank you for your patience and cooperation."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-15T12:01:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We have sent a customer satisfaction survey via email to gather your feedback on how this issue was handled."
+    }
+  ]
+}

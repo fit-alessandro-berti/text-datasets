@@ -1,0 +1,77 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I recently received my order but the product arrived with a large scratch on the surface, which is really disappointing."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:21:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue involving a damaged or scratched product has been categorized under Product Defect for further handling."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:22:30Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The issue has been assigned to a customer service representative specialized in product quality concerns."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I'm sorry to hear about the condition of your product. I'll do my best to help resolve this issue quickly."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:27:45Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the scratched area and confirm if the packaging was damaged upon delivery?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:10:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "I have attached the pictures showing the scratches clearly. The box was slightly dented but not torn or badly crushed."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T11:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the photos. We can offer you a replacement product at no extra cost or a partial refund if you prefer to keep it."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T11:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would like to receive a replacement, please. Thanks for the quick response and the helpful options."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T12:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your replacement order has been processed and will be shipped within 2 business days. We apologize for the inconvenience."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "We just wanted to check if the replacement product arrived in good condition and meets your expectations."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-17T13:15:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, the replacement arrived today and it is perfect. Thank you so much for your help and quick service!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-17T13:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are glad to hear that your issue has been resolved. If you need any further assistance, feel free to contact us anytime."
+    }
+  ]
+}

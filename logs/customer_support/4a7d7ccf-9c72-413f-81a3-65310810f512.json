@@ -1,0 +1,77 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order over two weeks ago, and it still hasn’t arrived. The tracking info hasn’t updated in days, and I’m really frustrated about this delay."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue has been categorized under Delivery Delay due to keywords such as delay, tracking, and late shipment mentioned by the customer."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:17:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to delivery support team agent Sarah M. for further assistance regarding the shipment delay."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:22:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, I’m Sarah from customer support. I’m sorry to hear your order is delayed. Let me check the tracking details right now for you."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:24:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide me your order number or the email address used so I can look into the shipment status more thoroughly?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:30:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 123456789 and the email used is john.doe@example.com. Please let me know what’s causing the delay."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T09:45:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "Thank you for the details. It appears your package was delayed due to a shipping carrier backlog. We expect delivery within 3 more days. We can offer a shipping refund or expedited shipping on your next order."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T09:50:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the update. I appreciate the offer for a shipping refund; that sounds fair given the inconvenience."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T09:55:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "I have processed a full refund for your shipping costs. You should see it reflected in your account within 3-5 business days. Thank you for your patience."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-13T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just following up to ensure your order was received and the shipping refund processed correctly. Please let us know if you need further assistance."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-13T10:15:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, the package arrived yesterday, and I got the refund in my account today. Thank you for the quick resolution and excellent support."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-13T10:20:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are glad everything has been resolved to your satisfaction. Closing the case now, and feel free to reach out anytime. Have a great day!"
+    }
+  ]
+}

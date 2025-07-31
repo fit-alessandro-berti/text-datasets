@@ -1,0 +1,83 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I just received my order and noticed the laptop screen has a large scratch. It looks like it was damaged before shipping."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:15:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The case has been categorized as a product defect due to the customer's report of a scratched and damaged screen on the laptop."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The support team member Sarah has been assigned to handle this case involving a faulty laptop screen."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, I'm Sarah from customer support. I'm sorry to hear your laptop arrived with a scratched screen. Let's get this sorted out quickly."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:27:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the scratched screen and your order number so I can verify the issue and proceed with a solution?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T10:05:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Here are the pictures of the scratched laptop screen along with a copy of my order confirmation email and receipt attached for your reference."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:30:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. We can send you a replacement laptop immediately or arrange a repair. Please let me know which option you prefer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T11:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would prefer a replacement laptop as soon as possible. Repair would take too long since I need it for work daily."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T11:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed the replacement order for your laptop, which will be shipped within 24 hours with expedited shipping at no extra cost."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-22T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that you received your replacement laptop and that it is in perfect condition. Please let us know if there are any further issues."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-22T10:15:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I received the replacement laptop yesterday and everything looks great this time. Thank you for the quick assistance!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-22T10:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are happy to hear that your replacement laptop arrived in perfect condition. Closing this case now. Have a great day!"
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-22T10:31:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We have sent you a customer satisfaction survey to hear about your experience with our support team. Your feedback is appreciated."
+    }
+  ]
+}

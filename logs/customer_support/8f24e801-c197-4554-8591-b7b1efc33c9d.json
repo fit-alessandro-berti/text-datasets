@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:12:45Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I ordered a jacket last week and it arrived too small. I would like to know how I can get a refund or exchange for the correct size."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:13:10Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue has been categorized under Refund because the customer mentioned needing a refund or exchange."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A customer support agent has been assigned to handle the refund request related to the jacket order."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:20:33Z",
+      "contextual_activity": "Agent Greeting (Neutral)",
+      "message": "Hello! I'm here to help you with your jacket. Could you please confirm the order number and the exact size you need?"
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:21:10Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you also provide a photo of the jacket to verify the size issue or any tags that came with it?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:37:45Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 12345678 and I received a size M but I actually ordered an L. I have attached photos of the jacket and the label."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T09:52:20Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. We can process a refund or send you a size L replacement. Please let us know which option you prefer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:05:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would prefer to get an exchange for the size L please. Thank you for handling this quickly."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T10:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have arranged for the size L jacket to be shipped to you and provided a return label for the size M at no cost."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that you received the size L jacket and everything is now satisfactory with your order."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-18T08:45:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since there has been no further response, we will mark this case as closed. Thank you for contacting customer support."
+    }
+  ]
+}

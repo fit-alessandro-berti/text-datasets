@@ -1,0 +1,77 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T10:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my order yesterday, but the laptop screen has several scratches and the device seems faulty. I am quite disappointed with the quality."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T10:15:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been categorised under Product Defect based on the customer's description of scratches and faults on the laptop screen."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T10:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "This case has been assigned to the technical support agent team to assist with the defective laptop issue."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T10:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, I’m sorry to hear about the issues with your laptop. I’m here to help you get this resolved as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T10:30:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the scratches and describe any other functional problems you are experiencing with the device?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T11:00:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "I have attached photos of the scratches on the screen. Additionally, the laptop randomly shuts down without warning which makes it unusable."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T11:20:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information and photos. We can offer you a replacement unit or a full refund. Please let us know which option you prefer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T11:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Neutral)",
+      "message": "I would prefer a replacement laptop, as I still want to use your product but only if it is free of defects."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T12:10:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed the replacement order and it will be shipped to you within 3 business days. You will receive tracking details shortly."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-22T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that the replacement laptop arrived in good condition and that you are satisfied with the resolution."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-22T10:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing this case as resolved, but please reach out anytime if you experience further issues or need assistance."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-22T10:05:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "A customer satisfaction survey has been sent to gather your feedback on how we handled your product defect case."
+    }
+  ]
+}

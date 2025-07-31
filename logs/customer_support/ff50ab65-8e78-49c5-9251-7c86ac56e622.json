@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:12:45Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I would like to request a refund for the jacket I bought last week because it does not fit as described and I am very disappointed."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:13:15Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The case has been categorized under 'Refund' based on keywords in the customer's message regarding returning the product."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An agent has been assigned to handle the refund request for the customer's order number 458792."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:30:20Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I'm here to help you with your refund request. Could you please provide the order number and reason for the return?"
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:32:05Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "To proceed with your refund, could you please confirm if the item has been used or damaged and whether you still have the original packaging?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:40:30Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "The jacket is unused and in perfect condition. I still have the packaging and tags attached. The size just isn’t right for me."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T09:50:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the info. We will initiate the refund process immediately once you send the jacket back to the provided address. Return shipping will be covered by us."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T09:55:12Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That sounds good, thank you. I appreciate the quick response and the fact that return shipping costs will be reimbursed."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-12T14:20:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your refund has been processed successfully and should appear in your account within 3-5 business days. Please check your email for confirmation."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-15T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just following up to make sure you have received your refund and that everything is satisfactory with how your request was handled."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-15T12:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since no further issues were reported, we are closing your refund case. Thank you for shopping with us and we hope to serve you better next time."
+    }
+  ]
+}

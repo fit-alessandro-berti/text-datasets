@@ -1,0 +1,77 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T10:05:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I recently received my order but I want to return it because the product does not meet my expectations. How do I get a refund?"
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T10:05:10Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The request was identified as related to a refund and return process based on the customer's initial message."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T10:10:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A customer service agent was assigned to handle the refund case and respond to the customer's inquiry."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T10:12:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out to us. I’m here to assist you with your refund request. Could you please provide your order number?"
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T10:12:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "In order to start the refund process, I need the order number and details on the product you wish to return."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T10:20:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 123456789. The product is a kitchen blender that I found different from the description."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:25:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. I have initiated the refund process for your order. You will receive an email with the return instructions shortly."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for helping me so quickly. I appreciate the clear instructions and the refund support."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T11:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your refund case has been processed successfully. Please follow the return steps in your email to complete the refund."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-20T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "We wanted to follow up to ensure you completed the return process and have no further issues with your refund."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-20T12:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since the refund process was completed and no further concerns were raised, we are now closing your case. Thank you!"
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-20T12:05:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We have sent you a quick satisfaction survey to hear about your experience with our support team."
+    }
+  ]
+}

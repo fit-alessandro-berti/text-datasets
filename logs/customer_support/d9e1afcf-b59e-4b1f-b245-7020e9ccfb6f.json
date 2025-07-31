@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the wrong item in my order and would like to request a refund or exchange as soon as possible."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:13:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue has been categorized under refund requests due to the customer's need for a refund or exchange."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent Emily has been assigned to handle the refund request for the incorrect item received."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:22:10Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m Emily from customer support. I’m here to help you with your refund request. Could you please provide your order number?"
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:22:15Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "To process your refund, could you confirm the order number and the item you received incorrectly?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:30:45Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "My order number is 78345621, and instead of the wireless headphones, I got a USB car charger. I want my money back quickly."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T09:45:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. I have initiated a full refund to your original payment method and you will receive a confirmation email shortly."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the quick response. I appreciate the fast refund and look forward to the confirmation email."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T10:05:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The refund process has been completed successfully, and the case is now resolved from our side."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-18T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just following up to ensure you received the refund and if you need any further assistance, please let us know."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-20T16:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since the refund was processed and no further queries were raised, we are closing this case today. Thank you for reaching out."
+    }
+  ]
+}

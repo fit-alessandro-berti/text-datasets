@@ -1,0 +1,71 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:22:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my order yesterday, but the device has several scratches and does not work properly."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:23:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been classified as Product Defect due to the reported scratches and malfunction."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:25:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A support agent specialized in product defects has been assigned to your case for assistance."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, this is Alex from customer support. I'm sorry to hear about the issues with your device. I am here to help."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:35:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the scratches and describe the problems you are experiencing in more detail?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "I have attached pictures showing the scratches on the screen and the device won't turn on despite charging it fully."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:15:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "Thank you for the photos. We can offer to send a replacement unit immediately or process a return for a full refund. Which option would you prefer?"
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would like to receive a replacement as soon as possible. Thank you for the quick response and help."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T11:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We've arranged shipment of a replacement device today and you should receive a tracking number shortly. The defective unit return label will be included."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just following up to ensure your replacement device arrived in good condition and is functioning properly. Please let us know if you need further assistance."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-20T09:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since you have confirmed the replacement works well and no further issues were reported, we will now close this support case. Thank you for contacting us."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my order yesterday, but unfortunately the laptop screen has a large scratch that wasn't mentioned anywhere."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The case has been categorized as a Product Defect due to the customer's report of a scratched laptop screen."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:25:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The issue has been assigned to agent Sarah Thompson for further assistance with the product defect."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Neutral)",
+      "message": "Hello! My name is Sarah, and I'll be helping you with the scratch on your laptop screen. I'm sorry for the inconvenience caused."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:32:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide a few pictures of the scratched screen along with your order number so we can verify the issue?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "I have attached the photos showing the scratch and my order number is 987654321. The damage is very noticeable and affects usage."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:30:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "Thank you for the photos. We can offer you either a replacement laptop or a full refund. Please let us know which option you prefer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T11:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would prefer a replacement, as I like the model but cannot use it with the scratch. Thank you for the quick response."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T11:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed your request for a replacement. A new laptop will be shipped within 3 business days at no additional cost."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Checking in to confirm you received the replacement laptop and that it meets your expectations. Please let us know if there is anything else."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-17T10:30:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, the replacement arrived yesterday and it's in perfect condition. Thank you for resolving this so efficiently."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-17T10:45:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing your case now since the issue was resolved with the replacement and no further assistance is required. Have a great day!"
+    }
+  ]
+}

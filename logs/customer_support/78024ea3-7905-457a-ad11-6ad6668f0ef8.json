@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the wrong item in my order and would like to request a refund as soon as possible because I do not need this product."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:18:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The case has been categorized under the refund cluster based on the customer's request for money back."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Assigning the refund case to agent Emily Smith for further handling and resolution."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:22:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, I’m Emily and I will assist you with your refund request. Could you please provide your order number?"
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:22:45Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "To proceed with your refund, may I also know the exact item you received and what you ordered?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:30:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "My order number is 987654321. I ordered the blue wireless headphones but received a red case instead. This is very disappointing."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T09:45:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "We apologize for the inconvenience. We will initiate a full refund immediately and send you a prepaid return label for the wrong item."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T09:50:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thank you for your quick response and for arranging the refund and return label so promptly."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The refund process has been completed on our end and the return label sent to your email. Please check and let us know if you need further assistance."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just following up to ensure you have received the refund and return label without any issues. Please contact us if anything else is needed."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-18T12:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing this case now as the refund was confirmed received and no further issues reported by the customer."
+    }
+  ]
+}

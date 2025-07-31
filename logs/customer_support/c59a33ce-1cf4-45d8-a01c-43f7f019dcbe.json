@@ -1,0 +1,83 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago, and it still hasn't arrived. The tracking information hasn't updated in several days, and I'm worried my package is lost."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer's issue was identified as a delivery delay due to the late arrival and lack of tracking updates."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:16:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent Jessica has been assigned to handle the customer's delivery delay case and provide updates."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I'm sorry to hear your order hasn't arrived yet. Let me check the status and help you with this."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:32:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the shipping address so I can look into the tracking details for you?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:05:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 4589321 and my shipping address is 123 Maple Street, Springfield, IL. Thank you for checking on this."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:45:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "I've contacted the delivery service to locate your package and expect a response within 24 hours. Meanwhile, we can offer a shipping refund if the package is confirmed lost."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T11:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thank you for the quick response and the offer of a refund if needed. I appreciate you following up with the delivery service."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-11T13:20:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The delivery service confirmed your package was misplaced but has now been re-routed and will arrive in 2 days. We apologize for the inconvenience."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-13T15:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm your order has arrived and if everything is satisfactory. Please let us know if you need any further assistance."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-13T15:30:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, the package arrived yesterday and everything is in perfect condition. Thanks for your help resolving this so quickly."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-13T15:45:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are glad your package arrived safely. Closing this case now, but feel free to contact us anytime if you need further help."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-13T16:00:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "Please take a moment to complete our satisfaction survey regarding your recent support experience. Your feedback is valuable to us."
+    }
+  ]
+}

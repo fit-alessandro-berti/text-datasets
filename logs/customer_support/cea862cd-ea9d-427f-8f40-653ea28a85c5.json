@@ -1,0 +1,71 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T10:12:45Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I just received my order and unfortunately the laptop screen has multiple scratches and some dead pixels. This is unacceptable."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T10:13:52Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported problem has been categorized under Product Defect due to screen scratches and dead pixels mentioned by the customer."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T10:20:10Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An agent has been assigned to handle the customer case regarding the defective laptop screen."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T10:22:37Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m sorry to hear about the issue with your laptop screen. I’m here to help you get this resolved as soon as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T10:23:20Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the scratches and dead pixels on the screen so we can better understand the extent of the damage?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T11:05:47Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "I have attached several photos showing the scratches and dead pixels on the laptop screen as you requested."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T11:40:15Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the photos. We can offer you a replacement laptop or a full refund. Please let us know which option you prefer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T12:03:22Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would prefer a replacement laptop instead of a refund. Please proceed with the exchange."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-16T09:15:05Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your replacement request has been processed and a new laptop will be shipped to your address within 3 business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-20T12:01:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "We hope your replacement laptop arrived in perfect condition. Please contact us if you encounter any further issues."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-20T15:45:33Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing this case now as the replacement has been successfully delivered and no further issues were reported."
+    }
+  ]
+}

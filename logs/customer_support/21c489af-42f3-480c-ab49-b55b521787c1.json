@@ -1,0 +1,77 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my order yesterday but the blender is not working properly. It makes strange noises and stops randomly."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:12:05Z",
+      "contextual_activity": "Issue Categorised (Negative)",
+      "message": "The issue has been classified under Product Defect after analyzing the customer complaint about the faulty blender."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Customer support representative Sarah has been assigned to handle the defective product report for this case."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:17:45Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, I am sorry to hear that your blender is malfunctioning. I’m here to help you get this resolved as soon as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:18:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide details on when you first noticed the issue and if there are any visible damages or scratches on the product?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T10:05:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "I noticed the problem on the very first use. There is a small scratch near the blender blade and it keeps stopping mid-use."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:30:15Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "We can either send you a replacement blender or arrange for a repair service. Please let us know which option you prefer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T11:00:45Z",
+      "contextual_activity": "Customer Feedback Received (Neutral)",
+      "message": "I would prefer a replacement as I need the blender urgently and don’t want to wait for repairs."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T11:20:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your replacement blender has been processed and will be shipped within 24 hours with expedited delivery."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-22T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that you have received the replacement blender and that it is functioning properly."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-22T09:45:30Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I got the replacement and it works perfectly now. Thank you for the quick assistance!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-22T10:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Glad to hear your issue has been resolved. We are closing this case now, but feel free to contact us anytime in the future."
+    }
+  ]
+}

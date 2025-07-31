@@ -1,0 +1,77 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I ordered a laptop two weeks ago, but it still hasn't arrived and the tracking info hasn't updated for days."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:15:05Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "System identified the customer message contains keywords related to delivery delay and labeled the issue accordingly."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent has been assigned to handle the customer's delivery delay issue and will be responding shortly."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:21:30Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out about your order. I’m here to help you track down your package."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:22:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and any tracking details you have so I can investigate the delay?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:45:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 123456789. The last tracking update was from five days ago, and it hasn't moved since."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "Thank you for the information. We will contact the shipping carrier immediately and update you within 24 hours on the status."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:05:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks, I appreciate the prompt response and look forward to hearing back soon."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-11T11:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We've confirmed your package was delayed due to a transit issue but is now out for delivery today."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-13T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to make sure you received your order and everything is satisfactory now."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-13T10:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Yes, the laptop arrived yesterday and is working perfectly. Thanks for the excellent support!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-13T10:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "The case has been closed as the customer confirmed receipt and satisfaction with the delivered product."
+    }
+  ]
+}

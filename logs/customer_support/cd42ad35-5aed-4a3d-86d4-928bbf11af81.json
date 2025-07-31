@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:00:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I would like to request a refund for the headphone set I purchased last week because they stopped working after only two days."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:02:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The case has been identified as a refund request related to product malfunction and customer dissatisfaction."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:05:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An agent from the refunds department has been assigned to handle the request for the faulty headphones refund."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:10:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m sorry to hear about the issue with your headphones. I’m here to assist you with your refund request."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and a description of the problem in more detail to process the refund quickly?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "Order number is 12345678. The headphones do not power on anymore, and I have already tried charging them overnight."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T09:25:30Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. We will initiate a full refund immediately and provide you with a prepaid shipping label to return the faulty item."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T09:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the prompt response and solution. I appreciate the quick handling of this issue."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T09:35:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed your refund and emailed you the shipping label. Please send the headphones back at your convenience."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-20T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm you received the refund and if there is anything else we can assist you with."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-21T12:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing this case now as the refund was successfully processed and there have been no further issues reported."
+    }
+  ]
+}

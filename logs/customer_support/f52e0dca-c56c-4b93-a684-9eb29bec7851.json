@@ -1,0 +1,77 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-01T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the laptop yesterday but the screen has a large scratch and some pixels seem broken. This is unacceptable for a new product."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-01T09:16:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue reported involves a damaged screen and defective pixels indicating a product defect."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-01T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Your case has been assigned to a customer support specialist who will assist you further with your laptop issue."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-01T09:45:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m sorry to hear about the problem with your laptop screen. I’m here to help you get this resolved as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-01T09:50:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the scratched screen and the broken pixels so we can assess the damage better?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-01T10:10:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "I have attached several photos showing the large scratch clearly and the faulty pixels on the top right corner of the screen."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-01T11:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the photos. We can offer you either a replacement laptop or a full refund. Please let us know which option you prefer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-01T11:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I appreciate the quick response. I would prefer a replacement laptop, please, since I still want the same model but in perfect condition."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-01T12:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed the replacement order for your laptop. You will receive a shipping confirmation within 2 days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-07T08:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just following up to confirm that you have received the replacement laptop and that it is in perfect condition as expected."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-07T09:00:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I received the new laptop yesterday and it arrived without any defects. Thank you for the excellent support."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-07T09:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We’re glad everything has been resolved to your satisfaction. Closing your case now. Please contact us anytime if you need further assistance."
+    }
+  ]
+}

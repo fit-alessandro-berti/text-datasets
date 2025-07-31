@@ -1,0 +1,77 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I recently bought a jacket from your online store but it doesn't fit at all. I would like to request a refund as soon as possible."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:13:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue has been classified under the refund cluster since the customer requests money back."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case was assigned to agent Sarah Thompson for further assistance regarding the refund request."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:18:42Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I understand you want to request a refund for your jacket order."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:20:10Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and confirm whether the item is unused and in the original packaging?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:45:30Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Thank you for your help. My order number is 4598231, and yes, the jacket has never been worn and is still in its original packaging."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T09:55:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "We have processed your refund request and it will be credited to your original payment method within 5-7 business days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:05:40Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the quick response and processing my refund promptly. I appreciate the efficient support."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T10:07:20Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The refund process for order 4598231 has been successfully completed and the case is now resolved."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-15T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "We are checking in to confirm that you have received your refund and if there is anything else we can assist you with."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-15T09:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since the refund was confirmed received and no further questions were raised, this case has now been closed."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-15T09:16:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "A customer satisfaction survey has been sent to gather your feedback about the refund process and overall support experience."
+    }
+  ]
+}

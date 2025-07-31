@@ -1,0 +1,83 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I ordered a package two weeks ago but it still hasn't arrived. The tracking info hasn’t updated for several days."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:13:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue is identified as a delivery delay based on the customer’s mention of late shipping and tracking problems."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:14:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Customer support representative Alex has been assigned to handle the delayed delivery inquiry."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m Alex from customer support. I’m sorry to hear your package is delayed; I’ll do my best to assist you."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:22:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide me with your order number and the tracking number so I can investigate the shipping status?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:45:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 458923 and the tracking number is TRK123456789. It has shown no movement for four days now."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "I’ve contacted the courier service for an update. Meanwhile, I can offer to resend the package or issue a full refund if the delivery fails."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thank you for your quick response. I would prefer a resend of the package rather than a refund, hoping it arrives soon."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-16T08:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The replacement package has been shipped today with expedited delivery. You will receive a new tracking number shortly."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-22T08:30:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that you have received the replacement package and that everything is satisfactory."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-22T09:00:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I received the package today and everything looks perfect. Thank you for your help in resolving this quickly."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-22T09:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Closing the case as the customer confirmed receipt and satisfaction with the replacement delivery."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-22T09:20:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "A customer satisfaction survey has been sent to gather feedback regarding the support and resolution experience."
+    }
+  ]
+}

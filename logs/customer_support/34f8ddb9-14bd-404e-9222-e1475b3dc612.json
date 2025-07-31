@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the wrong size for the jacket I ordered and would like to request a refund since the item doesn't fit."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:15:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue is categorized as a refund request because the customer wants their money back due to receiving an incorrect size."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The support ticket has been assigned to agent Clara M. to handle the refund request for the wrong size jacket."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:22:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I understand you'd like a refund for the jacket you received in the wrong size. I'm here to help."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:25:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and a photo of the jacket showing the size label so we can verify the error?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:40:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is #456789 and I have attached a photo showing the size label as requested."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T09:50:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. I have processed your refund, and you should see the amount credited back to your original payment method within 5 business days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I appreciate your quick response and the refund processed so fast. Thanks for resolving this issue."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T10:05:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The refund case has been marked as resolved after confirming the payment reversal and customer satisfaction."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-20T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Following up to ensure that you received your refund and that everything is satisfactory with the resolution provided."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-20T12:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "The refund case has been closed following confirmation that the issue was resolved to your satisfaction. Thank you for contacting support."
+    }
+  ]
+}

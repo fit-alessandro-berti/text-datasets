@@ -1,0 +1,71 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:21:15Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I just received the laptop I ordered last week and noticed multiple scratches on the screen and casing. It looks like a defective product."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:22:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer reported a product defect involving scratches on the laptop screen and casing."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:25:43Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Customer case assigned to support agent to handle product defect issue."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:30:10Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, thank you for contacting us about the scratched laptop. I’m here to help resolve this issue as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:31:55Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide a few photos of the scratches on your laptop so we can assess the damage and determine the next steps?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:05:20Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "I have attached multiple pictures clearly showing the scratches concentrated on the screen and around the edges of the laptop."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:15:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the photos. We can offer a replacement unit or a full refund due to the defective condition you received. Please let us know your preferred option."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:22:40Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would prefer a replacement unit since I still want to use this model, but I appreciate the refund option as well."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T10:45:12Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed your replacement request and you should receive the new laptop within 5 business days. Please return the defective unit with the prepaid shipping label."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just following up to ensure your replacement laptop arrived in good condition. Please reach out if you have any further issues or questions."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-17T12:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since the replacement was received and no further problems were reported, we are closing this support case now. Thank you for your patience."
+    }
+  ]
+}

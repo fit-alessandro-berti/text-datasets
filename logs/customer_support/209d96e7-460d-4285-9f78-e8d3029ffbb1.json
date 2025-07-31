@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:30:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I ordered a jacket last week but it arrived in the wrong size. I would like to know how to get a refund or exchange."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:35:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The system identified the case as a refund request related to incorrect product delivery."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:50:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to Customer Support Agent Sarah for further assistance."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I’m sorry to hear about the issue with your jacket. I’m here to help."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T10:03:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the details of the size you received versus the size you ordered?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:15:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "The order number is 123456789. I ordered a Large but received a Medium, which doesn’t fit me at all."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:25:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thanks for the info. We can either send you a replacement in Large or issue a full refund. Which option do you prefer?"
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:35:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would prefer a refund, please. I don’t want to risk getting the wrong size again."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T10:45:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "I processed your refund, which should appear in your bank account within 5-7 business days. We apologize for the inconvenience."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T11:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm you have received your refund. Please let us know if there is anything else we can assist you with."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-17T11:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since everything is resolved, we are closing this case. Thank you for contacting us and have a great day!"
+    }
+  ]
+}

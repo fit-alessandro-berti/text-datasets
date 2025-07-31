@@ -1,0 +1,77 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I recently purchased a jacket from your store, but I want to return it and get a refund as it does not fit me."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:13:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The request has been identified as a refund issue based on the customer's expressed desire to return the product."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Assigning this refund case to the customer service representative specialized in returns and refunds."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for contacting us. I understand you'd like to return the jacket and receive a refund. I'm here to help."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:22:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please confirm the order number and let us know if the jacket has been worn or damaged in any way?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:30:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "The order number is 8745123. The jacket is brand new, unworn, and still with tags attached."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T09:45:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. You can return the jacket within 30 days for a full refund. I will email you the return shipping label shortly."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T09:50:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Great, thank you for your quick response and for sending the return label. I appreciate the smooth process."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The return shipping label has been sent to your email. Once we receive the jacket, we will process the refund promptly."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to see if you were able to send back the jacket and if everything is going smoothly with your refund."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-17T11:00:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I shipped it two days ago and received confirmation that you’ve processed my refund. Thanks again!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-17T11:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Glad to hear the refund was processed successfully. We’re closing this case now, and thank you for shopping with us."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:03:12Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I just received my order and noticed that the smartphone screen is cracked and the device is not functioning properly."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:04:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue involves a broken device, categorizing this case under Product Defect for further handling."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:10:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to agent Sarah M. who specialises in handling product defects."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:15:42Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, I’m Sarah from support. Sorry to hear about the cracked screen. Let’s work together to fix this issue as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:20:31Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the damaged smartphone and let us know if the box was damaged upon delivery?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:35:47Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "I took pictures of the cracked screen and the package. The box was slightly dented but not extensively damaged. Sending photos now."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:05:50Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thanks for the photos. We can offer a replacement device shipped to you immediately or a full refund once you return the defective smartphone."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:20:22Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would prefer a replacement device as I need it for work urgently. Please let me know how soon it can be shipped."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T10:35:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed your replacement order. It will be shipped within 24 hours and you should receive tracking details shortly."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-22T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to ensure your replacement smartphone arrived and is working correctly. Please let us know if you need any further assistance."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-22T10:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing this case as resolved based on your confirmation of receiving the replacement device in good condition."
+    }
+  ]
+}

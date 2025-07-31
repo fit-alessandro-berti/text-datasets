@@ -1,0 +1,77 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my order yesterday, but the product is broken and does not work at all. The screen has a big scratch and it powers off unexpectedly."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:13:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The system has classified the issue as Product Defect based on the customer’s report mentioning broken and scratched items."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A customer support agent has been assigned to handle the case regarding the faulty product received by the customer."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, I am sorry to hear about the issues with your product. I’m here to assist you in resolving this as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:27:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the damage and the product’s serial number so we can verify the defect and proceed with a solution?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:50:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Attached are the photos showing the scratched screen and the device turning off randomly. The serial number is included on the back label."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:10:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. We can offer you a replacement unit shipped at no cost or a full refund if you prefer. Please let us know your choice."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:25:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would like to receive the replacement unit, please. Thank you for resolving this quickly."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T11:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your replacement request has been processed. The new product will be shipped within 2 business days and you will receive tracking information shortly."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T14:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "We are following up to ensure that your replacement unit has arrived and that you are satisfied with the resolution of your defective product issue."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-17T15:30:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "I received the replacement yesterday, and it works perfectly. Thank you again for the excellent service and prompt support."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-17T16:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing your case now. Please contact us if you need any further assistance in the future."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my order last week but I want to request a refund because the product does not meet my expectations and I would like to know the process."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:16:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer's request includes terms like refund and money back, categorizing this case under Refund cluster."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to support agent Jane Smith for further assistance with the refund request."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:45:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for contacting us. I’m here to help you with your refund request and get this matter resolved quickly."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:50:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and let us know if the product was opened or used, so we can process your refund accordingly?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:05:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "My order number is 123456789. I have not used the product; it is still in the original packaging but I simply changed my mind."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:30:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. We can initiate a refund for you as the product is unopened. Please send the item back within 14 days to receive a full refund."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T11:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the clear instructions. I will prepare the package and send it back within the timeframe you mentioned."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-17T14:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have received your returned product and processed your refund successfully. You should see the amount credited to your original payment method within 5 business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-22T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just following up to confirm that you have received your refund and if there is anything else we can assist you with today."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-22T10:15:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "I received the refund and everything was handled smoothly. Thank you very much for your help!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-22T10:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are happy to hear that your refund was received successfully. Closing the case now and feel free to contact us anytime."
+    }
+  ]
+}

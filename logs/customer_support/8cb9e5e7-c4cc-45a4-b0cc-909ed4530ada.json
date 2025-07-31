@@ -1,0 +1,89 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order over two weeks ago and still haven't received any shipping updates. The package is very late, and I am concerned about the delay."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:16:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been categorized as a Delivery Delay due to the customer's complaint about late shipping and missing tracking information."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A customer support agent has been assigned to handle the case regarding the delayed delivery and update the customer accordingly."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I'm sorry to hear your order hasn't arrived yet. Let's check the status together and find out what's causing the delay."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:27:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the email address used when placing the order? This will help me look up your shipment details."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:35:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Thank you. My order number is 456789123 and the email is customer@example.com. I really need to know when the package will arrive."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "I’ve checked your order status with the courier. It appears there was a shipping delay due to weather conditions. Expected delivery is now estimated in three days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:05:00Z",
+      "contextual_activity": "Customer Feedback Received (Negative)",
+      "message": "I appreciate the update, but waiting three more days is inconvenient. Is there any way to expedite the shipment or arrange an alternative?"
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:20:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "We can offer a partial refund on the shipping cost as a gesture of goodwill and will notify the courier to prioritize your delivery. Will this be acceptable?"
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Yes, that sounds fair. I appreciate your help and the partial refund offer. Please keep me updated on the shipping progress."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T10:45:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The partial refund has been processed and the courier has been contacted for expedited delivery. We will update you as soon as your package is out for delivery."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-13T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that your package was delivered successfully and to ensure you are satisfied with the resolution provided."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-13T12:10:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "The package arrived today and everything looks good. Thank you for your assistance and support throughout this issue."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-13T12:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are glad to hear your package arrived safely. Closing the case now, but feel free to reach out if you need any further assistance."
+    }
+  ]
+}

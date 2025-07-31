@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:13:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the wrong item in my order and would like to request a refund. The product isn't what I paid for."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:15:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been identified as a refund request due to receiving an incorrect product and not matching the order."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Your case has been assigned to one of our customer support agents who will assist you shortly."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:25:45Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for contacting us. I’m sorry to hear about the mistake with your order, and I’m here to help you with the refund process."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:28:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide a photo of the product you received along with your order number so we can verify and proceed with the refund?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:35:20Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "I have attached the photos showing the incorrect product and here is my order number: 987654321. Please let me know the next steps."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T09:45:10Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. We will process your refund immediately and send you a confirmation email within 24 hours. You do not need to return the item."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T09:50:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the quick response and a hassle-free solution. I appreciate the no-return refund, that’s great customer service."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T09:55:30Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your refund has been processed and you should see the amount credited to your original payment method within 3 to 5 business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-16T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm that you have received your refund and that there are no further issues we can assist with."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-16T12:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing this support case now. Please feel free to reach out anytime if you have any other questions or concerns."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-01T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I recently purchased a blender from your store, but it arrived not working properly and I would like to request a refund as soon as possible."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-01T09:16:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been identified as a refund request due to a faulty product received by the customer."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-01T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A customer support representative has been assigned to handle the refund request for the faulty blender."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-01T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m sorry to hear your blender arrived not working. I’m here to help you with the refund process."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-01T09:26:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and some photos of the blender showing the issue so we can quickly process your refund?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-01T09:45:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, the order number is 123456789. I’ve attached pictures showing the blender won’t turn on at all."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-01T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. We will initiate a full refund and send you a prepaid shipping label to return the faulty blender."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-01T10:05:30Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That sounds great, thank you for handling this quickly. I will send the blender back as soon as I receive the label."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-01T10:20:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your refund has been processed and the shipping label sent to your email. We appreciate your patience and are sorry for the inconvenience."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-05T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "We’re following up to confirm you have successfully returned the blender and received your refund without any issues."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-05T14:30:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I received the shipping label, sent the blender back yesterday, and the refund appeared in my account today. Thanks again!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-05T15:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are glad your refund issue is fully resolved. Thank you for contacting us, and have a wonderful day!"
+    }
+  ]
+}

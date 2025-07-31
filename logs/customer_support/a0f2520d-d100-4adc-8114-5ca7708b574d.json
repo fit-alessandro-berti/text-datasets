@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-01T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I ordered a set of headphones last week, but I want to return them because they don't meet my expectations and I need a refund."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-01T09:16:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The system has classified this issue as Refund based on keywords mentioned in the customer's message."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-01T09:17:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Your case has been assigned to a customer service representative who will assist you with the refund process."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-01T09:20:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I’m here to help you with your refund request for the headphones you purchased."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-01T09:22:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the reason why you want to return the product to proceed with the refund?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-01T09:30:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "My order number is 123456789. I want to return the headphones because the sound quality is not as good as described."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-01T09:45:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. We will initiate your refund immediately and provide you with a prepaid shipping label to return the headphones."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-01T10:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I appreciate the quick response and the prepaid label. This solution works well for me, thank you."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-01T10:05:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your refund request has been processed and the shipping label was sent to your email. Please return the product within 14 days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-08T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to ensure you have received the shipping label and if you need any further assistance with your return."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-10T15:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing this case now as the return process is underway. Feel free to contact us if you have any more questions."
+    }
+  ]
+}

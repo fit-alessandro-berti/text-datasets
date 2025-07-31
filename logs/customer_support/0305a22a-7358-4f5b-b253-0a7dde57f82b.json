@@ -1,0 +1,71 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I just received the smartphone I ordered, but the screen has a large scratch right in the middle. It looks defective."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:12:10Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue is categorized as a product defect based on the description of a scratched screen."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An available customer support agent has been assigned to handle the defective product case."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:16:30Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m sorry to hear about the scratched screen on your smartphone. I’m here to help you resolve this issue."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:17:50Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide a photo of the scratch and confirm when you received the product?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:45:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Here is the photo of the scratch on the screen. I received the phone just two days ago, and noticed it immediately."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:05:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the photo. We can either offer you a replacement unit at no additional cost or arrange a full refund if you prefer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:10:00Z",
+      "contextual_activity": "Customer Feedback Received (Neutral)",
+      "message": "I would like to go ahead with a replacement. Please let me know the next steps to return the defective phone."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T10:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have arranged the replacement shipment and sent you a prepaid return label for the defective phone. Expect delivery within five business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-20T11:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to ensure that your replacement smartphone has arrived in good condition and that you are satisfied with the solution."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-20T11:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing this case as resolved. Please contact us again if you have any further issues or questions."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:22:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I ordered a package over two weeks ago and the tracking still shows it as shipped but not delivered. This delay is unacceptable and I need help."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:23:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The system has categorized this case under 'Delivery Delay' due to keywords related to late shipment and tracking concerns."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An agent has been assigned to handle the delayed delivery issue to provide the necessary assistance and updates."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:35:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m sorry to hear about the delay with your order. I'll do my best to help you find out what’s causing the hold-up."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:36:20Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide me with your order number and tracking ID so I can check the shipment status in more detail?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:40:45Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, the order number is 123456789 and the tracking code is XYZ987654321. I appreciate your help in resolving this."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:00:10Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "After checking, it appears the shipment is delayed due to a logistics issue at the carrier. We can expedite a replacement shipment or issue a refund if you prefer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:10:00Z",
+      "contextual_activity": "Customer Feedback Received (Negative)",
+      "message": "I really need the item as soon as possible. Please send the replacement quickly; waiting for a refund would not work for me right now."
+    },
+    {
+      "activity": "Issue Escalated",
+      "timestamp": "2024-06-15T10:15:30Z",
+      "contextual_activity": "Issue Escalated (Neutral)",
+      "message": "I’m escalating your case to our logistics supervisor to prioritize the replacement delivery and ensure it reaches you promptly."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-16T08:45:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The replacement package has been shipped today with expedited delivery and you should receive it within two days. Thank you for your patience."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-18T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that you received your replacement order and that everything is satisfactory. Please let us know if further assistance is needed."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-19T09:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since there has been no further reply, we are closing the case. Thank you for contacting support and have a great day!"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago, but it still hasn’t arrived. The tracking number isn’t updating, and I’m worried it’s lost or delayed indefinitely."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:16:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been labelled as a delivery delay based on customer's report of missing and stagnant tracking updates for their order."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The support case was assigned to agent Emily Johnson specializing in shipping and logistics inquiries."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m Emily from customer support. I’m sorry to hear your order hasn’t arrived yet. Let me help you check the status right away."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:26:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the tracking ID shown in your confirmation email? This will help me investigate further."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:40:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, the order number is 123456789 and the tracking ID is XYZ987654321. According to the courier website, the last update was over 10 days ago."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "Thanks for the info. I’ve contacted the courier and escalated your case for urgent handling. Meanwhile, I can offer you a voucher for your next purchase as an apology for the inconvenience."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I appreciate you taking action so quickly and the voucher offer sounds good. Hopefully, the package turns up soon."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-13T12:45:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The courier confirmed your package will be delivered today. Please let us know if you do not receive it by end of day, and we will assist further."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-15T15:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm you received your order and the delivery issue has been resolved to your satisfaction."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-15T15:05:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Thank you for your patience. As the delivery has been completed and you have received compensation, we are closing this case now."
+    }
+  ]
+}

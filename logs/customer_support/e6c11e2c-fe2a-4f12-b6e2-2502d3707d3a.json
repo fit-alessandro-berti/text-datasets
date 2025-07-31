@@ -1,0 +1,77 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I just received my order but the laptop has a cracked screen and does not turn on properly. I am very disappointed with the quality."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:22:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue has been identified as a product defect involving a broken screen and malfunction."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:25:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Your case has been assigned to our technical support agent for further assistance regarding the defective product."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, I’m sorry to hear about the issue with your laptop. I’ll do my best to help resolve this problem for you."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:32:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the cracked screen and any error messages you see when you try to power it on?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T10:00:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "I’ve attached several pictures showing the screen damage and how the laptop fails to boot up. This is unacceptable."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T11:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. We can arrange a replacement unit or offer a full refund. Which option would you prefer?"
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T11:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Neutral)",
+      "message": "I would prefer a replacement unit as I need the laptop urgently for work. Please expedite the process."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-16T08:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We've processed the replacement order and it will be shipped to you within two business days at no extra cost."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-18T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm you have received the replacement laptop and that it meets your expectations."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-18T11:00:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, the replacement arrived on time and works perfectly. Thank you for handling the issue so efficiently."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-18T11:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are glad your issue was resolved. Closing the case now but feel free to contact us if you need further assistance."
+    }
+  ]
+}

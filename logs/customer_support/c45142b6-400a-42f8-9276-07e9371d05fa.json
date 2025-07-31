@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I recently ordered a jacket from your website but received the wrong size and would like to request a refund for this item."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:13:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue has been identified as a refund request due to shipment of an incorrect product size."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:14:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to an available customer service agent for resolution."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, I’m sorry to hear about the size issue with your jacket. I’m here to help you with the refund process."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:21:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide the order number and a photo of the jacket you received so I can verify the error?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:45:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, the order number is 123456 and I have attached a clear photo showing the wrong size label on the jacket."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:15:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. We will initiate a full refund to your original payment method and provide a prepaid label to return the incorrect jacket."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:20:30Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That sounds great, thank you for resolving this quickly. I appreciate your help and look forward to the refund."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T10:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The refund has been processed and return instructions were sent to your email. Please let us know if you need any further assistance."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-20T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "We wanted to check in to confirm you have received the refund and to ensure everything is satisfactory with the resolution."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-20T09:10:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since no further issues have been reported, we are closing this case. Thank you for contacting customer support."
+    }
+  ]
+}

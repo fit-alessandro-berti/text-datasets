@@ -1,0 +1,83 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-12T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed my order two weeks ago and the package still hasn't arrived. The tracking number doesn't show any recent updates, and I'm getting worried about the delay."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-12T09:16:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer's complaint regarding the shipping delay has been reviewed and assigned to the Delivery Delay cluster for further handling."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-12T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A customer support agent from the delivery team has been assigned to investigate the reported late shipment issue and respond accordingly."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-12T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for contacting us about your order delay. I’m here to help and will do my best to resolve this as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-12T09:32:15Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide the order number and the tracking ID you received so I can look into the shipping status in detail?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-12T09:45:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 856732 and the tracking ID is TRK123456789. I haven’t seen any updates for several days now."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-12T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. We have contacted the courier, and it appears there was a delay due to weather conditions. Your package is expected to be delivered within the next three days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-12T10:10:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the update. I appreciate the explanation and hope it arrives soon. Please keep me informed if there are any further issues."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-12T10:15:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We consider this delivery delay issue resolved based on the updated delivery timeline. We will keep monitoring the shipment until you confirm receipt."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-15T15:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just following up to ensure your order arrived as expected. Please let us know if you have received the package or need any further assistance."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T16:30:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I received the package today. Everything is in good condition. Thanks for your help and prompt responses!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-15T17:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing this case as your delivery issue has been successfully resolved. Thank you for your patience and for contacting customer support."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-15T17:05:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We have sent you a short satisfaction survey regarding your recent support experience. We would appreciate your feedback to help us improve."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-01T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the package today but unfortunately the product has a large scratch on its surface and doesn't look new at all."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-01T09:15:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "Based on the customer's complaint about a scratch and damage, the issue is categorized as a Product Defect."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-01T09:16:30Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to agent Lisa M. in the product quality support team for further assistance."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-01T09:45:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, this is Lisa from the support team. I'm sorry to hear your product arrived damaged. Let's get this sorted out for you."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-01T09:50:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please send us some photos of the scratch and the packaging it arrived in? This will help us process your request faster."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-01T10:10:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "I've attached several clear photos showing the scratch on the product as well as the box it came in."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-01T10:30:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the photos. We can offer you a replacement at no extra cost or a full refund if you prefer. Please let us know which option you would like."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-01T11:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would like to go for the replacement option. Please arrange the shipment as soon as possible."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-01T11:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed the replacement order and you should receive a shipping confirmation shortly. Thank you for your patience."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-05T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm that your replacement product has arrived and is in perfect condition. Please reach out if you need anything else."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-06T12:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since we have not heard back and the replacement was delivered successfully, we are closing this case. Thank you for contacting support."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed my order over two weeks ago and the package still hasn't arrived. The tracking info hasn't been updated in days."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:15:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The system identified the complaint regarding shipment tracking and late delivery as a Delivery Delay issue."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent Sarah M. has been assigned to handle the late delivery case for customer order #789456."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! This is Sarah from customer support. I’m here to help you with your delayed shipment. Could you please confirm your order number?"
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:27:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "To assist you better, could you provide the tracking number and any recent updates you may have seen?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:35:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "Sure, my tracking number is 1234567890, but the last update was almost a week ago saying the item left the warehouse."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T09:45:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "Thank you for the info. I will contact the courier for an update and keep you posted shortly. Meanwhile, please check if your delivery address is correct."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:50:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "I have double-checked, and the address is correct. Thank you for looking into this for me."
+    },
+    {
+      "activity": "Issue Escalated",
+      "timestamp": "2024-06-15T10:10:00Z",
+      "contextual_activity": "Issue Escalated (Neutral)",
+      "message": "As we have not received a timely response from the courier, I am escalating this matter to our logistics team for urgent review."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-16T08:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The courier confirmed the package was misplaced but is now rerouted for delivery and will arrive within 2 days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-18T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "We are checking in to confirm you have received your package and to ensure everything is satisfactory with your order."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-18T10:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Yes, I received the package yesterday, and everything is perfect now. Thanks so much for your help!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-18T10:45:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing this case as resolved. Please contact us anytime if you need further assistance."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-18T11:00:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "A satisfaction survey has been sent to gather your feedback on how well we handled your delivery delay issue."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the wrong size for my recent order and would like to request a refund because the item does not fit and I do not want to exchange it."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:13:05Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue has been classified under the Refund cluster as the customer is requesting their money back due to the incorrect size received."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A customer service agent has been assigned to address the refund request related to the incorrect size received by the customer."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:20:30Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I’m here to help you with your refund request for the item in the wrong size. Could you please confirm the order number for verification?"
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:21:45Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "To process your refund promptly, could you please provide a photo of the received item showing the size label and the packing slip from the shipment?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:45:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "Here is the photo of the shirt I got, and you can see the size label clearly shows it’s a medium, but I ordered large. I also attached the packing slip as requested."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:00:30Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for providing the photos. We will initiate a full refund to your original payment method within 3-5 business days. Please keep the item; no need to return it."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:05:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the quick resolution and for letting me keep the shirt. I appreciate the excellent customer service and prompt attention to my refund request."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T10:10:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The refund process has been completed and confirmed. The customer’s payment will be credited shortly. Thank you for your patience during this process."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "We’re following up to ensure you have received your refund successfully. Please let us know if there is anything else we can assist you with."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-17T15:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "As the refund has been confirmed and the customer is satisfied, we have now closed this support case. Thank you for contacting customer service."
+    }
+  ]
+}

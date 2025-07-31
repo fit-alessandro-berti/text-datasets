@@ -1,0 +1,71 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I just received my order and unfortunately the product has multiple scratches and looks damaged. I am very disappointed with the condition it arrived in."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:15:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The system has detected keywords indicating a product defect issue, categorizing this case under Product Defect for further handling."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A customer support agent has been assigned to your case to assist with the damaged product you reported."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:22:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, I’m sorry to hear about the scratches on your product. I’ll do my best to help you resolve this issue quickly."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:23:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please send us photos of the scratches and the packaging, so we can better assess the damage?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T10:05:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "I have attached several pictures showing the scratches on the item as well as the box it came in. Please let me know what the next step is."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:30:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the photos. We can either send you a replacement or issue a full refund. Please let us know which option you prefer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would prefer a replacement, thank you. I’m hoping the next one arrives in good condition."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T11:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed your replacement order and it should arrive within 5 business days. We apologize again for the inconvenience."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-20T11:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "We’re following up to ensure that you have received your replacement product and that it is in perfect condition. Please let us know if you need further assistance."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-20T14:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "As we have not heard back, we are closing this case now. Thank you for your patience and for allowing us to resolve your issue."
+    }
+  ]
+}

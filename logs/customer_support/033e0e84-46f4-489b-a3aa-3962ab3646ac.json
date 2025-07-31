@@ -1,0 +1,83 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:30:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago and the tracking information shows no updates. My package is considerably late and I haven't received any notification about the delay."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:31:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer reported a significant delay in shipping and lack of tracking updates for a recent order."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:33:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Assigning the case to the shipping support specialist to investigate the delayed delivery issue."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Agent Greeting (Neutral)",
+      "message": "Hello! Thank you for contacting us. I'm sorry to hear your order hasn't arrived yet. Let's see how we can assist you with the delay."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T10:02:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the tracking number you received? This will help us check the status with the courier."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:15:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "My order number is 123456789 and the tracking number is XYZ987654321. I have been refreshing the tracking page but it still shows 'in transit' without any progress."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T11:00:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "We have contacted the courier and it appears your package is delayed due to unexpected transit issues. We will expedite the investigation and update you within 48 hours."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T11:10:00Z",
+      "contextual_activity": "Customer Feedback Received (Neutral)",
+      "message": "Thank you for the update. I appreciate your help and hope to receive more information soon."
+    },
+    {
+      "activity": "Issue Escalated",
+      "timestamp": "2024-06-12T09:00:00Z",
+      "contextual_activity": "Issue Escalated (Negative)",
+      "message": "After no new updates from the courier, escalating the case to senior shipping operations for urgent intervention."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-13T15:45:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your package has been located and is out for delivery today. We apologize for the delay and thank you for your patience."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-14T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "We wanted to check in and confirm that you have received your order and that everything is satisfactory now."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-14T11:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Yes, I received the package today in good condition. Thank you for resolving this issue promptly."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-14T11:05:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Closing the case as the delivery delay has been resolved and the customer confirmed receipt of the package."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I recently purchased a jacket from your store but it doesn't fit me at all. I would like to request a refund for this item as soon as possible."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:12:05Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "System classified the issue as a refund request based on keywords indicating the customer wants their money back."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent Sarah has been assigned to handle the refund request for the jacket purchase."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:17:30Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for contacting us. I understand you want to request a refund for your recent jacket purchase. I'm here to help."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:18:15Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and confirm if the item is unused and in its original packaging for the refund process?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:25:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 123456789. The jacket is brand new, I haven't worn it yet, and it is still in its original packaging."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T09:40:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. We will initiate your refund promptly. Please expect the amount to be credited back to your original payment method within 5 to 7 business days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T09:42:30Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the quick reply and clear instructions. I appreciate your help with this refund process."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T09:45:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The refund has been processed successfully on our end. If you encounter any issues with the transaction, please reach out again."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-20T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "We’re following up to ensure you received the refund for your jacket and your issue was fully resolved. Please let us know if you need further assistance."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-20T10:10:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since there has been no further response, we will proceed to close this refund case now. Thank you for contacting support."
+    }
+  ]
+}

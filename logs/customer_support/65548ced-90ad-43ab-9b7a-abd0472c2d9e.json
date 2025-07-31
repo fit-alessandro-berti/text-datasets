@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-01T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I recently purchased a jacket but I would like to request a refund as it doesn't fit properly and I am unhappy with the size."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-01T09:13:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue has been categorized under refund requests based on the customer's message mentioning refund and dissatisfaction."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-01T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "This case has been assigned to agent Sarah Thompson to handle the refund request efficiently."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-01T09:20:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for contacting us. I’m here to help you with your refund request and make this process as smooth as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-01T09:22:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the reason for the refund so I can assist you better?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-01T09:30:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, the order number is 987654321. The jacket runs smaller than the size chart indicated, and unfortunately I cannot exchange it due to unavailability."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-01T09:45:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. I have processed your refund which should be credited to your original payment method within 5 to 7 business days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-01T10:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the quick response! I appreciate your help with the refund and this solution works perfectly for me."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-01T10:05:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "I’m glad to hear that. Your refund case is now closed on our end. Please contact us if you have any further issues."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-05T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just following up to confirm that you have received your refund and to ensure everything is satisfactory with your case closure."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-05T09:10:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since no further concerns were reported after our follow-up, this case is now officially closed. Thank you for your patience."
+    }
+  ]
+}

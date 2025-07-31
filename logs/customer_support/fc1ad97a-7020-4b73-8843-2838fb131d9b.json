@@ -1,0 +1,83 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:22:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago, but the package still hasn't arrived and the tracking info hasn't updated."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:22:05Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "Customer issue classified under the Delivery Delay cluster based on the tracking delay described."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:25:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent Mike assigned to handle the customer's delivery delay inquiry."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Neutral)",
+      "message": "Hello, this is Mike from customer support. I’m looking into the status of your delayed shipment."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:32:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide me with your order number so I can check the shipping details more precisely?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:35:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 987654321. I’ve been checking daily but there are no new tracking updates."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T09:45:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "Thank you for the info. I’ve contacted the shipping provider to investigate the delay and will update you shortly."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T09:46:30Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I appreciate your quick reply and the efforts to get more information on my shipment status."
+    },
+    {
+      "activity": "Issue Escalated",
+      "timestamp": "2024-06-10T14:00:00Z",
+      "contextual_activity": "Issue Escalated (Neutral)",
+      "message": "Since the shipment still has no update, the case is escalated to the logistics manager for priority handling."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-12T10:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The package was located by the carrier and is now en route with guaranteed delivery tomorrow."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-13T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm you received your order and that everything arrived as expected."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-13T12:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Yes, the package arrived safely today. Thank you for all your help resolving this delay."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-13T12:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Closing the case as the delivery delay issue was resolved to the customer's satisfaction."
+    }
+  ]
+}

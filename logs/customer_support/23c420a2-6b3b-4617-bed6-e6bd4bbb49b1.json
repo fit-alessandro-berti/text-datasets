@@ -1,0 +1,71 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order over two weeks ago, but it still hasn't arrived. The shipping is way past the expected date."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:13:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The message was reviewed and categorized under delivery delay due to keywords indicating late shipping and delay."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to a customer support agent specializing in shipping and delivery issues."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:22:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I’m sorry to hear your order hasn’t arrived yet. I’m here to help get this sorted out for you."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:25:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and any tracking information you have received so far? This will help us investigate the delay."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T10:00:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Thanks for your response. My order number is 123456789, but the tracking status hasn’t updated since shipment two weeks ago."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:15:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "We’ve contacted the courier for an update and can offer a priority reshipment or a full refund if the package cannot be located within five business days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:40:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I appreciate your help and would like to go ahead with the priority reshipment option. Please keep me posted on the progress."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T11:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your reshipment has been processed. You will receive new tracking details shortly. We apologize for the inconvenience and thank you for your patience."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-22T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that your reshipped order has arrived safely and that everything is satisfactory with your purchase."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-22T09:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since we haven’t heard back regarding any further issues, we are closing this case. Please contact us again if you need further assistance."
+    }
+  ]
+}

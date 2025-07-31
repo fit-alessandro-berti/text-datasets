@@ -1,0 +1,77 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-01T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago but my package still hasn’t arrived, and the tracking info hasn’t updated in several days."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-01T09:13:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer’s message indicates a delivery delay, with references to late shipment and tracking issues."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-01T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Routing this case to the delivery support team to investigate the delayed shipment and tracking status."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-01T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m sorry to hear your shipment hasn’t arrived yet. Let me check the status and see how we can help."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-01T09:33:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the tracking number shown in your account, so we can investigate?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-01T10:00:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 4532167 and the tracking number is ZX987654321. The tracking status hasn’t changed since last week."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-01T11:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the info. We’ve contacted the courier and expedited the investigation. You should receive an update within 48 hours."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-01T11:10:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for your quick response and help. I appreciate you looking into this so promptly."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-03T16:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The courier confirmed the package was delivered today. Please check your delivery area for the parcel."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-04T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "We wanted to check that you have received your package and that everything is in order now."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-04T11:00:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I found the package at my doorstep. Thank you for resolving this quickly and keeping me updated."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-04T11:05:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Closing the case as the delivery issue has been resolved and the customer has confirmed receipt."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-12T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I would like to request a refund for the jacket I bought last week because it does not fit as expected and I want to return it."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-12T09:20:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The case was reviewed and categorized as a refund request due to the customer wanting to return the purchase."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-12T09:25:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An available agent has been assigned to handle the refund request promptly and assist the customer accordingly."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-12T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for contacting us. I understand you want to request a refund for your jacket. Let me assist you with that."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-12T09:32:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the reason for the return so we can process your refund as quickly as possible?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-12T09:40:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 4587239. The jacket is too small despite ordering my usual size, so I want to return it and get my money back."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-12T09:50:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. We have initiated your refund request. Please send the jacket back using the prepaid return label, and once received, your money will be refunded within 5 business days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-12T10:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the quick response and clear instructions. I appreciate your help and will send the jacket back today."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T15:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have received the returned jacket and processed your refund. The amount should appear on your payment method shortly. Thank you for your patience."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just following up to ensure you have received your refund payment and to check if you need any further assistance from us."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-18T12:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing this case now as your refund has been completed successfully. Please contact us anytime if you need further support."
+    }
+  ]
+}

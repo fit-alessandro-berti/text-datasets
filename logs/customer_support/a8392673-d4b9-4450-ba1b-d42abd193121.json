@@ -1,0 +1,71 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-01T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed my order two weeks ago and it still hasn't arrived. The tracking shows no updates, and I'm very disappointed with the delay."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-01T09:16:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer's complaint indicates a delivery delay, with no recent tracking updates and extended waiting time."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-01T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Assigning this case to the delivery support team to investigate the shipping delay and provide assistance."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-01T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m sorry to hear your order has not arrived yet. I’m here to help and will look into the shipping status for you."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-01T09:26:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the shipping address to help us track your package more accurately?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-01T10:00:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 123456789 and the shipping address is 45 Maple Street, Springfield. Please check the status for me."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-01T10:15:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. We checked with the courier, and your package is delayed due to unforeseen transit issues. We expect delivery within 3 days and will provide expedited shipping at no extra cost."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-01T10:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the update and for expediting the shipping. I appreciate your help in resolving this quickly."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-01T10:35:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have arranged for expedited shipping and will monitor your order closely to ensure you receive it within the next 3 days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-05T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "We are following up to confirm that your order has been delivered. Please let us know if there is anything else we can assist you with."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-06T09:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "As we have not heard back and your delivery should now be complete, we are closing this case. Thank you for your patience."
+    }
+  ]
+}

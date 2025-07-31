@@ -1,0 +1,71 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my new headphones yesterday, but unfortunately one side is not working at all. It seems defective from the start."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:13:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported problem relates to a product defect with the headphones having a non-working speaker on one side."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:14:45Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An agent has been assigned to handle the defective headphone issue and will respond shortly."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:20:10Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, I’m sorry to hear about the issue with your headphones. I’m here to help you get this resolved as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:21:55Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the headphones showing the issue as well as the order number to verify your purchase?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:45:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, I have attached pictures showing the damaged side of the headphones and my order ID is 123456789."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:05:20Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. We can offer you a replacement unit or a full refund. Please let us know your preference."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:22:42Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would prefer a replacement, as I still like the headphones but want to ensure they are fully functional."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T10:45:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed your replacement request, and your new headphones will be shipped within 2 business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-15T11:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to ensure that your replacement headphones arrived and are working properly. Please let us know if you need further assistance."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-16T08:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since we have not heard back, we are closing your case. Thank you for contacting us, and enjoy your new headphones!"
+    }
+  ]
+}

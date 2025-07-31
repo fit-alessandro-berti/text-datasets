@@ -1,0 +1,89 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-01T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I recently received my order but I want to request a refund because the item does not meet my expectations and I am not satisfied with the purchase."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-01T09:15:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported problem involves a refund request where the customer wants their money back due to dissatisfaction with the product."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-01T09:16:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Assigning this refund request case to an available customer support agent for further assistance and processing."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-01T09:20:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I understand you'd like to request a refund, and I'm here to help resolve this issue for you."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-01T09:22:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the reason for requesting a refund? This will help us process your request more quickly."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-01T09:45:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "My order number is 123456789. I want a refund because the product color was completely different from what was shown on the website and it looks very poor quality."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-01T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. We will initiate a full refund for your order. Please return the item within the next 14 days using the prepaid return label we will email you shortly."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-01T10:05:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I appreciate your prompt response and the refund offer. I will send the item back as soon as I receive the return label."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-01T10:15:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have sent the prepaid return label to your email. Once we receive the returned item, we will process your refund promptly."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-14T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm if you have sent the return package. Please let us know if you need any further assistance."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-14T11:00:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I shipped the package yesterday via the prepaid label. Let me know once you receive it and process the refund."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-18T16:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We received the returned item and have completed your refund. The amount should appear on your original payment method within 3-5 business days."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-18T16:45:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Thank you for your cooperation. Your refund case is now closed. Please contact us if you need any more assistance in the future."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-18T17:00:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We have sent a short satisfaction survey to your email. Your feedback helps us improve our service."
+    }
+  ]
+}

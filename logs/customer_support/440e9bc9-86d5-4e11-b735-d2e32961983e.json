@@ -1,0 +1,71 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:23:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed my order two weeks ago, but the shipping is still delayed and the tracking info hasn’t updated in days."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:25:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer's message contains keywords related to a delay in shipping and tracking problems, categorizing the case under Delivery Delay."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:27:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Assigning the case to the customer support agent specializing in shipment and tracking issues for further assistance."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I’m sorry to hear your order hasn’t arrived yet. Let me check the status for you."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:32:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the shipping address so I can look into the tracking details for you?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:40:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 123456789 and the shipping address is 45 Greenway Drive, Springfield."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T09:50:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "Thank you for the info. I see a delay with the courier service. I will prioritize your shipment and provide an updated estimated delivery time within 24 hours."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:05:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the quick response. I appreciate you looking into this and hope the delivery arrives soon."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-16T11:15:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The courier has updated the status, and your package is now out for delivery. Please expect it to arrive by the end of the day."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-18T08:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just following up to ensure your package arrived safely. Please let us know if you need any further help."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-18T12:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since your issue has been resolved and there are no further questions, we are closing this case. Thank you for contacting support."
+    }
+  ]
+}

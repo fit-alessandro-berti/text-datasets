@@ -1,0 +1,77 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-01T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I ordered a jacket last week but it doesn't fit at all. I want to return it and get my money back."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-01T09:20:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The case has been categorized as a refund request based on the customer's mention of returning the product for money back."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-01T09:25:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case is assigned to agent Emily for handling the refund request."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-01T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I understand you want to return the jacket and receive a refund. I'm here to help you with that."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-01T09:32:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and confirm if the jacket is unused with tags still attached?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-01T09:40:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, the order number is 123456789. The jacket is brand new and the tags are still on it."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-01T09:45:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. You can return the jacket within 14 days for a full refund. I will send you the return shipping label shortly."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-01T09:50:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the quick response! I appreciate you sending the shipping label, that makes it easy for me."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-01T10:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "I've emailed you the shipping label, and once we receive the returned jacket, your refund will be processed within 5 business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-08T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm that you successfully returned the jacket and to see if you have received your refund yet."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-08T12:00:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I returned the jacket yesterday and I already received the full refund. Thanks for your help!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-08T12:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing your case now. Thank you for your cooperation and please reach out if you need assistance in the future."
+    }
+  ]
+}

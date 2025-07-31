@@ -1,0 +1,71 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the phone yesterday, but the screen is scratched and the device sometimes freezes. This is really disappointing."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:15:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue matches the Product Defect category due to the scratched screen and freezing behavior described by the customer."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Assigning an available support agent to handle this defective product case with the scratched screen and freezing problem."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, I'm sorry to hear about the issues with your phone. I will do my best to assist you in resolving this matter quickly."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:27:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please confirm if the scratches were visible upon opening the package and if you have tried restarting the device to address the freezing?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T10:05:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "Yes, the scratches were definitely there right out of the box, and I've rebooted the phone multiple times but it still freezes unexpectedly."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:20:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "We can offer you a replacement unit or a refund due to the product defect. Please let us know which option you prefer and we will arrange the next steps."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thank you for the swift response. I would like to receive a replacement as soon as possible, please organize the shipment."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T11:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your replacement order has been processed and shipped today. You will receive a tracking number shortly. We apologize again for the inconvenience."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-22T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "We are checking in to ensure your replacement phone has arrived in good condition and that the freezing issue is resolved. Please contact us if you need further assistance."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-23T09:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since there have been no further reports of issues, we are closing this case. Thank you for your cooperation and understanding."
+    }
+  ]
+}

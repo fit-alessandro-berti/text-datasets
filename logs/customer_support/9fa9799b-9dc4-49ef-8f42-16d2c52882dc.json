@@ -1,0 +1,95 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-01T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I just received the blender I ordered, but it arrived with a cracked jug and it isn't working properly."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-01T09:13:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported problem involves a broken part and faulty operation, classifying it under Product Defect."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-01T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to a customer support agent specialized in product issues for further assistance."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-01T09:20:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I'm sorry to hear about the cracked jug in your blender delivery. I'm here to help resolve this quickly."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-01T09:22:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please send us photos of the cracked jug and confirm if the blender powers on despite the damage?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-01T09:45:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "I have attached the photos showing the crack clearly. The blender does turn on but it leaks water, making it unusable."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-01T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the photos. We will send you a replacement blender immediately at no extra cost and arrange for the damaged one to be collected."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-01T10:10:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the prompt response and replacement offer. I appreciate the quick resolution and will await the new blender."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-01T10:12:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The replacement order has been processed, and we consider your issue resolved. Please contact us if you need any further help."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-08T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm that the replacement blender has arrived and everything is working as expected."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-08T09:30:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, the replacement arrived yesterday and works perfectly. Thank you for the excellent support throughout this process."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-08T09:45:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We have sent you a brief survey to gather feedback about your support experience. Your input is highly appreciated."
+    },
+    {
+      "activity": "Survey Answered",
+      "timestamp": "2024-06-08T10:00:00Z",
+      "contextual_activity": "Survey Answered (Positive)",
+      "message": "I completed the survey and rated the support as excellent. Thanks again for resolving my problem so efficiently."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-08T10:05:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Your support case has now been formally closed. Feel free to reach out if you experience any further issues."
+    },
+    {
+      "activity": "Case Archived",
+      "timestamp": "2024-07-01T00:00:00Z",
+      "contextual_activity": "Case Archived (Neutral)",
+      "message": "This customer support case has been archived in our system after resolution and closure as per standard procedure."
+    }
+  ]
+}

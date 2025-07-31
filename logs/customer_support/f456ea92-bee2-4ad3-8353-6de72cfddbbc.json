@@ -1,0 +1,77 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the smartphone I ordered last week, but the screen has several scratches and the touch is not working properly."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:14:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported problem has been identified as a product defect related to screen damage and functionality issues."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:15:30Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Your case has been assigned to one of our technical support agents for further assistance with the defective product."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m sorry to hear about the issues with your smartphone. I’m here to help resolve this for you as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:22:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the scratched screen and let us know if the touch issues occur all the time or intermittently?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T10:00:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "I have attached the photos showing multiple scratches on the display. The touch screen freezes randomly and often does not respond at all."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:30:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the photos and information. We will send you a replacement device immediately and provide a prepaid label to return the defective phone."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T11:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I appreciate the quick response and the offer to replace the device. Looking forward to receiving the new phone soon."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-20T08:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your replacement smartphone has been shipped and the defective unit return process has been arranged as per your convenience."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-25T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "We wanted to check if the replacement device is working well and if there’s anything else we can assist you with."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-25T10:15:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "The new phone works perfectly, no scratches or any issues. Thanks for the excellent support!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-25T10:45:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing your case now. Thank you for your patience and for choosing our service."
+    }
+  ]
+}

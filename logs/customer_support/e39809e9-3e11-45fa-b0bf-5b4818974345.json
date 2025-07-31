@@ -1,0 +1,77 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago, but my package still hasn't arrived. The tracking number gives no updates."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The system has categorized the issue under Delivery Delay due to keywords like 'tracking' and 'not arrived'."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent John has been assigned to handle this delivery delay case for further assistance."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I'm John from customer support. Sorry to hear your order hasn't arrived yet. I'll help you track the shipment."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:27:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide me with the order number and the tracking number shown on your purchase confirmation email?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:35:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, the order number is 987654321 and the tracking number is TRK123456789, but it hasn’t updated in days."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T09:50:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "I’ve contacted the shipping company, and they confirmed a delay due to weather. Your package will arrive within 3-5 business days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T09:55:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thank you for the update and checking with the shipper. I appreciate the timely response and clarity."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have resolved your inquiry. Please expect delivery within the next few days. Feel free to reach out if you need further assistance."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just following up to ensure your delayed package has now arrived and that you are satisfied with the service."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-17T10:10:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since you confirmed receipt of the package, we are closing this case. Thank you for your patience and understanding."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-17T10:12:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "A customer satisfaction survey has been sent to your email. We would appreciate your feedback on our support."
+    }
+  ]
+}

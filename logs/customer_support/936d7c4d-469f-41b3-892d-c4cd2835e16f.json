@@ -1,0 +1,83 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:45:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the package today, but unfortunately the product has several deep scratches and a cracked screen. It seems broken right out of the box."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:50:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been identified as a product defect due to the customer's report of scratches and a cracked screen on arrival."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent Maria Lopez has been assigned to assist with the reported product defect case."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T10:05:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, this is Maria from support. I'm very sorry to hear about the damage to your product. I’ll do my best to help you resolve this issue quickly."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T10:07:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the scratches and cracked screen as well as the order number, so we can verify and begin processing?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T11:30:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "I have uploaded the photos showing the cracked screen and scratches. The order number is 789654123. Please let me know what happens next, as this is very disappointing."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T12:15:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. We can offer you a replacement unit at no extra cost or a full refund if you prefer. Please let me know which option you would like."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T13:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Neutral)",
+      "message": "I would prefer a replacement unit, but I want to be sure it will be thoroughly checked before shipping. Please confirm this."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T13:20:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Absolutely, the replacement product will undergo a full inspection before dispatch to ensure it arrives in perfect condition. We will update you with tracking information once it ships."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-11T08:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The replacement order has been processed and will ship today. We expect delivery within 3-5 business days. Thank you for your patience."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-16T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that you have received the replacement product and that everything is in perfect condition now."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-16T10:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Yes, the replacement arrived yesterday and it is in excellent condition. Thank you for handling this so professionally."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-16T10:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are glad to hear that the replacement product is satisfactory. The case will now be closed, and thank you for choosing our service."
+    }
+  ]
+}

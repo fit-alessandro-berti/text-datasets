@@ -1,0 +1,95 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago and it still hasn't arrived. The tracking status hasn't updated for days."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:16:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been identified as a delivery delay based on the customer's message and order tracking info."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The support case was assigned to Agent Rachel for further assistance with the delayed shipment."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, I’m Rachel from support. I’m sorry to hear your order hasn’t arrived yet. Let me check on that for you."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:26:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the tracking details so I can investigate the shipping status?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 123456789 and the tracking code is TRACK98765. Looking forward to your update."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:30:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "Thank you for the info. I've contacted the courier service and they confirmed a delay due to weather conditions. Your package is expected to arrive within three more days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T11:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the update. I appreciate you checking with the courier and letting me know about the new estimated delivery."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T11:05:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "I’m glad I could assist. We will keep monitoring the delivery and ensure your package arrives safely."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-14T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm your package has arrived and everything is in order. Please let us know if you need further assistance."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-14T12:00:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, the package arrived yesterday and everything is perfect. Thank you for your help and follow up!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-14T12:05:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are happy to hear your package has arrived safely. Closing this case now. Have a wonderful day!"
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-14T12:10:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "Please take a moment to fill out our satisfaction survey. Your feedback helps us improve our service."
+    },
+    {
+      "activity": "Survey Answered",
+      "timestamp": "2024-06-15T08:00:00Z",
+      "contextual_activity": "Survey Answered (Positive)",
+      "message": "I completed the survey and rated the support experience highly. Thanks for the attentive service."
+    },
+    {
+      "activity": "Case Archived",
+      "timestamp": "2024-06-30T00:00:00Z",
+      "contextual_activity": "Case Archived (Neutral)",
+      "message": "The support case has been archived automatically after the standard retention period."
+    }
+  ]
+}

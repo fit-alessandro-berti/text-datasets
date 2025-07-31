@@ -1,0 +1,77 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I just received my new laptop, but the screen has multiple scratches and some dead pixels. This is really disappointing."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:16:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been categorized as Product Defect based on the customer's description of scratches and dead pixels on the screen."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A support agent specializing in hardware issues has been assigned to handle this case and provide a resolution."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:35:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I'm sorry to hear about the scratches on your laptop screen. I’m here to assist you and make sure we resolve this quickly."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:37:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the scratches and dead pixels? Also, confirm if the package was damaged upon arrival."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:05:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "I’ve attached several photos showing the damaged screen. The box was intact, so the damage must have happened before shipping."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:30:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the photos. We can offer to replace your laptop with a new unit at no extra cost or provide a full refund if you prefer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T11:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I appreciate the quick response. I would prefer a replacement instead of a refund. Please let me know the next steps."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T11:25:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have arranged for a replacement laptop to be shipped immediately. You will receive tracking details shortly. The defective unit can be returned with the prepaid shipping label included."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-15T08:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Checking in to confirm you have received and are satisfied with your replacement laptop. Please let us know if you need any further assistance."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-15T12:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "As there have been no further issues reported, we will now close this support case. Thank you for your patience and cooperation."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-15T12:01:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "You will shortly receive a survey asking for your feedback on how we handled your product defect case. Your input is highly appreciated."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T10:20:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed my order two weeks ago, and my package still hasn't arrived. The tracking number doesn't show any updates."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T10:21:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported problem is identified as a delivery delay due to late shipping or tracking issues."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T10:22:30Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A customer service agent has been assigned to assist with the delayed delivery inquiry."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T10:25:00Z",
+      "contextual_activity": "Agent Greeting (Neutral)",
+      "message": "Hello! Thank you for contacting us about your order delay. I’m here to help resolve this as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T10:26:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the shipping address so I can check the current status of your package?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T10:40:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 987654321, and the shipping address is 123 Elm Street, Springfield, IL."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:50:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "After checking, it appears your package was delayed due to a carrier issue. We can either expedite a replacement shipment or issue a full refund."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:55:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Please resend the order as soon as possible. I would prefer to receive the product rather than a refund."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T11:10:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed a priority replacement shipment for your order. You will receive a new tracking number shortly."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-22T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm that your replacement package has arrived and that everything is satisfactory with your order."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-22T10:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I received the replacement today and everything is perfect. Thank you for the prompt support!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-22T10:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are glad your issue was resolved. Closing the case now, but feel free to contact us anytime if you need further assistance."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my new wireless headphones yesterday, but the left earcup is producing crackling sounds and sometimes no audio at all."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:13:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue matches the product defect cluster due to the faulty audio in the left earcup."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:14:30Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent John has been assigned to handle this headphone defect complaint."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:16:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, I’m John from the support team. I’m sorry to hear about the issues with your headphones. Let’s see how we can fix this for you."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:17:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please confirm if you have tried using the headphones with a different device or charging them fully to rule out any connection or battery issues?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:45:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "I tested the headphones on two different phones and fully charged the battery several times, but the problem with the left earcup crackling and no audio remains."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "Thank you for confirming. We can offer you a replacement unit or arrange a repair free of charge. Please let us know your preference."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would prefer a replacement unit, please. I rely on these headphones daily and want a working device as soon as possible."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T10:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed your replacement order and you will receive a new unit within 5 working days at no extra cost. A return label for the defective headphones will be sent shortly."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-22T11:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to ensure you received your replacement headphones and that they are working properly. Please reach out if you have any further issues."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-22T12:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since you haven’t reported any more problems, we will now close this case. Thank you for contacting support and have a great day!"
+    }
+  ]
+}

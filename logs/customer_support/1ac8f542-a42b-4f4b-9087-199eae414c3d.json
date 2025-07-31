@@ -1,0 +1,95 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-01T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my new wireless headphones today but noticed a large scratch on the left earcup, which wasn't mentioned anywhere in the product description."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-01T09:16:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "System has classified the customer's issue under Product Defect due to keywords like 'scratch' and 'damage' in the complaint."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-01T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to Agent Sarah L. who specializes in product issues and returns."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-01T09:35:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, this is Sarah from customer support. I'm sorry to hear about the scratch on your headphones. Let's get this sorted for you as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-01T09:40:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide a photo of the scratch and confirm if the packaging was damaged upon delivery?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-01T10:05:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "I have attached several photos showing the scratch clearly. The packaging looked fine when I opened it, so I think the damage happened before shipment."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-01T10:30:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the photos. We can offer you a replacement unit immediately or a full refund if you prefer. Please let me know which option suits you best."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-01T11:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I appreciate the quick response. I would like the replacement unit sent out as soon as possible, please."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-01T11:20:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed your replacement order and sent it via expedited shipping. You will receive a tracking number shortly."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-05T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that your replacement headphones arrived in perfect condition and that you’re satisfied with the resolution."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-05T10:00:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, the replacement headphones arrived yesterday and are in excellent condition. Thank you for the excellent support!"
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-05T10:05:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We have sent you a short satisfaction survey via email. Your feedback helps us improve our services."
+    },
+    {
+      "activity": "Survey Answered",
+      "timestamp": "2024-06-06T15:00:00Z",
+      "contextual_activity": "Survey Answered (Positive)",
+      "message": "The customer completed the satisfaction survey with high ratings and positive comments about the quick service and solution."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-06T15:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "The support case has been formally closed following confirmation of issue resolution and customer satisfaction."
+    },
+    {
+      "activity": "Case Archived",
+      "timestamp": "2024-07-01T00:00:00Z",
+      "contextual_activity": "Case Archived (Neutral)",
+      "message": "The case record was archived automatically after the standard retention period, ensuring compliance with data policies."
+    }
+  ]
+}

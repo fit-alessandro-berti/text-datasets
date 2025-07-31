@@ -1,0 +1,77 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:30:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I recently received my order but I want to request a refund because the item does not meet my expectations."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:31:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer's request has been classified under the refund cluster based on mention of refund and dissatisfaction."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:35:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A customer service agent was assigned to handle the refund request for the order."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:40:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I'm here to help you with your refund request. Could you please provide your order number?"
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:42:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "To begin processing your refund, I need the order number and a brief explanation of why you wish to return the product."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:50:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "My order number is 123456789. The product arrived late and the color was completely different from what was shown on the website."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T09:55:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "We apologize for the inconvenience. We can process a full refund for you or send a replacement item with correct specifications. Which option would you prefer?"
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:05:00Z",
+      "contextual_activity": "Customer Feedback Received (Negative)",
+      "message": "I would like a full refund please. Since my experience was disappointing I don’t want a replacement."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T10:15:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your refund has been processed and should appear in your account within 5-7 business days. Thank you for your patience."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-22T10:15:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "We wanted to check if your refund has been received and if there is anything else we can assist you with today."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-22T11:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since no further issues were reported, we are closing your refund case. Thank you for contacting support."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-22T11:05:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "Please take a moment to complete our satisfaction survey to help us improve our service."
+    }
+  ]
+}

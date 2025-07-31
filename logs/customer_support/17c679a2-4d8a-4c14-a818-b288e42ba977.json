@@ -1,0 +1,77 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-20T10:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I just received my new blender, but unfortunately it has multiple scratches and one of the buttons is not working at all."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-20T10:16:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported problem has been categorized as a product defect due to scratches and faulty button functionality."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-20T10:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A customer service agent has now been assigned to handle the defective blender issue and will respond shortly."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-20T10:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m sorry to hear about the issues with your blender. I’m here to help you get this resolved as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-20T10:27:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the scratches and the button that isn’t working? This will help us evaluate the problem accurately."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-20T11:00:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "Here are the pictures showing the scratches on the blender surface and the faulty button that does not respond when pressed."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-20T11:30:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for sending the photos. We can offer you a free replacement or a full refund for the defective blender. Please let us know your preference."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-20T11:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would appreciate a replacement unit, please. Thanks for the quick response and assistance."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-20T12:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have arranged for a replacement blender to be shipped to your address promptly. You will receive the tracking details shortly."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-27T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm that you have received your replacement blender and that it is working well without defects."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-27T13:15:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, the replacement arrived yesterday and everything is perfect. Thank you for the excellent support!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-27T14:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are glad the issue was resolved to your satisfaction. Closing this case now and feel free to reach out if you need further assistance."
+    }
+  ]
+}

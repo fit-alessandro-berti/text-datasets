@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I recently purchased a jacket from your site, but it doesn't fit me at all. I would like to return it and get a full refund as soon as possible."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:13:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been categorized under Refund based on customer's request to return and get money back for purchased jacket."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent Linda has been assigned to handle the refund request for the returned jacket."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:16:20Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I'm Linda from customer support, and I’m here to help you with the jacket return and refund process."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:17:45Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide the order number and the reason why the jacket did not fit? This will help us process your refund faster."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:20:10Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "The order number is 2456789. The jacket is much smaller than described in the size chart, and it’s too tight around the shoulders."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T09:25:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. You can send the jacket back using the prepaid return label we will email you shortly. Once we receive the item, we’ll issue a full refund within 5 business days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T09:27:30Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That sounds good, thank you! I will print the label and ship the jacket back today."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T12:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have received your returned jacket and processed your refund. The amount should reflect in your account within 3-5 business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-20T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that you received your refund and everything is settled to your satisfaction."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-20T15:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since you confirmed receipt of your refund, we are closing this case. Please contact us if you need any further assistance."
+    }
+  ]
+}

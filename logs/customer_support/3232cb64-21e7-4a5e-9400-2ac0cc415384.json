@@ -1,0 +1,83 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:22:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I just received the headphones I ordered, but one side is completely silent and doesn’t produce any sound at all."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:23:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been reviewed and categorized as a product defect due to the reported faulty headphone."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:25:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Your case has been assigned to a support agent who will assist you further with your defective product."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m sorry to hear about the issue with your headphones. Let’s work together to get this fixed as soon as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:32:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please confirm the order number and let me know if there are any visible damages or scratches on the product packaging?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:45:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "The order number is 54321, and the packaging looks fine with no scratches or damage. The problem is definitely inside the device."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "Thank you for the information. We can offer you a replacement or a full refund for the defective headphones. Please let us know your preference."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Neutral)",
+      "message": "I’d prefer a replacement if possible, since I really like this model and hope the new one works properly."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T10:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We’ve processed your replacement order and you should receive the new headphones within the next 5 business days. We apologize for the inconvenience caused."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-20T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to make sure you have received the replacement headphones and that everything is working correctly now."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-20T12:15:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I received the new pair today and they work perfectly. Thank you for the quick replacement and excellent support!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-20T12:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are glad your issue has been resolved. This case is now closed, but please don’t hesitate to contact us if you need further assistance."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-20T12:31:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We have sent you a short survey to rate your support experience. Your feedback helps us improve our service."
+    }
+  ]
+}

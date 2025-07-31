@@ -1,0 +1,89 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order over two weeks ago, but it still hasn't arrived and the tracking page shows no updates. Can you help?"
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:13:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue reported is categorized under delivery delay due to keywords like 'order', 'tracking', and 'not arrived'."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to the delivery support team to investigate the delayed shipment issue."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:35:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I'm sorry to hear your order hasn't arrived yet. Let me check the status for you."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:40:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the shipping address so I can look into the tracking details?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T10:05:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 123456789 and the address is 789 Pine Street, Springfield, IL."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:25:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "I checked with the courier service and it appears the package was delayed due to weather issues. We expect delivery within three more days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T11:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Negative)",
+      "message": "Three more days is quite disappointing as I needed it earlier, but I appreciate the update. Please keep me posted."
+    },
+    {
+      "activity": "Issue Escalated",
+      "timestamp": "2024-06-15T11:15:00Z",
+      "contextual_activity": "Issue Escalated (Neutral)",
+      "message": "Due to the delay's impact on the customer, this case has been escalated to the senior support team to explore faster solutions."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T14:45:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Senior team confirmed we can expedite shipping via express service at no extra cost. Your package should arrive by tomorrow."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T15:10:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thank you for the quick response and the expedited shipping offer. I really appreciate the effort to resolve this."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T15:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The shipping method has been updated and your order will be delivered tomorrow. We consider this case resolved now."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-18T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just following up to ensure your order has arrived and everything is satisfactory. Please let us know if you need further assistance."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-18T12:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since there have been no further issues reported, we are closing this case. Thank you for your patience and cooperation."
+    }
+  ]
+}

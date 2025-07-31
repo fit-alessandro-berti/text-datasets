@@ -1,0 +1,71 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:23:45Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago and my package still hasn't arrived. The tracking status hasn't updated for days, and I'm worried about the delay."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:24:15Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue has been identified as a Delivery Delay based on the customer's description of a late shipment and tracking concerns."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:26:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A customer support agent has been assigned to handle the delivery delay case for further assistance and resolution."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:32:10Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I'm here to help you with the delay in your order delivery. Let's get this sorted out as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:34:50Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the tracking code so I can investigate the status of your shipment more effectively?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T10:05:22Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 987654321 and the tracking code is ABC123XYZ. I checked the courier website but no new updates have been posted."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:40:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "I contacted the courier service and they informed me that there was an unexpected delay in transit. We can offer you expedited reshipping at no extra cost or a full refund if you prefer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T11:15:34Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thank you for the update and the options. I would like to go for the expedited reshipping as I still want the product as soon as possible."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T11:50:12Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed the expedited reshipping for your order. You will receive a new tracking number shortly via email. We apologize for the inconvenience caused."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-22T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that you have received your order with the expedited shipping. Please let us know if everything arrived in good condition."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-22T09:15:30Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since you confirmed receipt of your order and no further issues have been reported, we are closing this support case. Thank you for your patience and understanding."
+    }
+  ]
+}

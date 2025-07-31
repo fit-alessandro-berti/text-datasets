@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my order yesterday but the product was not what I expected. I would like to request a refund for it as soon as possible."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:13:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been categorized as a refund request based on the customer’s message about returning the product and getting their money back."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to agent Emily for handling the refund request submitted by the customer."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:18:45Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, I’m Emily, and I will assist you with your refund request. Could you please provide your order number to proceed?"
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "To process your refund efficiently, please confirm the product name and reason for the return. This helps us speed things up."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:25:15Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "The order number is 789456123, and the product is a Bluetooth speaker. It stopped working within two days of use."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T09:30:40Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. We will initiate the refund process right away and send you a prepaid shipping label to return the faulty item."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T09:35:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That sounds great, thank you for the quick response. I will wait for the shipping label and return the speaker as soon as possible."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T09:40:20Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have sent the prepaid shipping label to your email. Once we receive the returned product, your refund will be processed within 3-5 business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to ensure you received the shipping label email and if you need any further assistance with your refund process."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-20T15:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "The refund has been successfully processed and credited back to your account. We are closing this case now, and thank you for your patience."
+    }
+  ]
+}

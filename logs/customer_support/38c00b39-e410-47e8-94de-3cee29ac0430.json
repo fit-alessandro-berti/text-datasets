@@ -1,0 +1,95 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I want to request a refund for the headphones I bought last week because they don’t meet my expectations and I am not satisfied with the quality."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:16:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The support system has identified this case as a refund request based on the customer’s message mentioning dissatisfaction and wanting money back."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Assigning this refund request case to a customer service representative specialized in returns and refunds."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:22:30Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out about your headphones. I’m here to help you with your refund request."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:25:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and confirm whether the headphones have been opened or used so we can proceed with the refund process?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:40:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 123456789. The headphones were opened but only tried briefly, I haven’t used them extensively."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T09:55:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. We can offer you a full refund once the headphones are returned. I will send you a prepaid shipping label to make the return easy."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:05:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That sounds good to me. I appreciate the quick response and the prepaid label option will make returning the item hassle-free."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T10:10:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "I’ve sent the shipping label to your email. Please send back the headphones at your earliest convenience, and we will process your refund immediately upon receipt."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-20T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm if you have received the shipping label and if the headphones have been sent back for the refund."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-20T12:15:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I received the label and dropped off the package two days ago. I’m hoping to see the refund soon."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-22T15:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have received the returned headphones and processed your refund of the full amount. You should see the credit on your payment method shortly."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-22T15:31:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We’ve sent a short survey to understand your experience with our refund process. We appreciate your feedback to improve our service."
+    },
+    {
+      "activity": "Survey Answered",
+      "timestamp": "2024-06-23T08:45:00Z",
+      "contextual_activity": "Survey Answered (Positive)",
+      "message": "The customer completed the satisfaction survey, reporting that the refund process was smooth and handled professionally."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-23T09:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "The refund case has been officially closed as the customer confirmed receipt of funds and indicated satisfaction with support."
+    }
+  ]
+}

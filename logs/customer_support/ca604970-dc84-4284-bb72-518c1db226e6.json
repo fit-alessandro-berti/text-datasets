@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the wrong item and would like to request a refund as soon as possible since this is not what I ordered."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:16:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The system has classified the customer's issue under the Refund category based on keywords indicating a refund request."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:17:30Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to customer support agent Lisa Thompson for further handling of the refund request."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I'm Lisa and I will be assisting you with your refund request. Could you please confirm your order number and provide some details about the item received?"
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:27:15Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Can you please send us a photo of the item you received and confirm if it is unopened or used? This helps us process your refund swiftly."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:05:42Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "Here is a photo of the incorrect item. The package was opened but I did not use the product. I just want my money back or the correct product sent."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:45:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. We will issue a full refund immediately and arrange for the wrong item to be picked up at your convenience within the next 3 days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T11:10:23Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for your quick help and the offer for a pick-up. I appreciate the prompt response and look forward to resolving this soon."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T12:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed your refund and scheduled return pick-up. You should see the refund reflected in your account within 5-7 business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm you received the refund and that the pick-up of the wrong item was completed smoothly. Please let us know if any further assistance is needed."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-17T10:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since you confirmed everything is resolved, we are closing this refund case. Thank you for your patience and have a great day!"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:22:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I ordered a laptop two weeks ago, but it still hasn’t arrived. The tracking info hasn’t updated for several days."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:23:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer’s complaint about late delivery has been classified under Delivery Delay for proper handling."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:25:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Agent Sarah has been assigned to handle the case regarding the delayed shipment of the laptop."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, I’m Sarah from customer support. I understand your shipment is delayed, and I’m here to help resolve this issue."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:32:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the tracking ID you have so I can check the latest status for you?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:40:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "My order number is 12345 and the tracking ID is XZ7890. The last update was five days ago that it left the warehouse."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T09:50:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "I checked with our shipping partner and found an unexpected delay due to weather. Your package should arrive within the next 3 business days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T09:55:00Z",
+      "contextual_activity": "Customer Feedback Received (Neutral)",
+      "message": "Thank you for the update. I understand the delay was out of your control, and I appreciate the quick reply."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We’ve noted the delay and will monitor the shipment. Please contact us if it doesn’t arrive within three days. Thank you for your patience."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-15T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just following up to ensure your laptop has arrived. Let us know if you need any further assistance or if there are any issues."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-15T12:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since your shipment has been delivered and no further issues were reported, your case is now closed. Thank you for choosing our service."
+    }
+  ]
+}

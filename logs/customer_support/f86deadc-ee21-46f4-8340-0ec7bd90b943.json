@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-18T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I recently bought a jacket from your store but I want to return it because it doesn't fit and looks different from the pictures."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-18T09:16:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The system has categorized this issue as a Refund case due to the customer's request for a return and refund."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-18T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An agent from the refunds department has been assigned to assist the customer with their return request."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-18T09:22:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m here to help you with your jacket return. Could you please provide your order number and let me know if the item has any damage?"
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-18T09:23:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Additionally, could you confirm whether the jacket has been used or washed, as this affects the return eligibility?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-18T09:45:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "My order number is 123456789. The jacket is brand new and hasn’t been worn or washed, but the size is definitely too small."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-18T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thanks for the details. We can process your return and issue a full refund once we receive the jacket in its original condition. Would you like us to send a prepaid shipping label?"
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-18T10:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Yes, please send me the prepaid label. That would make the return much easier. Thank you for your help!"
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-18T10:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We’ve emailed you the prepaid shipping label. Please send the jacket back at your earliest convenience. The refund will be processed within 5 business days after we receive the item."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-25T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just following up to ensure you received the return label and if you need any further assistance with your refund process."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-25T12:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "The return has been completed and your refund processed. We are now closing the case, but feel free to contact us anytime for future needs."
+    }
+  ]
+}

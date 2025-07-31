@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T14:22:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I want to return the headphones I bought last week because they don't work as expected and I would like a full refund."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T14:24:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The system has identified this case as a refund request based on the customer's mention of wanting to return the product."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T14:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A customer support agent has been assigned to handle the refund request for the returned headphones."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T14:32:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for contacting us. I understand you want to return your headphones for a refund. I'm here to help."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T14:34:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the reason for returning the headphones so we can process the refund quickly?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T14:45:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "The order number is 123456789. The headphones don't connect properly to my phone and have static noise during calls."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T15:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. We will initiate a return label via email within 24 hours. Once we receive the headphones, we will issue a full refund promptly."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T15:10:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That sounds perfect, thanks for your help. I'll wait for the return label and send the headphones back."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-11T10:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have sent the return label to your email and processed your refund once the item is received. Please let us know if you need further assistance."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-15T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm that you received your refund and if the return process was satisfactory. Please reach out with any other questions."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-16T09:00:00Z",
+      "contextual_activity": "Case Closed (Neutral)",
+      "message": "Since there has been no further response, we are closing this refund case. Thank you for contacting customer support."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-20T14:22:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I ordered a laptop two weeks ago, and it still hasn't arrived. The tracking information has not been updated for several days, and I am worried about the delay."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-20T14:23:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been identified as a delivery delay based on the customer's report regarding the late arrival and stagnant tracking updates."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-20T14:25:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to delivery support agent Mike to investigate the shipping delay and provide assistance to the customer."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-20T14:30:10Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I'm Mike from delivery support. I understand your laptop shipment is delayed. Let me check the tracking details and get back to you shortly."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-20T14:31:45Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the shipping address used? This will help me track the package with the courier company."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-20T15:00:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Thanks for replying. My order number is 1234567890, and the package was supposed to be sent to 456 Elm Street, Springfield."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-20T15:30:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "I contacted the courier service, and it appears there was an unexpected delay. Your package is expected to arrive within three days. I will monitor the shipment and update you if anything changes."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-20T15:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thank you for the update and for following up on the issue. I appreciate your help and hope the package arrives soon."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-23T10:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The package was delivered today as expected. I am closing the case now, but please contact us if you face any further issues."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-26T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to ensure your laptop arrived in good condition and that you are satisfied with how we handled the delivery delay."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-26T09:05:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since there have been no further complaints, we are closing this support case. Thank you for your patience and understanding."
+    }
+  ]
+}

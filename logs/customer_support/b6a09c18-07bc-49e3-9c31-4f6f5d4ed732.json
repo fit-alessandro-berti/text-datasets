@@ -1,0 +1,77 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-01T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I just received the laptop I ordered, but it arrived with a large scratch on the screen and some keys are sticky. I need help with this defective product."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-01T09:15:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported problem has been categorized under Product Defect due to the damaged and faulty condition of the laptop screen and keyboard."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-01T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A support agent specialized in hardware issues has been assigned to handle this case about the laptop defect."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-01T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m sorry to hear about the condition of your laptop. I’m here to assist you with this issue and find a solution as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-01T09:27:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the scratches and the keyboard issue? Also, share the order number so I can verify your purchase details."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-01T10:05:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Here are the photos of the damaged screen and the keyboard with sticky keys, along with my order number 123456789. Please advise on the next steps."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-01T10:45:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. We can offer you a replacement unit or a full refund. Please let us know which option you prefer, and we will arrange for the defective laptop to be returned at no cost."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-01T11:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would prefer a replacement unit as I still want the laptop model. Thank you for the quick response and helpful offer."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-01T12:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The replacement shipment has been arranged and you will receive a tracking number shortly. We have scheduled pickup for the defective laptop as well."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-08T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "We hope your replacement laptop arrived in perfect condition. Please let us know if you need any further assistance or if everything is working fine now."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-10T15:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Considering your confirmation that the replacement laptop arrived and works well, we are closing this support case. Thank you for your patience and cooperation."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-10T15:05:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We have sent a short survey to collect your feedback on the support experience you received during this product defect resolution."
+    }
+  ]
+}

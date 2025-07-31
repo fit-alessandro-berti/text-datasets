@@ -1,0 +1,95 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I recently purchased a jacket but it does not fit as expected. I would like to request a refund or exchange for a different size."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:22:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer issue was reviewed and categorized as a refund request based on the mention of refund and exchange."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:25:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case was assigned to agent Sarah M. for handling the refund request of the customer."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m Sarah from customer support. I understand you want to arrange a refund or exchange. I’m here to assist you."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:35:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and confirm if the item is unused and still in its original packaging?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T10:00:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "My order number is 789456123. The jacket is unworn and still has the tags attached, packaged exactly as received."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:10:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. We can process a full refund once you return the jacket via our prepaid shipping label."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:20:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That works for me. Please send the shipping label so I can return the jacket as soon as possible."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T10:25:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The prepaid shipping label was emailed to the customer. We confirmed the refund process will begin once the return is received."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-20T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to ensure you received the shipping label and if you need any further assistance with your refund."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-20T12:30:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I received the label and sent the jacket back yesterday. Thanks for the smooth process!"
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-25T15:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The refund was successfully processed and credited to the customer’s original payment method."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-25T15:05:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "The support case was closed after confirmation of the refund payment to the customer."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-25T15:10:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "A customer satisfaction survey invitation was sent to gather feedback regarding the refund experience."
+    },
+    {
+      "activity": "Survey Answered",
+      "timestamp": "2024-06-27T09:00:00Z",
+      "contextual_activity": "Survey Answered (Positive)",
+      "message": "The customer completed the survey and rated their experience as very positive, praising the quick and helpful support."
+    }
+  ]
+}

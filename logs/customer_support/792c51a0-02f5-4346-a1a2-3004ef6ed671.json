@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-12T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I recently purchased a jacket from your online store but I want to request a refund because the size I ordered doesn't fit at all and it feels quite tight."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-12T09:16:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer has reported wanting to return a product due to size issues and requests a refund."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-12T09:17:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Assigning the case to customer support agent Emily for processing the refund request."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-12T09:45:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for contacting us. I’m here to help you with your refund request for the jacket. Could you please provide your order number?"
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-12T09:46:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "To proceed with the refund, I also need to know if the jacket has been worn or washed, and if you still have the original tags."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-12T10:05:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 987654321. I haven’t worn or washed the jacket and I still have all the original tags attached."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-12T10:30:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. You are eligible for a full refund. Please pack the jacket securely and send it back using the prepaid return label we will email you shortly."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-12T11:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the quick response and clear instructions. I appreciate your help and will send the jacket back tomorrow."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-19T15:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have received the returned jacket and processed your refund. The amount should reflect in your account within 3-5 business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-22T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that you have received your refund and if there’s anything else we can assist you with."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-22T12:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since your refund has been processed and no further issues reported, we are closing this case. Thank you for shopping with us!"
+    }
+  ]
+}

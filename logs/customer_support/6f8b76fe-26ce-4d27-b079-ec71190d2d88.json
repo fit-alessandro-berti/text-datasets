@@ -1,0 +1,83 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the blender yesterday but it seems to be broken. The blade mechanism does not spin at all, which makes it unusable."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:15:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported problem has been identified as a product defect related to the blender's blade mechanism failing to function."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:17:45Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to support agent Emily Johnson for further assistance regarding the defective product."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, this is Emily from customer support. Sorry to hear about the issue with your blender. I’m here to help you resolve this as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:26:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please confirm if there is any visible damage to the product box or the blender itself, and if you have tried using any particular setting?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:45:10Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "There is no external damage visible on the box or the blender. I’ve tried multiple speed settings but the blade does not move at all."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. We can offer you a replacement blender sent out immediately or a full refund if you prefer. Please let us know your choice."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:15:20Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would like to go ahead with the replacement, please send a new blender as soon as possible and instructions for returning the faulty one."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T10:25:40Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "A replacement order has been processed and shipment details with return instructions for the defective blender have been emailed to you."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-20T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "We are checking in to confirm that you have received the replacement blender and that it is working well to your satisfaction."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-20T12:30:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I received the replacement yesterday and it works perfectly. Thank you for the prompt service!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-20T13:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Glad to hear that everything is working fine now. Closing this case. Please reach out if you need any further assistance."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-20T13:05:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We have sent you a customer satisfaction survey via email. Your feedback is valuable and helps us improve our services."
+    }
+  ]
+}

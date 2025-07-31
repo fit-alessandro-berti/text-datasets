@@ -1,0 +1,89 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-01T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I ordered a jacket last week but I want to return it because it doesn't fit and I'd like a refund."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-01T09:12:10Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The system detected keywords related to refund and return, classifying this inquiry under the Refund cluster."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-01T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent Sarah has been assigned to handle the refund request for the returned jacket."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-01T09:16:30Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for contacting us. I understand you want to return your jacket and receive a refund. I’m here to help."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-01T09:18:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and confirm if the jacket is unused and in the original condition for the return?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-01T09:45:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "The order number is 789654123 and yes, the jacket has not been worn and still has the tags attached as it arrived."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-01T10:05:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. You can send the jacket back using the prepaid shipping label we will email you shortly, and we will process your refund within 5 business days after receiving it."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-01T10:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That sounds good, thanks for the quick response and clear instructions. I will send it back today."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-01T10:20:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "I've emailed you the prepaid return label and instructions. Please use that to ship the jacket back so we can complete your refund."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-05T14:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm if you have shipped the jacket back. Please let us know if you need any further help."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-05T15:10:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I dropped the package at the post office yesterday morning and have a tracking number for it."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T11:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We received the returned jacket today and have processed your refund. You should see the amount credited to your original payment method shortly."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-10T11:35:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Thank you for your patience. We are closing this case now. Feel free to contact us anytime if you need further assistance."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-10T11:36:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We have sent you a short survey to gather your feedback about your support experience today."
+    }
+  ]
+}

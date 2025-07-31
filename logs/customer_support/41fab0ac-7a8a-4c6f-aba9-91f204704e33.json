@@ -1,0 +1,95 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-01T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the wrong item and would like to request a refund immediately because this is not what I ordered."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-01T09:12:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer's issue has been categorized as a Refund due to their request for money back relating to a wrong item received."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-01T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent John Doe has been assigned to handle this refund request for the customer."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-01T09:16:30Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m John, and I’ll assist you with your refund request. Could you please provide your order number to get started?"
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-01T09:17:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Please send us the order number and any relevant details about the item you received so we can proceed with your refund."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-01T09:20:45Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "My order number is 123456789, and instead of the headphones I ordered, I got a phone case instead. I want my money back ASAP."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-01T09:30:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. We will initiate a full refund to your original payment method once you return the incorrect item to us."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-01T09:33:15Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That sounds good to me. Please send me the instructions for returning the item and the refund timeline."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-01T09:35:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Please confirm your shipping address so we can send you the prepaid return label for the wrong item."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-01T09:37:30Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "My address is 123 Main Street, Springfield. I appreciate your help and hope this is sorted quickly."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-01T09:45:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "We have sent the prepaid return label to your email. Once we receive the item, the refund will be processed within 3-5 business days."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-05T14:22:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have confirmed receipt of the returned item and processed your refund. The amount should appear on your statement shortly."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-07T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "We are following up to ensure you received the refund and to check if there is anything else we can assist you with."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-07T11:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Yes, I did receive the refund, and everything is good now. Thanks for your quick support!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-07T11:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Closing this case as the refund was successful and customer confirmed satisfaction with our support."
+    }
+  ]
+}

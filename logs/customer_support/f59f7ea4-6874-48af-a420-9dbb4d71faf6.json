@@ -1,0 +1,77 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago and it still hasn't arrived. The tracking info shows no updates for days."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:16:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The case has been categorized under Delivery Delay after reviewing the customer's complaint about shipping status."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:17:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent Sarah has been assigned to handle this delivery delay case for the customer."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I understand your order has not arrived yet and I’m here to help you track it."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T10:05:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide the order number and confirm the shipping address so that I can investigate the delay?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:30:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Thank you for the quick response. My order number is 56789 and the shipping address is 123 Elm Street, Springfield."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T11:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "I reviewed the tracking info and it seems the package was delayed due to a courier issue. We can either resend the item or issue a partial refund for the inconvenience."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T11:20:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would prefer the item to be resent. Please ensure it arrives this time because I really need it soon."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T12:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The replacement order has been dispatched with express shipping. You will receive an updated tracking number shortly."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that you have received your replacement order and everything is satisfactory."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-17T09:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "As we received confirmation of delivery and satisfaction, we are closing this case. Please contact us anytime if you need further assistance."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-17T09:31:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "A short satisfaction survey has been sent to help us improve our service. We appreciate your feedback."
+    }
+  ]
+}

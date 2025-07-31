@@ -1,0 +1,89 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-05-21T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I ordered a package over two weeks ago, but it still hasn’t arrived and the tracking number shows no updates."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-05-21T09:12:05Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The case has been categorized under Delivery Delay based on customer’s report of missing shipment updates."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-21T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An agent has been assigned to handle this delayed delivery inquiry and assist the customer promptly."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-05-21T09:17:30Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m sorry to hear your package hasn’t arrived yet. I’ll help you track down the issue right away."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-05-21T09:18:10Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the tracking ID so I can check the shipment status?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-05-21T09:25:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is ORD1234567 and the tracking number is TRK8901234. I haven’t seen any updates for over a week."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-05-21T09:45:20Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "After checking, it appears your package is delayed at the local distribution center. We can request an expedited shipment or offer a refund if preferred."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-21T09:50:15Z",
+      "contextual_activity": "Customer Feedback Received (Negative)",
+      "message": "I would prefer the package to be delivered as soon as possible rather than a refund. Please expedite it, thanks."
+    },
+    {
+      "activity": "Issue Escalated",
+      "timestamp": "2024-05-21T09:55:00Z",
+      "contextual_activity": "Issue Escalated (Neutral)",
+      "message": "Since the delay is significant, I’m escalating this to the logistics manager to prioritize delivery."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-05-21T12:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your shipment has been prioritized and should arrive within 48 hours. We apologize for the inconvenience."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-05-23T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Checking in to confirm you received your package and if everything is satisfactory now."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-05-23T10:15:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "I received the package yesterday, and everything is in perfect condition. Thanks for the quick help!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-05-23T10:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "The case is now closed as the delivery issue has been resolved and the customer is satisfied."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-05-23T10:30:05Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "A satisfaction survey has been sent to the customer to gather feedback on their support experience."
+    }
+  ]
+}

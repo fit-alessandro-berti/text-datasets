@@ -1,0 +1,83 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my order yesterday, but the product is not what I expected. I want to return it and get a refund as soon as possible."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:13:15Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The system has categorised this case under 'Refund' based on the customer's request for a return and money back."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to agent Sarah M. for handling the refund request."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:17:30Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! My name is Sarah. I understand you want to return the product and receive a refund. I’m here to help you with that."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:20:45Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and tell us if the product has been opened or used? This will help us process your refund faster."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:32:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "The order number is 123456789. I haven't opened or used the product; it is still in its original packaging, so it should be fine for return."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. You can send the product back to us with the prepaid return label we will email you shortly. Once we receive it, your refund will be processed within 5 business days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:15:30Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That sounds good, thank you for the quick response and clear instructions. I will wait for the return label email."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T10:45:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The return label has been sent to your email. Please follow the instructions in the email to ship the product back. Let us know if you need any further assistance."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just following up to check if you were able to send back the product and if your refund has been processed without any issues."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-17T09:15:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I returned the product two days ago, and I’ve just received the refund confirmation. Thanks for your help!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-17T09:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Glad to hear that your refund is complete. We are closing this case now. Feel free to contact us anytime if you have further questions."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-17T09:31:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We have sent you a short survey to provide feedback about your refund experience. Your input helps us improve our service."
+    }
+  ]
+}

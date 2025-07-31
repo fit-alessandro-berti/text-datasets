@@ -1,0 +1,77 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-01T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the wrong item in my order and I want to request a refund because this product does not meet my expectations at all."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-01T09:16:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been identified as a refund request due to receiving an incorrect product in the shipment."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-01T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Assigning the case to a customer service agent specialized in refund requests and returns."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-01T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, I’m here to help you with your refund request. Could you please provide your order number and any photos of the product you received?"
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-01T09:25:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "To process your refund quickly, I need the order number and photographic proof of the wrong item you received."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-01T09:45:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "My order number is 987654321 and I've attached photos showing the product is not what I ordered and is completely different."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-01T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thanks for the details. We can offer you a full refund or send the correct item immediately. Please let us know which option you prefer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-01T10:05:00Z",
+      "contextual_activity": "Customer Feedback Received (Neutral)",
+      "message": "I would like to receive the correct item instead of a refund, as I really want the product I've initially ordered."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-01T10:20:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The correct item has been dispatched to your address and you will receive a confirmation email with tracking details shortly."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-08T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm you have received the correct item and that everything is satisfactory now."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-08T10:15:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I received the right product today and it looks great. Thank you for resolving this so quickly."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-08T11:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We’re closing this case as resolved. Please reach out if you need any further assistance, and thank you for your patience."
+    }
+  ]
+}

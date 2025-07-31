@@ -1,0 +1,89 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-12T09:20:45Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I recently bought a jacket from your store, but it looks completely different and I want to request a refund as soon as possible."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-12T09:22:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been classified as a refund request based on the customer's message mentioning a refund."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-12T09:25:10Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to agent Mike Johnson to handle the refund process for the customer."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-12T09:27:30Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m Mike from customer support. I’m here to help you with your refund request for the jacket you received."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-12T09:28:50Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and confirm if the jacket is unused and in original packaging for the return?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-12T09:40:15Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 98237465. The jacket is still unused, and I have kept the tags and original packaging intact."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-12T09:50:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. We will process your refund once the jacket is returned. I will email you the return shipping label shortly."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-12T09:55:30Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the quick response. I appreciate the help and look forward to the return label for returning the product."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-12T10:10:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have sent you the return label by email. Once we receive the jacket, the refund will be issued within 3-5 business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-19T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm if you have shipped the jacket back and if you need any further assistance with your refund."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-19T10:15:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I sent the package yesterday using the provided label. Thank you again for your help and support!"
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-24T12:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your refund has been successfully processed and should appear on your payment method within the next 2-3 business days."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-24T12:05:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing your case now. Please reach out if you have further questions or need assistance in the future."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-24T12:10:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We have sent you a short survey to rate your refund experience. We appreciate your feedback to improve our services."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago and still haven't received any tracking updates or delivery confirmation. This delay is very frustrating."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "Automatically classified issue as Delivery Delay based on keywords indicating late shipment and tracking problems."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Assigned customer support agent to handle the delayed shipment inquiry and assist with providing shipment status."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:23:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out to us about your order. I'm here to help and will check the status of your shipment for you."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:25:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the shipping address so I can look up the details of your delivery?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:30:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 123456789 and the shipping address is 456 Elm Street, Springfield, IL 62704."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T09:45:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "After checking, it appears there was a delay with the courier, but your package is now out for delivery and should arrive within 48 hours."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T09:50:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thank you for the update. I'm glad to hear my package is on its way and expect to receive it soon."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T09:55:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "I'm marking this case as resolved since your delivery is now scheduled to arrive shortly. Please contact us if you need any further help."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-12T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Checking in to ensure your package was delivered and that you’re satisfied with the resolution to your delay issue."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-12T12:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Closing the case now as the delivery issue has been resolved to your satisfaction. Thank you for your patience."
+    }
+  ]
+}

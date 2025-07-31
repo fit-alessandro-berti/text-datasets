@@ -1,0 +1,89 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I recently purchased a jacket from your store, but it doesn't fit me, and I would like to request a refund."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:13:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer's request has been categorized under the Refund cluster due to keywords mentioning refund and return."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:14:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent Sarah has been assigned to handle the refund request for the jacket order."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for contacting us about your refund. I'd be happy to assist you with the return process."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:22:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and confirm if the jacket is in its original condition with tags attached?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:40:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "My order number is 987654321, and yes, the jacket is still new with all tags attached and hasn't been worn."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T09:50:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. We will provide you with a prepaid shipping label to return the jacket, and once received, a full refund will be issued."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:05:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That sounds great. I appreciate the quick help and look forward to receiving the label so I can send the jacket back."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T10:15:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The shipping label has been sent to your email. Please use it to return the jacket, and your refund will be processed promptly once received."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just following up to confirm you received the prepaid shipping label and if you need any further assistance with the return."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-17T12:30:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I received the label and have already sent the jacket back. Thanks for your help throughout the process."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-19T14:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed your refund, and the amount should appear on your original payment method within 3-5 business days."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-19T14:05:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Your refund case has been closed. Please contact us if you need any further assistance in the future."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-19T14:10:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "A satisfaction survey has been sent to your email to gather feedback about your refund experience with our support team."
+    }
+  ]
+}

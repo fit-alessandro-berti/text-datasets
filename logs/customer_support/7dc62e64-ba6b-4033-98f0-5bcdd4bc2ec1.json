@@ -1,0 +1,71 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-12T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my new headphones yesterday, but the left ear cup is making a crackling noise and feels loose."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-12T09:16:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been identified as a possible product defect due to malfunctioning parts and physical looseness."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-12T09:18:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The support request has been assigned to agent Maria G. for further assistance regarding the defective headphones."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-12T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for contacting us about your headphones. I'm here to help resolve the crackling noise issue."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-12T09:35:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please confirm if you have tried adjusting the ear cup or if the crackling happens only during certain movements?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-12T10:00:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "Yes, I tried repositioning it, but the noise persists, and the ear cup still feels loose when I move my head."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-12T10:20:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "We'd like to offer you a replacement unit or a full refund. Please let us know which option you prefer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-12T10:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I appreciate the quick response. I would prefer a replacement unit since I like this model a lot."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-12T11:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your replacement headphones will be shipped within 2 business days. We apologize for the inconvenience caused."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-19T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "We hope your replacement headphones arrived and are working perfectly. Please contact us if any further issues arise."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-19T17:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing this case as resolved. Thank you for your cooperation and understanding throughout the process."
+    }
+  ]
+}

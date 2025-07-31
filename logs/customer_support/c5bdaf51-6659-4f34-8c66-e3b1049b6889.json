@@ -1,0 +1,77 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I recently purchased a jacket from your online store, but I want to request a refund because the size does not fit me at all."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:14:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The system has categorized the request as Refund based on the customer's mention of refund and return."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Your refund request case has been assigned to an agent who will assist you shortly."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:25:30Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I’m here to help you with your refund request for the jacket."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:27:45Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and confirm whether the product is unused and in its original packaging?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:35:10Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, the order number is 123456789. The jacket is brand new, unworn, and still has all the tags attached as received."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T09:45:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. I have processed your refund request and you will receive your money back within 5 to 7 business days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T09:50:30Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the quick response and for processing the refund. I appreciate your help with this matter."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T09:55:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The refund process has been completed successfully on our end, and your case is now resolved."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-22T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "We wanted to follow up to ensure you received your refund and that everything is satisfactory with your experience."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-22T09:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "As the refund was successfully received and no further issues were reported, we are now closing this support case."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-22T09:16:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "You will shortly receive a survey to rate your satisfaction with our refund process and customer support service."
+    }
+  ]
+}

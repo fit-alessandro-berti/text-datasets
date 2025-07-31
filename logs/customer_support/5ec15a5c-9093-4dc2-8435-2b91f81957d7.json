@@ -1,0 +1,83 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-04-10T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I recently purchased a pair of shoes but they don't fit me at all. I would like to request a refund or an exchange for another size."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-04-10T09:15:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue reported involves a request for a refund or exchange due to size mismatch with the shoes purchased."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-04-10T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to the refunds team to assist with your request for a return or exchange."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-04-10T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m sorry to hear the shoes didn’t fit. I’m here to help you with the refund or exchange process."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-04-10T09:30:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and let us know if the shoes have been used or if they are still in their original packaging?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-04-10T09:45:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "My order number is 45327891. The shoes are brand new and still in the original packaging; I haven’t worn them yet."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-04-10T09:55:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. We can process your refund immediately or send you a replacement in a different size, whichever you prefer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-04-10T10:05:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would like to exchange them for a size 9, please. That would be great, thanks for your help."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-04-10T10:20:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The exchange request for size 9 has been processed. You will receive a shipping label shortly, and the new shoes will be sent once we receive the return."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-04-15T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to make sure you have received the replacement shoes in size 9 and that everything meets your expectations."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-04-15T09:30:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I received the new shoes yesterday and they fit perfectly. Thank you very much for the quick and smooth exchange process."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-04-15T09:35:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are glad everything worked out well. Closing your case now, and thanks for choosing our store!"
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-04-15T09:40:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "Please take a moment to complete our satisfaction survey regarding your recent refund and exchange experience."
+    }
+  ]
+}

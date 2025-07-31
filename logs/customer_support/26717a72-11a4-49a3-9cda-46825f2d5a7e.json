@@ -1,0 +1,77 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-20T10:05:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my new headphones yesterday, but they are faulty. The left earcup has a strange crack and sometimes the sound cuts out."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-20T10:06:05Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue is identified as a product defect due to broken and faulty components as described by the customer."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-20T10:10:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Customer’s case has been assigned to an agent specialized in product defects for further assistance."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-20T10:15:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m sorry to hear about the crack and sound issues with your headphones. I’m here to help resolve this as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-20T10:20:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide a photo of the cracked earcup and let us know if you have tried any troubleshooting steps so far?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-20T10:45:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Here is a photo of the crack. I haven’t tried anything else besides plugging and unplugging the headphones a few times."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-20T11:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the photo. We can offer you a replacement unit or a full refund. Please let us know which option you prefer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-20T11:20:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would prefer to receive a replacement pair of headphones instead of a refund. Thank you for the quick response."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-20T11:45:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed your request for a replacement. You will receive a shipping confirmation within two business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-22T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm that your replacement headphones arrived in good condition and are working properly."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-22T14:15:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, the replacement arrived today and everything is perfect. Thanks for resolving this so efficiently!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-22T14:20:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are glad your issue is resolved. Please contact us anytime if you need further assistance. This case is now closed."
+    }
+  ]
+}

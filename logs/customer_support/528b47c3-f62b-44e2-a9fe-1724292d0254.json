@@ -1,0 +1,77 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:23:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the phone yesterday but the screen has a big scratch and the touchscreen is not responding properly."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:23:01Z",
+      "contextual_activity": "Issue Categorised (Negative)",
+      "message": "The customer's report contains keywords indicating a product defect, including scratch and touchscreen issues."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to support agent Maria Lopez for further assistance with the reported damaged phone."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:31:05Z",
+      "contextual_activity": "Agent Greeting (Neutral)",
+      "message": "Hello, this is Maria from customer support. I'm sorry to hear about the issue with your phone screen."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:32:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the scratched screen and let us know if the touchscreen unresponsiveness is consistent?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T10:10:45Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "Here are the photos of the screen damage and yes, the touchscreen doesn’t respond at all in some areas."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T11:00:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "We can offer to send a replacement device at no extra cost or arrange for a repair of your current phone."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T11:10:15Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would prefer a replacement device, please proceed with sending it as soon as possible."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T13:45:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your replacement device order has been processed and will be shipped within 2 business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-22T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm you received the replacement phone and if it is functioning correctly."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-22T09:30:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, the replacement arrived yesterday and everything is working perfectly now. Thank you for the quick help!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-22T09:45:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are glad your issue has been resolved. Closing the case now, please contact us anytime if you need further assistance."
+    }
+  ]
+}

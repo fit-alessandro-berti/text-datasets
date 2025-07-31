@@ -1,0 +1,77 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-01T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my order yesterday, but the laptop screen is cracked and shows several scratches. It doesn’t work properly."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-01T09:16:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The system identified the issue as a potential product defect based on the customer's report mentioning a cracked screen and scratches."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-01T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The support request has been assigned to agent Sarah J., who specializes in defective product cases."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-01T09:25:12Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, I’m Sarah from customer support. I’m sorry to hear about the damage to your laptop screen. I’d like to help resolve this issue as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-01T09:27:45Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the cracked screen and any packaging damage? This will help us assess the situation faster."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-01T10:10:30Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Here are several pictures showing the cracked screen clearly, along with the package it came in. The box was intact but the screen has visible damage."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-01T11:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the photos. We can offer to replace the laptop under warranty or issue a full refund if you prefer. Please let us know your choice."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-01T11:30:45Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would like to receive a replacement laptop, please. I really need it for work and hope the new one arrives quickly."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-01T12:15:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed your replacement order. You will receive shipping confirmation within 24 hours and the new laptop should arrive within 3-5 business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-05T14:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm you received the replacement laptop and that it’s working correctly. Please contact us if you need any further assistance."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-05T15:20:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, the replacement arrived yesterday and everything is perfect. Thank you for your prompt support!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-05T15:45:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are glad your issue was resolved satisfactorily. We will now close this support case. Have a great day!"
+    }
+  ]
+}

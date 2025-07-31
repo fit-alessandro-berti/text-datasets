@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-01T14:22:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the wrong item in my order and would like to request a refund as soon as possible because this is very disappointing."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-01T14:23:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The system identified the customer's message as a refund request based on keywords related to money back and wrong item."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-01T14:25:10Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent Emily has been assigned to handle the refund case reported by the customer for further assistance."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-01T14:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m Emily from customer support. I’m sorry to hear you received the wrong item. I’m here to help you with your refund request."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-01T14:32:45Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide the order number and a photo of the item you received so that we can verify the issue quickly?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-01T15:10:20Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Thank you for responding. My order number is 879432 and I have attached a photo showing the wrong product that arrived."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-01T15:45:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "We have verified your order details and the product photo. You are eligible for a full refund or an exchange. Please let us know your preference."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-01T16:00:30Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would prefer to get the refund, thank you. Please process it as soon as possible so I can receive my money back."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-01T16:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your refund has been processed successfully and the amount should reflect in your account within 3-5 business days. Thank you for your patience."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-05T14:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to ensure you have received your refund. Please let us know if there is anything else we can assist you with."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-05T15:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since the refund has been completed and no further issues were reported, we are closing this support case. Thank you for contacting us."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-14T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago, but it still hasn't arrived. The tracking shows no updates and the delivery is very delayed."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-14T09:15:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been categorized under Delivery Delay based on the customer's message mentioning shipment delay and tracking concerns."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-14T09:17:30Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case was assigned to agent Sarah J. for further investigation regarding the delayed order delivery."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-14T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, this is Sarah from customer support. I’m sorry to hear about the delay with your delivery. Let me check the status for you."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-14T09:27:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the shipping address so I can look into the shipment details?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-14T09:40:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is #123456789 and the shipping address is 45 Meadow Lane, Springfield."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-14T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thanks for the info. I contacted the shipping provider and they reported a logistical delay. We will expedite your package and I will also apply a shipping refund as a compensation."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-14T10:10:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the quick update and for the refund offer. I appreciate your help in resolving this."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-14T10:15:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your case has been resolved. We have expedited the shipment and processed a refund for the shipping cost. You will receive a confirmation email shortly."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-21T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Hello again, just checking in to confirm you received your package and that everything is satisfactory now. Please let us know if further assistance is needed."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-21T10:30:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, the package arrived yesterday and everything looks good now. Thanks for following up and resolving the issue quickly!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-21T10:45:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing this case as resolved. Thank you for your patience and please reach out if you have any other questions."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-21T10:46:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "A satisfaction survey has been sent to you. Your feedback helps us improve our service."
+    }
+  ]
+}

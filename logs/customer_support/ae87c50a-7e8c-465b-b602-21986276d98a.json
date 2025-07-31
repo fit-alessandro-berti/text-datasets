@@ -1,0 +1,71 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:21:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago and still haven't received any shipping updates or tracking information. The delivery is way overdue."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:22:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer's message contains keywords related to shipping delay and tracking issues, categorizing under Delivery Delay."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:25:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Assigning the case to the logistics support team to investigate the shipment delay and provide an update."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:45:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I understand your order is delayed and I'm here to help find out what's happening with your shipment."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:50:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the shipping address so I can track your package and check the current status?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:05:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Thanks for the reply. My order number is 7894561230 and it was supposed to be shipped to 123 Elm Street, Springfield."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T11:00:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "I've checked with the carrier and it seems there was an unexpected delay at the sorting facility. Your package is now prioritized and should arrive within the next 3 days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T11:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I appreciate the update and the effort to speed up delivery. Looking forward to receiving my order soon. Thanks for the help!"
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T11:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Glad we could clarify the delay and arrange faster shipping. Please reach out again if any other issues arise with your order."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-13T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that your order has arrived and everything is in good condition. Let us know if you need further assistance."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-13T12:10:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing this case now as the delivery issue has been resolved. Thank you for your patience and for contacting support."
+    }
+  ]
+}

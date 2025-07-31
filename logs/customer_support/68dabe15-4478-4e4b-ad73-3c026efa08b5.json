@@ -1,0 +1,77 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-01T10:23:45Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I ordered a pair of shoes last week but would like to request a refund as they do not fit properly and the product description was misleading."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-01T10:24:10Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "System has categorised the reported customer issue as a refund request based on keywords and message content."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-01T10:28:02Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to Customer Support Agent Jane Smith to handle the refund inquiry."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-01T10:31:15Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I’m Jane and I’m here to help you with your refund request. Could you please provide your order number?"
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-01T10:31:15Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Agent asks the customer to provide the order number to begin processing the refund."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-01T10:35:42Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is #56789. I’d like to know how soon I can expect the refund once the return is processed."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-01T10:40:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the order number. You can expect your refund within 5 to 7 business days after we receive the returned item at our warehouse."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-01T10:42:30Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That sounds good, thank you! I will send the shoes back today and inform you once shipped."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-01T10:50:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have marked your refund request as being processed pending the return shipment. Please let us know if you need any further assistance."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-07T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm your refund has been processed successfully. Please contact us if you have not received the amount."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-08T09:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since your refund has been completed and no further queries were raised, we are closing this support case. Thank you for contacting customer support."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-08T09:16:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We have sent you a short survey about your support experience. Your feedback helps us improve our service."
+    }
+  ]
+}

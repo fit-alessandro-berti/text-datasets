@@ -1,0 +1,77 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I just received my new headphones and unfortunately one earcup is producing a static noise, which makes it impossible to use properly."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:17:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue reported involves a faulty product component causing audio malfunction, categorized under product defect."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Your case has been assigned to one of our audio equipment specialists who will assist you further."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:22:30Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out and sorry to hear about the issue with your headphones. I'm here to help you resolve this."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:25:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please let us know if there are any physical damages or scratches on the headphones and whether you have tried using a different device?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:40:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "There are no visible scratches or damage on the headphones, and I have tested them with two different phones but the static noise persists."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T09:50:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "We will arrange a replacement shipment for you immediately and provide a prepaid label for you to return the defective headphones at no cost."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T09:55:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thank you for the quick response and solution. I appreciate the replacement option and will send the defective unit back promptly."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed your replacement request and sent the return label. You should receive the replacement headphones within 3-5 business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Checking in to confirm that you have received the replacement headphones and that they are functioning as expected."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-17T10:10:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "I received the replacement yesterday and it works perfectly! Thanks for the excellent support."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-17T10:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are glad your issue was resolved satisfactorily. Closing the case now but feel free to contact us if you need further assistance."
+    }
+  ]
+}

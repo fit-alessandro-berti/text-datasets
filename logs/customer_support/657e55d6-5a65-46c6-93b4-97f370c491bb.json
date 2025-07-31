@@ -1,0 +1,95 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I just received my order and the laptop screen is cracked and unusable. I need help with this urgently."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:15:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been categorized as a Product Defect due to the cracked screen reported by the customer."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:16:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent Mike has been assigned to assist with the cracked laptop screen case."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Agent Greeting (Neutral)",
+      "message": "Hello, I'm Mike from support. I'm sorry to hear about the cracked screen on your laptop. Let's work on resolving this."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:22:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the cracked screen and your order number so I can verify the details?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:40:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "I have attached the pictures of the broken screen and my order ID is 67890. This is very disappointing."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T09:50:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "Thank you for the photos. We can either arrange a replacement laptop or offer a full refund. Please let me know your preference."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T09:55:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would prefer to get a replacement laptop as soon as possible. Thanks for the quick help."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T10:10:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed the replacement order and it will be shipped out within 2 business days. We apologize for the inconvenience."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-20T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm that you have received the replacement laptop and that it is functioning correctly."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-20T10:15:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I got the replacement laptop yesterday and everything is perfect now. Thank you for your support."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-20T10:20:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "Please take a moment to complete a short survey about your recent support experience. Your feedback is appreciated."
+    },
+    {
+      "activity": "Survey Answered",
+      "timestamp": "2024-06-20T10:45:00Z",
+      "contextual_activity": "Survey Answered (Positive)",
+      "message": "I completed the survey and rated the experience as excellent. Thanks again for the quick resolution."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-20T10:50:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "The case has been formally closed following the successful replacement and positive customer feedback."
+    },
+    {
+      "activity": "Case Archived",
+      "timestamp": "2024-06-21T00:00:00Z",
+      "contextual_activity": "Case Archived (Neutral)",
+      "message": "The customer support case regarding the cracked laptop screen has been archived for record keeping."
+    }
+  ]
+}

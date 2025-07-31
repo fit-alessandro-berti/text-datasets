@@ -1,0 +1,83 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:17:45Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I recently purchased a jacket from your website, but I need to request a refund because the size is incorrect and doesn't fit me at all."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:18:10Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The system has classified this case as a refund request due to the customer's need to return the item for a money back process."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:19:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A customer service agent was assigned to handle the refund case regarding the jacket return initiated by the customer just now."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:20:05Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for contacting us. I understand you'd like to request a refund for the jacket you purchased. Let's work together to get this resolved as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:21:15Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and confirm if the jacket is unused and still in its original packaging?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:05:32Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 4587321. The jacket is still unused, and I kept it in the original packaging because I want to return it but need a full refund."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:25:40Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. We can process a full refund once we receive the returned jacket. I will send you the prepaid return shipping label to your email shortly."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:40:11Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for the quick response and the prepaid label. I appreciate the smooth handling of this issue and will send the package today."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T12:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have received your returned jacket in good condition and processed your full refund. The amount should reflect in your bank account within 3-5 business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-18T09:30:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm you have received your refund. Please let us know if there is anything else we can assist you with."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-18T10:15:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I received the refund today. Thank you for your excellent support throughout this process. I will definitely shop with you again."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-18T10:20:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing this case now. Thank you for your cooperation and feedback. Feel free to reach out anytime for future assistance."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-18T10:21:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We have sent you a brief customer satisfaction survey. We would appreciate your feedback to help us improve our service."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my order yesterday, but I want to request a refund because the product is not what I expected and I would like to return it for a full refund."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:13:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The request was reviewed and categorized under the refund cluster to proceed correctly with the return process."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An agent has been assigned to your case to assist you with the refund and return procedure."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m here to help you with your refund request. Could you please provide your order number and the reason for the return in detail?"
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:30:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "To process your refund, please confirm the order number and tell us if the item has been opened or used."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:45:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "My order number is 3287641, and the product was unopened but did not meet my expectations, so I want to return it and get my money back."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. You are eligible for a full refund. We will send you a return shipping label shortly, and once we receive the item, we will refund your payment."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:10:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for your help and clear instructions. I appreciate the fast response and look forward to receiving the label so I can send the item back."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T10:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The return label has been emailed to you. Please use it to send back the product within the next 14 days to complete your refund process."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-22T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "We are checking in to see if you have been able to send the product back and if you need any further assistance with your refund."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-25T12:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "The return was received, and your refund has been processed successfully. We are closing the case now, and thank you for your cooperation."
+    }
+  ]
+}

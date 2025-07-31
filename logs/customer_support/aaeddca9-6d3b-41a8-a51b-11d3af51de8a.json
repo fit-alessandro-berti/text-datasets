@@ -1,0 +1,89 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:45Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my order two weeks ago, but I want to return the product and get a refund because it does not meet my expectations."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:13:10Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer's request to return the product and get their money back has been identified and categorized as a refund case."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:15:30Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent Sara Thompson has been assigned to handle the refund case initiated by the customer."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out to us. I understand you would like to return your product and request a refund. I'm here to help."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:21:45Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and let us know the reason for the return so we can process your refund efficiently?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:35:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is #457829, and the reason for return is the product did not match the description on the website."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T09:45:30Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. We will initiate your refund once we receive the returned item. I will send you the return shipping label shortly."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T09:50:10Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thank you for the quick response. I appreciate your help and look forward to receiving the return label."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-16T10:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The return shipping label has been sent to the customer’s email, and the refund process will start once the product is returned."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-23T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "We are following up to confirm that you have received the return label and to check if you need any further assistance with your refund."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-23T10:05:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I got the label and have mailed the product back. Thanks again for your support!"
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-07-01T14:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The refund has been processed successfully and the amount should appear in your account within 3-5 business days."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-07-01T14:05:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We have closed your refund case. Please reach out if you have any further questions or need assistance in the future."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-07-01T14:06:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "A customer satisfaction survey has been sent to your email. We appreciate your feedback to help us improve our service."
+    }
+  ]
+}

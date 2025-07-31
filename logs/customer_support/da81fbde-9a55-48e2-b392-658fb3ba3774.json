@@ -1,0 +1,95 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:30:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the wrong item in my order and I would like to request a refund as soon as possible. The product is not what I originally purchased."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:35:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been categorized as a refund request due to incorrect product delivery as reported by the customer."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:40:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent Emma has been assigned to handle the refund request case for the customer."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:45:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, I’m Emma from customer support. I’m sorry to hear about the issue and I’m here to assist you with your refund request."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:50:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide a photo of the item you received along with the order number to help us process your refund quickly?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:10:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "I have attached the photos of the wrong item and included the order number as requested. Please let me know if you need any more information."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:30:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. We will initiate your refund immediately and send you confirmation once the amount has been credited to your original payment method."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T11:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I appreciate your prompt response and the immediate action to process my refund. Thank you for resolving this so quickly."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T11:15:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The refund has been processed and should reflect in your account within 3-5 business days. Please let us know if you encounter any further issues."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-15T09:30:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just following up to confirm that you have received your refund and if there’s anything else we can assist you with today."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T10:00:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, the refund has arrived in my account, and I’m very satisfied with the support provided. Thank you once again!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-15T10:05:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing this case now as your refund has been successfully processed and you’re satisfied with the resolution."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-15T10:10:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We have sent you a short survey to rate your experience with our support team. Your feedback is very important to us."
+    },
+    {
+      "activity": "Survey Answered",
+      "timestamp": "2024-06-16T14:00:00Z",
+      "contextual_activity": "Survey Answered (Positive)",
+      "message": "The customer completed the survey providing positive feedback and high ratings for quick refund processing and helpful support."
+    },
+    {
+      "activity": "Case Archived",
+      "timestamp": "2024-06-20T00:00:00Z",
+      "contextual_activity": "Case Archived (Neutral)",
+      "message": "This support case has been archived automatically after a period of inactivity following closure and survey completion."
+    }
+  ]
+}

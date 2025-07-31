@@ -1,0 +1,83 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I recently purchased a jacket from your online store but it arrived the wrong size. I would like to initiate a return and get a refund as soon as possible."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:15:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer's request has been categorized under the Refund cluster due to the mention of a return and refund request."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An agent from the refunds department has been assigned to handle this case to ensure timely and proper assistance."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:22:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I'm sorry to hear about the sizing issue with your jacket, and I’m here to help you with the return and refund process."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:25:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and confirm if the item is unused and still has all the original tags attached?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:40:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Thank you for your quick response. My order number is 4526890. The jacket is new, unworn, and all tags are still attached."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T09:50:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Great, thank you for confirming. We will provide you with a prepaid return shipping label via email. Once we receive the jacket, we will process your refund to the original payment method within 5 business days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:05:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That sounds perfect, thank you for making this so easy and clear. I’ll wait for the return label in my email."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T10:15:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The return label has been sent to your email address. Please ship the jacket back, and we will ensure the refund is processed promptly upon receipt."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-20T11:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm if your jacket was returned successfully and if you have received your refund without any issues."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-20T11:15:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I sent the jacket back yesterday and already received the refund today. Thank you very much for your assistance!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-20T11:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We’re glad everything went smoothly. Your case has now been closed. Please reach out anytime if you need further assistance."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-20T11:31:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "A short survey has been sent to your email to gather feedback on your experience with our refund process."
+    }
+  ]
+}

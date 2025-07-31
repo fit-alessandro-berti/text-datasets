@@ -1,0 +1,89 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago, but my package still hasn't arrived. The tracking info hasn't updated for days and I'm worried about the delay."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:15:05Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The system identified the issue as a delivery delay based on customer report mentioning tracking and late shipment."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A customer service agent has been assigned to handle this delivery delay case for the customer."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:22:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for contacting us. I understand your order is delayed and I'll do my best to assist you today."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:25:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and any recent tracking updates you have so I can check with the shipping carrier?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:40:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "My order number is 123456789. The last tracking update was four days ago and it just says 'In transit' with no new location."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "I've contacted the shipping company to get a status update on your package and expect their response within 24 hours. I'll keep you updated."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:05:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thanks for looking into this quickly. I appreciate you keeping me informed while you check with the shipping provider."
+    },
+    {
+      "activity": "Issue Escalated",
+      "timestamp": "2024-06-11T12:30:00Z",
+      "contextual_activity": "Issue Escalated (Neutral)",
+      "message": "Since the package is still delayed and the shipping company hasn't provided an update, we're escalating this issue to our logistics team for urgent review."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-12T15:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Good news! We've located your shipment and confirmed it will arrive within the next two days. We're sorry for the inconvenience caused by the delay."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-14T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that you have received your package. Please let us know if everything is okay or if you need any further assistance."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-14T12:45:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, the package arrived yesterday and everything is in perfect condition. Thank you for resolving this issue promptly!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-14T13:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing your case now since your delivery issue is resolved. Thank you for your patience and please contact us anytime."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-14T13:05:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We have sent you a survey to rate your customer support experience. Your feedback helps us improve our service."
+    }
+  ]
+}

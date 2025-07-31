@@ -1,0 +1,71 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-05-01T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the laptop yesterday but noticed it has a large scratch on the screen and some keys are sticky. This is very disappointing as I expected a flawless product."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-05-01T09:20:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been categorized under Product Defect after reviewing the report about the damaged laptop screen and faulty keyboard."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-05-01T09:22:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to an agent specialized in product defects to handle the situation and provide assistance."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-05-01T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I'm sorry to hear about the issues with your laptop. I'll do my best to help you resolve these problems quickly."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-05-01T09:32:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the scratch on the screen and the keyboard keys that are sticky? This will help us assess the damage better."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-05-01T10:00:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "I have attached pictures showing the scratch on the screen and the keyboard with sticky keys. Please let me know what can be done as soon as possible."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-05-01T10:15:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the pictures. We can offer a replacement laptop or repair service free of charge. Which option do you prefer?"
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-05-01T10:40:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would prefer a replacement laptop since the damage seems extensive. Thank you for the prompt offer to solve this issue."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-05-01T11:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed your replacement order. The new laptop will be shipped out today with expedited delivery and tracking details will be sent shortly."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-05-08T14:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to make sure the replacement laptop arrived in good condition and that you are satisfied with the solution provided."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-05-08T14:10:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "As we have not received any further issues from you, this case will now be closed. Thank you for your patience and understanding."
+    }
+  ]
+}

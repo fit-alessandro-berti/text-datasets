@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:12:45Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the wrong item in my recent order and would like to arrange a refund as soon as possible."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The case has been categorized under the 'Refund' cluster based on the customer's request for money back."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:20:12Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent Sarah T. has been assigned to assist with the refund case related to the incorrect item delivery."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:25:30Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m Sarah, here to help with your refund request. Could you please provide the order number and photos of the item you received?"
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:25:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please share the order number and a clear photo of the incorrect item you received to proceed with the refund process?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:01:50Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Thank you for responding. My order number is 893274, and I have attached the photos of the item that arrived which is not what I ordered."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:30:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "We have reviewed your photos and order details. We will process your full refund within 3-5 business days after you return the incorrect item using our prepaid shipping label."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T11:00:23Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thank you for the quick response and clear instructions. I will send the item back today using the label provided."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-14T14:45:10Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The returned item was received and the refund has been processed successfully. You should see the amount credited back to your original payment method shortly."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that the refund has appeared in your account. Please let us know if everything is satisfactory or if you need any further assistance."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-18T12:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since there have been no further replies, we are closing this refund case. Thank you for contacting support and we hope to assist you again in the future."
+    }
+  ]
+}

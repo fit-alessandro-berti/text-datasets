@@ -1,0 +1,71 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago and it still hasn't arrived. The tracking number shows no updates."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been identified as a delivery delay based on the customer's message regarding late shipment."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "This case was assigned to delivery support agent Jessica H. for further investigation."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I understand your order is delayed, and I’m here to help resolve this as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:35:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please confirm your order number and provide the tracking number you’ve been using? This will help me check the shipment status."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:05:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, the order number is 789456123, and the tracking number I have is TRK123XYZ. The tracking site hasn’t updated for several days."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T11:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "I’ve contacted the shipping provider about your order. We expect an updated tracking status within 48 hours, and we will expedite delivery if possible."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T11:10:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thank you for the quick response and for looking into this. I appreciate your help and look forward to the update."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-12T14:45:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The shipping provider has updated your package status confirming it is out for delivery and will arrive today."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-14T08:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "We just wanted to confirm that your order was successfully delivered. Please let us know if you need further assistance."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-14T08:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since your issue has been resolved, we are closing this case. Thank you for contacting support, and have a great day!"
+    }
+  ]
+}

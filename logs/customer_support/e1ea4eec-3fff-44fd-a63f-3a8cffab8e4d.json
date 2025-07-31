@@ -1,0 +1,71 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T10:22:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago, but it still hasn’t arrived, and the tracking shows no updates."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T10:23:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue is categorized under Delivery Delay based on customer's description of a late shipment with no tracking updates."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T10:25:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to delivery support specialist Michael to handle the delay complaint."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T10:30:15Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, I’m Michael from customer support. I’m here to assist with your delayed shipment issue and will do my best to help."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T10:32:45Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the shipping address so I can look into the tracking details for you?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T11:05:10Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, the order number is 782345, and the shipping address is 123 Maple Street, Springfield."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T11:40:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "I checked the tracking info and saw a delay due to weather conditions. We can offer expedited shipping at no extra cost to get your package to you faster."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T12:10:30Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thank you, I appreciate the offer of expedited shipping to help speed up delivery given the circumstances."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T12:15:45Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have upgraded your shipment to expedited delivery. You should receive your order within 2-3 business days now."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-18T08:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just following up to confirm that your expedited shipment has arrived and that you are satisfied with the resolution."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-18T08:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "As we received confirmation that your order was delivered successfully, the case will now be closed. Thank you for contacting us."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T14:22:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order over two weeks ago, but my package still hasn’t arrived. The tracking info hasn’t been updated for several days."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T14:23:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been identified as a delivery delay based on the customer’s description of late shipment and lack of tracking updates."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T14:25:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to delivery support specialist Sarah M. to investigate and assist the customer with the delay."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T15:00:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m Sarah from the delivery support team. I understand your order hasn’t arrived yet, and I’m here to help you track it down."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T15:05:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the shipping address so I can check the status with our carrier?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T15:12:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, the order number is 789456123 and the address is 123 Main Street, Springfield. Thanks for your help!"
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T16:00:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "I contacted the shipping company and they confirmed a delay due to weather conditions. Your package should arrive within the next 3 days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T16:10:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thank you for the update. I appreciate you looking into this and letting me know when to expect the delivery."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T16:15:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have noted the delay and will monitor your shipment until delivery. Please reach out if you experience further issues."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-13T18:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just following up to confirm your package was delivered. Please let us know if everything arrived as expected."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-13T18:10:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since your package was delivered and there are no further concerns, we are closing this support case. Thank you!"
+    }
+  ]
+}

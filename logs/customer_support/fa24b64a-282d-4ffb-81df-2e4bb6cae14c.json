@@ -1,0 +1,71 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:12:45Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago, but my package still hasn't arrived and the tracking information hasn't updated in days."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:13:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer's message mentions a delayed shipment and tracking issues, classifying this case under Delivery Delay."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Assigning this delivery delay case to the shipping support agent for further investigation."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for contacting us about your order. I’m here to help resolve the delay you're experiencing."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:27:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and any tracking details you have so I can check the shipping status for you?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:05:15Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 56473829 and the last tracking update was over a week ago showing 'In transit'."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T11:00:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "I've contacted the shipping carrier for an update. Meanwhile, I can offer you a 10% refund for the inconvenience caused by this delay."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T11:10:30Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thank you for checking with the carrier and the refund offer. I appreciate the quick response and help."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T11:15:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The carrier confirmed the package will arrive within 3 business days. The 10% refund has been processed to your original payment method."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-15T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "We just wanted to follow up to ensure that your package was received and that everything is satisfactory on your end."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-15T09:05:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since you have confirmed receipt and no further issues, we are closing this case now. Thank you for your patience!"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-05T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago and still haven't received any shipping updates. The delivery is very late, and I need assistance with tracking my package."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-05T09:13:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been categorized under Delivery Delay based on the customer's report about late shipping and tracking problems."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-05T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to a customer support agent specializing in shipping and delivery issues to provide assistance."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-05T09:20:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out to us. I’m sorry to hear your delivery is delayed. I’ll do my best to help you with this."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-05T09:22:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and any tracking information you have received so far? This will help me track the package."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-05T09:45:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 123456789. I have not received any tracking emails or updates from the seller or the courier service."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-05T10:05:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "I checked your order status and contacted the courier. The package was delayed due to unforeseen shipping issues but should arrive within the next three days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-05T10:20:00Z",
+      "contextual_activity": "Customer Feedback Received (Neutral)",
+      "message": "Thank you for the update. I’m glad there is a tentative delivery date now, though the delay has been inconvenient."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-05T10:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have resolved the delay issue by coordinating with the courier, and your package should be delivered soon. Please let us know if you face any further issues."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that your order has arrived and that you are satisfied with the resolution of the delivery delay."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-10T10:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since we have not heard further from you, we are closing this case. Feel free to contact us anytime if you need more help."
+    }
+  ]
+}

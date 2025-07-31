@@ -1,0 +1,89 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T10:23:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago and it still hasn't arrived. The tracking number shows no updates, and I am very concerned about the delay."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T10:25:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been assessed and categorized under Delivery Delay due to the customer's complaint about the late shipment and lack of tracking updates."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T10:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to delivery support specialist Amy Rodriguez for further investigation regarding the delayed order."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T10:45:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! My name is Amy, and I'll be assisting you today. I understand your order has not arrived yet and I’m here to help resolve this for you."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T10:48:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please confirm your order number and the shipping address so I can check the current status with our logistics partner?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T11:05:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, the order number is ORD123456789 and the shipping address is 123 Maple Street, Springfield. Please let me know if you need anything else."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T11:30:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "Thank you for the information. I have contacted the courier service, and they informed me that your package was delayed due to unexpected weather conditions. They expect delivery within the next 3 days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T11:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Negative)",
+      "message": "I understand the weather can cause issues, but I really needed the package sooner. This delay is quite frustrating as I was relying on the delivery for an upcoming event."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T12:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "I apologize for the inconvenience. To make up for the delay, I would like to offer you free expedited shipping on your next order and a 10% discount coupon for your troubles."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T12:15:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thank you for the offer and your help. I appreciate the discount and will consider placing another order in the future. Thanks for keeping me updated!"
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T12:20:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The issue is now resolved with the customer informed of the expected delivery window and offered compensation for the delay. We will monitor the package until delivery."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-18T14:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm your package has arrived safely. Please let us know if you need any further assistance or support."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-18T15:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "The case has been formally closed following confirmation of successful delivery and customer satisfaction with the resolution provided."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-18T15:05:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "A customer satisfaction survey has been sent to gather feedback on the support experience and overall handling of the delivery delay issue."
+    }
+  ]
+}

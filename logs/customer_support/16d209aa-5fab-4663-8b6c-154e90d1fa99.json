@@ -1,0 +1,83 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I recently bought a pair of headphones from your store, but I want to return them because they do not meet my expectations."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:13:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The system has classified this issue as a refund request based on the customer's request to return the product."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:15:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A customer service agent has been assigned to handle the refund case for the returned headphones."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:17:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I'm here to assist you with your refund request. Could you please provide your order number?"
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:17:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "To proceed with your refund, please share the order number and reason for the return in detail."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, the order number is 123456789. The headphones are larger than expected and don’t fit well."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T09:25:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. You can return the headphones within 30 days for a full refund. I will send you the return shipping label."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T09:27:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That sounds perfect, thanks! I appreciate the quick help and will send the package back today."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T09:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The return shipping label has been emailed to you. Once we receive the item back, your refund will be processed immediately."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-22T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm that you have returned the headphones and if you have received your refund yet."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-22T10:15:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I returned the headphones yesterday, and the refund was credited to my account today. Thank you!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-22T10:20:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We have marked your refund case as closed. If you need any further assistance, please don’t hesitate to contact us."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-22T10:21:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "To help us improve, we’ve sent a survey regarding your recent refund experience. We appreciate your feedback."
+    }
+  ]
+}

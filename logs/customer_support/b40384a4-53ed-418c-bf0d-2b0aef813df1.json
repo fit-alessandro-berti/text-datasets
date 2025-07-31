@@ -1,0 +1,71 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T14:22:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the blender today, but it arrived with a cracked glass jar which makes it unusable."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T14:23:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue regarding the cracked jar has been categorized as a product defect for further processing."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T14:25:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "A customer support agent has been assigned to assist with the defective blender jar replacement."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T14:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m sorry to hear about the cracked jar. I’m here to help you get this resolved as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T14:32:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide a photo of the damage and confirm if the blender was used before noticing the crack?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T15:00:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "I have attached photos showing the crack. I didn’t even use the blender yet; it was damaged straight out of the box."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T15:15:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the photos. We will send a replacement jar immediately at no extra cost, and you can keep the defective part for disposal."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T15:20:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That’s great, thank you! I appreciate the quick response and the free replacement offer."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T15:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed your replacement. You’ll receive a tracking number shortly, and the new jar should arrive within 3-5 business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm you received the replacement jar and that everything is working correctly now."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-17T12:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "As we have not heard any further issues, we are closing this case. Please contact us again if you need further assistance."
+    }
+  ]
+}

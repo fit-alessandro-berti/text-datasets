@@ -1,0 +1,77 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:32:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my order yesterday, but unfortunately the product has a large scratch on the screen and does not work properly."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:33:30Z",
+      "contextual_activity": "Issue Categorised (Negative)",
+      "message": "The reported issue has been classified under product defect due to the customer's description of scratches and faulty operation."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:35:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Case assigned to agent Lisa M., a specialist in product defects and returns, for further handling."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:40:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m Lisa from support. I’m sorry to hear about your damaged product. I’m here to help get this sorted out as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:45:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the scratch and any visible damage so we can assess the issue and proceed with a replacement or refund?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T10:05:00Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "Thank you for responding. I have attached several pictures showing the scratch and the screen flickering when I turn it on."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:20:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thanks for the photos. We will send a replacement immediately. Please return the defective item using the prepaid label we will email you shortly."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:25:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That sounds good to me. I appreciate the quick response and look forward to receiving the replacement soon."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T10:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The replacement process has been initiated and you will receive all return instructions via email. Please let us know if you need further assistance."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-22T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that you received the replacement product and that everything is working properly now."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-22T09:15:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, the replacement arrived yesterday and it works perfectly. Thanks again for the excellent support."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-22T09:20:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are glad to hear that the issue is resolved. Closing the case now. Feel free to reach out anytime if you need help."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago and still haven't received any shipping confirmation or tracking number."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The case has been identified as a delivery delay based on the customer's description of a late shipment."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:25:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The support case has been routed to the shipping department agent specialized in delayed orders."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I’m here to help look into the status of your order."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:32:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the email address used when placing the order?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:45:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, the order number is 12345678 and the email is customer@example.com."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "Thank you for the details. Our system shows a delay due to unforeseen shipping carrier issues, but your package should arrive within 3 business days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:05:00Z",
+      "contextual_activity": "Customer Feedback Received (Neutral)",
+      "message": "I appreciate the update. I hope it arrives soon, as I need it for an event next week."
+    },
+    {
+      "activity": "Issue Escalated",
+      "timestamp": "2024-06-10T10:10:00Z",
+      "contextual_activity": "Issue Escalated (Neutral)",
+      "message": "I’m escalating your case to our senior logistics team to prioritize your shipment for faster delivery."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-11T12:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The package has now been expedited and is scheduled to be delivered tomorrow. You will receive tracking shortly."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-13T14:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that your order arrived as expected and you are satisfied with the delivery."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-13T14:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since your order was delivered and no further issues were reported, we are closing this support case. Thank you!"
+    }
+  ]
+}

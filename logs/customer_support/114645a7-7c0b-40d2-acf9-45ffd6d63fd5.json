@@ -1,0 +1,77 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:23:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the wrong size of the jacket I ordered and would like to know how I can get a refund or an exchange for the correct size."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:25:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been categorized as a refund request based on the customer's mention of wanting a refund or exchange."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An agent has been assigned to assist the customer with their refund request regarding the wrong jacket size received."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:45:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out to us. I understand you'd like to return or exchange your jacket. I’m here to help you with the process."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:47:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please confirm the order number and provide a photo of the jacket label showing the size you received? This will help us process your refund or exchange quickly."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:12:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 78945123 and I’ve attached a photo showing the tag with size large, but I ordered medium."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:30:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. We will initiate a full refund for your order and provide a prepaid return label for the jacket. Additionally, we can send out the correct size medium jacket right away if you want."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T11:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I appreciate the quick response and the offer to send the correct size immediately. Please go ahead with the exchange and refund for the returned jacket."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T11:15:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We've processed your refund and shipped the medium size jacket today. You will receive an email with the return shipping label shortly."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm you’ve received the replacement jacket and that everything is satisfactory. Please let us know if you need any further assistance."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-17T12:20:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, the new jacket arrived in perfect condition and fits well. Thank you for your excellent support during this process."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-17T13:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We’re glad to hear you’re satisfied with the replacement. We will now close this case. Thank you for contacting us!"
+    }
+  ]
+}

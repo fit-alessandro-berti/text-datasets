@@ -1,0 +1,71 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I just received my order, but the device has a large scratch on the screen and does not power on properly."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:21:15Z",
+      "contextual_activity": "Issue Categorised (Negative)",
+      "message": "The reported issue matches product defect criteria due to the broken screen and malfunction."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:25:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Assigning a support agent experienced in handling product defects and hardware issues."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m sorry to hear about the issue with your device. I’m here to help you resolve this as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:32:15Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the scratched screen and confirm if you have tried charging or restarting the device?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T10:05:45Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "I have attached pictures showing the damage, and yes, I’ve tried charging it but it still doesn’t turn on."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T10:30:10Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. We can offer you a replacement unit at no extra cost or a full refund if preferred."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T11:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I would prefer the replacement, thank you. Please let me know the next steps to proceed."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T11:20:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We’ve processed the replacement request and you should receive the new device within 3 to 5 business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-15T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to ensure your replacement device arrived in good condition and everything is working well."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-15T12:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since your replacement device is working perfectly, we have closed this case. Thank you for your patience."
+    }
+  ]
+}

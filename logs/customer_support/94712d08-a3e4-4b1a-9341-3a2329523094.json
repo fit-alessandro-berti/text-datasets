@@ -1,0 +1,71 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-01T09:13:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago but the delivery still hasn't arrived and the tracking info hasn't updated for days."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-01T09:14:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue was classified under Delivery Delay based on customer keywords regarding late shipping and tracking problems."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-01T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Assigning the case to delivery support team to investigate the delayed shipment and tracking issue."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-01T09:45:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for contacting us about your delayed package. I’m here to help resolve this as quickly as possible."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-01T09:46:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and any tracking details you have? This will help us locate the shipment."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-01T10:05:10Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 123456789. The tracking number provided is XYZ987654321 but it hasn’t updated since last week."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-01T11:00:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "We have contacted the shipping carrier to clarify the status. Meanwhile, we can offer you a partial refund if the parcel does not arrive within the next 5 days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-01T11:15:20Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thank you for the update and offer. I appreciate you following up and will wait to see if it arrives within that timeframe."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-07T14:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The package was finally delivered today. We are glad the issue is resolved and apologize for the inconvenience caused."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-10T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to ensure that your delivery was satisfactory and if you need any further assistance."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-11T12:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We are closing this case now but please reach out anytime if you have more questions or issues in the future."
+    }
+  ]
+}

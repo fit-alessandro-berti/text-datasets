@@ -1,0 +1,83 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-12T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago, and the package has not arrived yet. The tracking info hasn't updated for several days."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-12T09:15:15Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer's issue has been categorized under Delivery Delay based on their complaint about a late shipment and stale tracking information."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-12T09:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent Sarah M. was assigned to handle the delivery delay case reported by the customer about their order."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-12T09:35:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m Sarah from the support team. I understand your order hasn't arrived yet, and I’ll do my best to help you figure this out."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-12T09:40:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the tracking number you have so I can check the shipment status with our courier?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-12T09:50:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, the order number is 123456789, and the tracking number is XYZ987654321. The last update was five days ago."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-12T10:10:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "I checked with the courier, and they reported a temporary delay due to weather conditions in your area. The package is expected to be delivered in the next 3 days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-12T10:20:00Z",
+      "contextual_activity": "Customer Feedback Received (Negative)",
+      "message": "Thanks for the information, but I really needed this package sooner. Is there any way to expedite the delivery or get compensation for the delay?"
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-12T10:35:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "I understand the inconvenience. I have arranged for faster shipping at no extra cost, and we will also issue a 10% refund on your order as a goodwill gesture."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-12T10:50:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That sounds great, thank you! I appreciate your prompt help and the refund offer."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-12T11:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The expedited shipping has been confirmed, and the refund is being processed. Your issue is now resolved, and you should see the package soon."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-15T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that your package has arrived and that you are satisfied with the resolution and refund provided."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-15T12:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since there has been no further reply, we are closing this case. Thank you for contacting support, and have a great day!"
+    }
+  ]
+}

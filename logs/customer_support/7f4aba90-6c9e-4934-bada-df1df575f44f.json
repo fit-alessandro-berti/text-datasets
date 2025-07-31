@@ -1,0 +1,65 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-01T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I purchased a jacket last week but it doesn't fit at all. I'd like to request a refund or exchange."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-01T09:20:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer issue has been categorized under Refund because they requested money back or an exchange."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-01T09:21:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent Anna has been assigned to handle the refund case for the customer's jacket purchase."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-01T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I'm here to help you with the refund or exchange process for your jacket order."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-01T09:30:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and let us know if the jacket was tried on indoors only, to ensure our return policy is followed?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-01T09:45:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "My order number is 587462 and I only tried the jacket on indoors, it wasn't worn outside or damaged in any way."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-01T10:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. We will process your refund immediately and provide you with a prepaid return shipping label to send the jacket back."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-01T10:05:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Great, thanks for your quick response. I appreciate the easy refund process and the prepaid label offer."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-01T10:10:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your refund request has been successfully processed. You will receive an email shortly with the return label and refund confirmation."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-05T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to ensure you received the return label and that the refund process is going smoothly. Please let us know if you need any further assistance."
+    }
+  ]
+}

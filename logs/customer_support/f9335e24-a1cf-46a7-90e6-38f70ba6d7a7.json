@@ -1,0 +1,83 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the phone yesterday and noticed the screen has several scratches and the device seems to have some other minor damages."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:13:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been classified as a Product Defect based on the customer's description of scratches and damages."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent Stephanie has been assigned to handle the reported defective product case."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:25:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello, this is Stephanie from support. I’m sorry to hear about the issues with your phone. Let's get this sorted out for you quickly."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:27:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please send us photos of the scratches and damages? This will help us verify the defect and process your claim accordingly."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T10:05:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "I have attached several photos showing the scratched screen and the dent on the back of the phone as requested."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T11:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the photos. We will send you a replacement device at no extra cost and arrange a pickup for the damaged phone."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T11:45:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That sounds great, thank you! I appreciate the quick response and the replacement offer."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-16T08:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The replacement device has been shipped and the pickup for the defective phone is scheduled for tomorrow morning."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-18T15:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that you have received the replacement phone and that everything is working fine now."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-18T16:10:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I received the new phone yesterday and it’s in perfect condition. Thanks again for your help!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-18T16:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Your case has been successfully closed. Please let us know if you need any further assistance in the future."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-18T16:31:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We have sent you a satisfaction survey to gather your feedback on the support you received."
+    }
+  ]
+}

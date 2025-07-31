@@ -1,0 +1,83 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago and it still hasn't been delivered. The tracking information hasn't updated and I'm very concerned about the delay."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:15:05Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue reported by the customer contains keywords indicating a delivery delay."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent Jessica M. has been assigned to handle the customer's delivery delay complaint."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:22:30Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I'm here to help you with your order delivery issue and will do my best to resolve it quickly."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:25:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and any tracking details you have so I can investigate the shipment status?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:40:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "My order number is 1234567890 and the last tracking update was a week ago saying the package was in transit but no further updates since."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T09:55:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "I have contacted the shipping carrier with your tracking information and escalated your case. We expect a status update within 48 hours and will notify you immediately."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T10:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thank you for the quick response and for escalating this. I appreciate your help in resolving this delay."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-12T11:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The package was located by the carrier and is out for delivery today. Your order should arrive by the end of the day."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-13T15:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm that you have received your order and that everything is satisfactory after the delivery delay."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-13T16:10:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I received the package yesterday. It arrived in good condition and I’m happy with how you handled the delay. Thanks again!"
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-13T16:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "The support case for the delivery delay has been closed following customer confirmation of order receipt and satisfaction."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-13T16:20:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "A customer satisfaction survey was sent to collect feedback on the support experience regarding the delivery delay issue."
+    }
+  ]
+}

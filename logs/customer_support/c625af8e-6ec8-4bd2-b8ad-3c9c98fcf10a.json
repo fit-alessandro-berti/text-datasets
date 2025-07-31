@@ -1,0 +1,65 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T14:22:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the wrong size for my jacket and would like to return it for a refund. The order number is 123456789."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T14:30:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer's issue has been categorized under 'Refund' due to their request for a return and refund related to sizing."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T14:32:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Support agent Sarah has been assigned to handle the refund request regarding the incorrect jacket size."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T14:35:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for contacting us about your order. I’m here to help you with the return and refund process for your jacket."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T14:40:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please confirm if the item is unused and in its original packaging? This will help us process your return smoothly."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T15:05:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Yes, the jacket is still unused and is in the same packaging that it arrived in, including the tags and receipt."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T15:15:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for confirming. I have initiated the return process and arranged a prepaid shipping label for you to send the jacket back at no cost."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T15:20:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That sounds great, thank you for your quick help! I appreciate the prepaid shipping label to make the return easier."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-11T09:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The return has been processed successfully. Your refund will be credited back to your original payment method within 5-7 business days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-16T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "We are checking in to confirm you have received your refund. Please let us know if there is anything else we can assist you with."
+    }
+  ]
+}

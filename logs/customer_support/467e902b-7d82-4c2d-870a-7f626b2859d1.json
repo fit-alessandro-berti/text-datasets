@@ -1,0 +1,71 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my blender yesterday, but it arrived with a broken blade and scratches all over the base. This is very disappointing because I expected a brand-new product in perfect condition."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:16:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue has been categorized as Product Defect due to the damaged item reported by the customer in the initial message."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:17:30Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "An agent specialized in defective product claims has been assigned to handle this case and assist the customer further."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:20:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out to us. I'm sorry to hear about the damage to your new blender. Let me help you get this sorted out quickly."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:21:30Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the broken blade and scratches on the blender, as well as your order number? This will help us process your claim faster."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T11:00:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "I have attached several pictures showing the broken blade and the scratches as requested. My order number is 123456789. Please let me know what the next steps are."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T12:45:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the photos and information. We can issue a replacement blender at no extra cost or offer you a full refund if you prefer. Please let us know which option you would like to proceed with."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T14:00:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I appreciate the quick response and will opt for a replacement blender. Please tell me how soon I can expect to receive it."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T15:30:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "Your replacement blender order has been processed and is scheduled to ship within the next 48 hours. A tracking number will be sent to your email shortly."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "We just wanted to check in and make sure that your replacement blender has arrived and is working perfectly. Please let us know if you need any further assistance."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-17T12:00:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since you have confirmed receipt of the replacement and expressed satisfaction, we are closing this support case now. Thank you for your patience and understanding."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-21T09:14:25Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received the wrong item and would like to request a refund because the product doesn’t match what I ordered at all."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-21T09:15:10Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue has been categorized under Refund due to the customer's request for money back."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-21T09:16:05Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to agent Sarah M. for resolution and follow-up with the customer."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-21T09:30:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m Sarah, and I’m here to help you with your refund request. Can you please provide your order number?"
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-21T09:31:45Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "To proceed with your refund, could you also share photos of the item you received and the packing slip, please?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-21T10:05:22Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "Sure, here is my order number 987654321 and attached are photos showing the wrong product I got instead."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-21T10:20:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the information. We will issue a full refund and provide you with a prepaid return shipping label to send back the incorrect item."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-21T10:45:10Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That sounds good to me. I appreciate how quickly you are handling this and look forward to receiving the return label."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-21T11:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have sent the prepaid return shipping label to your email. Once we receive the item back, your refund will be processed immediately."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-28T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm you have received the return label and if there is anything else we can assist you with today."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-28T09:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since your refund has been successfully processed and no further issues remain, we are closing this case. Thank you for your patience."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-12T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed my order two weeks ago, but it still hasn't arrived. The tracking number shows no updates, and I'm very concerned about the shipment delay."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-12T09:16:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The issue was categorized as a delivery delay based on the customer's report of a late shipment and lack of tracking updates."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-12T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case was assigned to agent John M., who specializes in shipping and delivery issues for faster resolution."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-12T09:21:30Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out to us. I understand your order is delayed and not showing tracking updates; I’m here to help."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-12T09:22:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the name used when placing the order so I can check the shipping status for you?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-12T09:25:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 123456789, placed under the name Emily Turner. I really need the package soon."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-12T09:50:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "Thank you for the information. I checked with the carrier and found a delay due to transit issues. We can offer expedited shipping at no cost or a partial refund if you prefer."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-12T10:05:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "I appreciate the quick update and the options. I would prefer expedited shipping to get my order as soon as possible, please."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-12T10:15:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have upgraded your shipment to expedited service at no extra charge. You should receive a new tracking number shortly and your package within the next 3 days."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-15T12:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm that your expedited shipment has arrived and that you are satisfied with the resolution to your delivery delay."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-15T12:10:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since your issue has been successfully resolved and confirmed received, we are now closing this case. Please contact us if you need further assistance."
+    }
+  ]
+}

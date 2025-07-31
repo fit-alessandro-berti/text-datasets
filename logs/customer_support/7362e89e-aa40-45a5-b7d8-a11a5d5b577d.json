@@ -1,0 +1,71 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:23:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order over two weeks ago, but it still hasn't arrived yet. The tracking link shows no updates for days."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:25:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue has been classified under delivery delay due to keywords indicating shipping problems and no recent tracking updates."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:30:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case has been assigned to delivery support team member Alice Johnson for further assistance regarding the delayed shipment."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T10:00:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for contacting us. I’m sorry to hear your order has not arrived yet. I will do my best to help you today."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T10:05:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and any tracking details you have so that I can check the shipment status for you?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T10:10:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 9876543210. The tracking number is TRK123456789. The last update was from a week ago at the distribution center."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:25:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "I've contacted the shipping company to investigate the delay. Meanwhile, I can offer a shipping refund or resend your order if not delivered within 3 days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:30:00Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "Thank you for the quick response. I’d prefer to wait for the current shipment for three more days before considering a resend."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-18T13:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The tracking has been updated and your package is out for delivery today. We appreciate your patience and apologize for the delay."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-21T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to ensure you received your order and that everything was satisfactory. Please let us know if you need any further assistance."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-22T09:15:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since your delivery issue has been resolved and no further action is required, we are closing this case. Thank you for contacting support."
+    }
+  ]
+}

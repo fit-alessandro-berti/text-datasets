@@ -1,0 +1,77 @@
+{
+  "cluster": "Delivery Delay",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:22:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I placed an order two weeks ago and it still hasn't arrived. The tracking says delayed but there is no update."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:23:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer's report mentions delay and tracking issues, categorizing this as a Delivery Delay."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:25:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "Assigned the case to the delivery support team to investigate the shipping delay."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:27:00Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for reaching out. I'm sorry to hear your package is delayed, let's see how we can help."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:29:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide your order number and the tracking ID you have received so I can check the status?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T09:45:00Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Sure, my order number is 7845123 and the tracking ID is TRK998877. Please let me know what you find."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T10:05:00Z",
+      "contextual_activity": "Solution Proposed (Neutral)",
+      "message": "We have contacted the courier service, and they confirmed a delay due to weather. Your package is expected to arrive within three days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T10:20:00Z",
+      "contextual_activity": "Customer Feedback Received (Negative)",
+      "message": "I understand the weather issue but three more days of waiting is quite frustrating as I needed it urgently."
+    },
+    {
+      "activity": "Issue Escalated",
+      "timestamp": "2024-06-15T10:40:00Z",
+      "contextual_activity": "Issue Escalated (Neutral)",
+      "message": "Escalated the case to senior logistics management to explore faster delivery alternatives."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-15T11:15:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We arranged expedited shipping at no extra cost, and your package should arrive by tomorrow evening."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-18T08:00:00Z",
+      "contextual_activity": "Follow-up Sent (Positive)",
+      "message": "Just checking in to confirm your package was delivered on time and to ask if everything arrived as expected."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-18T08:10:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Since the issue was resolved and package delivered, we are closing this support case. Thank you for your patience."
+    }
+  ]
+}

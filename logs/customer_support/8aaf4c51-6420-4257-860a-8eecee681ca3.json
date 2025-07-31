@@ -1,0 +1,89 @@
+{
+  "cluster": "Product Defect",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-15T09:12:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I received my package today but noticed that the product is broken and has a large scratch on the surface. This is very disappointing."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-15T09:14:30Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The reported issue about the broken and scratched product has been classified under the Product Defect category for proper handling."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-15T09:20:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The support case has been assigned to an agent specializing in handling product defect claims."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-15T09:22:15Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! I’m sorry to hear your item arrived damaged. I’m here to assist you with this issue."
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-15T09:24:00Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "Could you please provide photos of the damaged product and the packaging so that we can better assess the situation?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-15T10:05:40Z",
+      "contextual_activity": "Customer Reply (Negative)",
+      "message": "I have attached several clear photos showing the broken parts and deep scratches on the product, as well as the box it came in."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-15T11:00:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the photos. We can either send you a replacement free of charge or issue you a full refund. Please let us know your preference."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-15T11:20:00Z",
+      "contextual_activity": "Customer Feedback Received (Neutral)",
+      "message": "I would prefer a replacement as I really wanted this product, but I’m concerned about the delivery time and condition."
+    },
+    {
+      "activity": "Issue Escalated",
+      "timestamp": "2024-06-15T11:30:00Z",
+      "contextual_activity": "Issue Escalated (Neutral)",
+      "message": "Your case has been escalated to our senior team to prioritize the replacement shipment and ensure extra care is taken in packaging."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-16T08:45:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed a priority replacement order for you and dispatched it with enhanced packaging to prevent any damage."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-20T10:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Checking in to confirm that you have received the replacement product and that it arrived in perfect condition."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-20T10:15:00Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, the replacement arrived yesterday and it’s in perfect condition. Thanks for handling this issue quickly."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-20T10:30:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "We’re glad everything is resolved. Closing the case now, and please reach out if you need any further assistance."
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-20T10:31:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We have sent you a short survey to gather your feedback about your experience with our product defect handling process."
+    }
+  ]
+}

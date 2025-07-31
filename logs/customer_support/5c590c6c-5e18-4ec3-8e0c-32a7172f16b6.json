@@ -1,0 +1,89 @@
+{
+  "cluster": "Refund",
+  "events": [
+    {
+      "activity": "Issue Reported",
+      "timestamp": "2024-06-10T09:15:00Z",
+      "contextual_activity": "Issue Reported (Negative)",
+      "message": "I recently purchased a jacket from your store, but I want to return it and get a refund because the size is way too small and it doesn't fit me at all."
+    },
+    {
+      "activity": "Issue Categorised",
+      "timestamp": "2024-06-10T09:16:00Z",
+      "contextual_activity": "Issue Categorised (Neutral)",
+      "message": "The customer's issue has been reviewed and categorized under the Refund cluster based on the request for a money back due to sizing problems."
+    },
+    {
+      "activity": "Agent Assigned",
+      "timestamp": "2024-06-10T09:18:00Z",
+      "contextual_activity": "Agent Assigned (Neutral)",
+      "message": "The case is now assigned to an agent specialized in processing returns and refunds to handle the customer's request efficiently."
+    },
+    {
+      "activity": "Agent Greeting",
+      "timestamp": "2024-06-10T09:21:30Z",
+      "contextual_activity": "Agent Greeting (Positive)",
+      "message": "Hello! Thank you for contacting us about your jacket. I'm here to assist you with the return and refund process. Could you please confirm your order number?"
+    },
+    {
+      "activity": "Information Requested",
+      "timestamp": "2024-06-10T09:22:45Z",
+      "contextual_activity": "Information Requested (Neutral)",
+      "message": "To proceed with your refund, may I also ask if the jacket is unused and in its original packaging as per our return policy?"
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-10T09:30:10Z",
+      "contextual_activity": "Customer Reply (Neutral)",
+      "message": "Yes, the jacket is unworn and still has all the tags attached inside the original packaging. My order number is 987654321."
+    },
+    {
+      "activity": "Solution Proposed",
+      "timestamp": "2024-06-10T09:45:00Z",
+      "contextual_activity": "Solution Proposed (Positive)",
+      "message": "Thank you for the details. You can send the jacket back using the prepaid shipping label we will email you shortly, and once we receive it, the refund will be processed within 5 business days."
+    },
+    {
+      "activity": "Customer Feedback Received",
+      "timestamp": "2024-06-10T09:52:20Z",
+      "contextual_activity": "Customer Feedback Received (Positive)",
+      "message": "That sounds great, thank you for your quick response. I appreciate the prepaid label option; it makes the process much easier."
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-10T09:55:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "The return instructions and prepaid shipping label have been sent to your email. Please let us know once you have shipped the jacket so we can monitor the refund process."
+    },
+    {
+      "activity": "Follow-up Sent",
+      "timestamp": "2024-06-17T09:00:00Z",
+      "contextual_activity": "Follow-up Sent (Neutral)",
+      "message": "Just checking in to confirm if you have sent the jacket back and if you need any further assistance with your refund."
+    },
+    {
+      "activity": "Customer Reply",
+      "timestamp": "2024-06-17T09:15:30Z",
+      "contextual_activity": "Customer Reply (Positive)",
+      "message": "Yes, I shipped the jacket yesterday via the prepaid label. I’ll wait for the refund confirmation, thanks again for your help!"
+    },
+    {
+      "activity": "Issue Resolved",
+      "timestamp": "2024-06-20T10:00:00Z",
+      "contextual_activity": "Issue Resolved (Positive)",
+      "message": "We have processed your refund today. You should see the amount reflected in your account within 3-5 business days. Thank you for your patience."
+    },
+    {
+      "activity": "Case Closed",
+      "timestamp": "2024-06-20T10:05:00Z",
+      "contextual_activity": "Case Closed (Positive)",
+      "message": "Your refund case is now officially closed. Please reach out if you require any further assistance in the future. Have a great day!"
+    },
+    {
+      "activity": "Survey Sent",
+      "timestamp": "2024-06-20T10:06:00Z",
+      "contextual_activity": "Survey Sent (Neutral)",
+      "message": "We have sent a satisfaction survey to your email. Your feedback helps us improve our services. Thank you for choosing us."
+    }
+  ]
+}

@@ -91,7 +91,7 @@ def main():
     # Export to XES using line-by-line exporter
     xes_file = f"{args.name}.xes"
     try:
-        line_by_line.apply(event_log, xes_file)
+        line_by_line.apply("logs/"+event_log, xes_file)
         print(f"Successfully exported XES to {xes_file}")
     except Exception as e:
         print(f"Error writing XES file: {e}")
